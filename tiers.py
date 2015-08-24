@@ -10,8 +10,10 @@ __author__="Johann-Mattis List"
 __date__="2015-08-24"
 
 import lingpyd as lp
+from lingpyd.algorithm import misc
 from lingpyd.align.sca import Alignments
 import lingpyd.sequence.sound_classes as lsc
+from collections import OrderedDict
 
 
 
@@ -35,9 +37,9 @@ def nasality_of_word(tokens):
     """
     tmp = lp.tokens2class(lp.ipa2tokens(tokens, expand_nasals=True), lp.rc('dolgo'))
     if 'N' in tmp or 'M' in tmp:
-        return ['1' for m in tmp]
+        return ['1' for m in tokens]
     else:
-        return ['0' for m in tmp]
+        return ['0' for m in tokens]
 
 def nasality_of_syllable(tokens):
     """
@@ -90,6 +92,32 @@ def get_tier(tokens, tier='sc', bigram=False):
         tiers = tiers[1:] + ['$']
     return tiers
 
+def check_consistency(tier_matrix):
+    """
+    Function checks whether a given tier matrix will uniquely produce the
+    reflex sounds.
+    """
+    pass
+
+def get_numeric_matrix(matrix):
+    """
+    Convert a value matrix into a numeric matrix.
+    """
+    # get a converter for all columns in the matrix
+    out = [[0 for cell in row] for row in matrix]
+    for i in range(len(matrix[0])):
+        col = [line[i] for line in matrix]
+        idx = 1
+        tmp = {}
+        for j,cell in enumerate(col):
+            if cell in tmp:
+                out[j][i] = tmp[cell]
+            else:
+                idx += 1
+                tmp[cell] = idx
+                out[j][i] = tmp[cell]
+    return out
+
 class Tiers(Alignments):
 
     def __init__(self, infile, proto, ref='cogid'):
@@ -119,7 +147,7 @@ class Tiers(Alignments):
         """
         # define the default tier system
         if not tiers:
-            tiers = [
+            self.tier_system = OrderedDict(enumerate([
                     ('cv',1), 
                     ('cv',2),
                     ('dolgo',1),
@@ -133,14 +161,15 @@ class Tiers(Alignments):
                     ('word_nasality', 0),
                     ('syllable_nasality', 0),
                     ('tone', 0),
-                    ]
+                    ]))
+        else:
+            self.tier_system = OrderedDict(enumerate(tiers))
         # get the tiers
         self.tiers = {}
         for taxon in self.descendants:
             self.tiers[taxon] = {}
             # get the alignment for the two strings
             for k,(concept,almA) in self.words[self.proto].items():
-                print(k,concept,almA)
                 if k in self.words[taxon]:
                     almB = self.words[taxon][k][1]
                     # reduce alignment automatically
@@ -150,12 +179,40 @@ class Tiers(Alignments):
                     ralm = [x[0] for x in alm]
                     # get the tiers for the string
                     all_tiers = [ralm]
-                    for tier,bigram in tiers:
-                        print(tier, bigram, ' '.join(ralm))
+                    for tier,bigram in self.tier_system.values():
                         tmp = get_tier(ralm, tier, bigram)
                         all_tiers += [tmp]
                     all_tiers += [[x[1] for x in alm]]
                     self.tiers[taxon][k] = all_tiers
+        # now create the specific matrix representation for each taxon. we
+        # start with a value matrix which contains the values
+        self.value_matrices = {}
+        self.matrices = {}
+        for taxon in self.descendants:
+            self.value_matrices[taxon] = {}
+            self.matrices[taxon] = {}
+            for k,tier in self.tiers[taxon].items():
+                # get the columsn by transposing
+                cols = misc.transpose(tier)
+                for col in cols:
+                    # get the three aspects of the 
+                    pf,tr = col[0],col[1:]
+                    try:
+                        self.value_matrices[taxon][pf] += [tr]
+                    except KeyError:
+                        self.value_matrices[taxon][pf] = [tr]
+            for pf,matrix in self.value_matrices[taxon].items():
+                self.value_matrices[taxon][pf] = sorted(matrix, 
+                        key=lambda x: x[-1]) 
+                self.matrices[taxon][pf] = misc.transpose(get_numeric_matrix(
+                        self.value_matrices[taxon][pf]))
+
+    def remove_redundant_tiers(self):
+        """
+        Function checks for redundant tiers and removes them.
+        """
+        pass
+    
 
 
 if __name__ == '__main__':
