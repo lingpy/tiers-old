@@ -1,0 +1,1681 @@
+# Wordlist
+
+# DATA
+ID	DOCULECT	CONCEPT	IPA	TOKENS	ALIGNMENT
+#
+20	BAS	3rd.person.masculine	~bi	m ĩ	?_m ĩ
+21	DES	3rd.person.masculine	~bi	m ĩ	?_m ĩ
+22	KUB	3rd.person.masculine	bi	b i	?_b i
+23	SEK	3rd.person.masculine	pi	p i	p i
+24	TUK	3rd.person.masculine	~bi	m ĩ	?_m ĩ
+25	*PT	3rd.person.masculine	*-pi	p i	p i
+#
+26	BAS	Case: non-nominatvie	re	r e	r e
+27	DES	Case: non-nominatvie	de	d e	d e
+28	KAR	Case: non-nominatvie	re	r e	r e
+29	KOR	Case: non-nominatvie	re	r e	r e
+30	KUB	Case: non-nominatvie	de	d e	d e
+31	MAI	Case: non-nominatvie	de	d e	d e
+32	PIR	Case: non-nominatvie	re	r e	r e
+33	SEK	Case: non-nominatvie	re	r e	r e
+34	SIO	Case: non-nominatvie	re	r e	r e
+35	TAN	Case: non-nominatvie	re	r e	r e
+36	TUK	Case: non-nominatvie	re	r e	r e
+37	WAN	Case: non-nominatvie	re	r e	r e
+38	*PT	Case: non-nominatvie	*-tʔe	tʔ e	tʔ e
+#
+250	BAS	I	jɨɨ	j ɨ ɨ	j ɨ - ɨ
+251	DES	I	jɨʔɨ	j ɨ ʔ ɨ	j ɨ ʔ ɨ
+252	KAR	I	jɨɨ	j ɨ ɨ	j ɨ - ɨ
+253	KOR	I	jɨʔɨ	j ɨ ʔ ɨ	j ?_ɨ ʔ ɨ
+254	KUB	I	jɨ	j ɨ	j ɨ - *-*
+255	KUE	I	jehɨ	j e h ɨ	j e h ɨ
+256	MAI	I	ji	j i	j ?_i - *-*
+257	SEK	I	jɨʔɨ	j ɨ ʔ ɨ	j ɨ ʔ ɨ
+258	SIO	I	jɨɨ	j ɨ ɨ	j ?_ɨ - ɨ
+259	TAN	I	jiʔi	j i ʔ i	j i ʔ i
+260	TUK	I	jɨʔɨ	j ɨ ʔ ɨ	j ɨ ʔ ɨ
+261	TUY	I	jɨɨ	j ɨ ɨ	j ɨ - ɨ
+262	WAN	I	jɨʔɨ	j ɨ ʔ ɨ	j ɨ ʔ ɨ
+263	*PT	I	*jɨʔɨ	j ɨ ʔ ɨ	j ɨ ʔ ɨ
+#
+1521	BAS	agouti	buu	b u u	b u u
+1522	DES	agouti	bui	b u i	b u i
+1523	KAR	agouti	buu	b u u	b u u
+1524	KOR	agouti	βɨɨ	β ɨ ɨ	β ɨ ɨ
+1525	KUB	agouti	buɨ	b u ɨ	b u ɨ
+1526	SEK	agouti	wɨ	w ɨ	w ɨ -
+1527	SIO	agouti	wɨ	w ɨ	w ɨ -
+1528	TAN	agouti	bui	b u i	b u i
+1529	TUK	agouti	buu	b u u	b u u
+1530	WAN	agouti	buu	b u u	b u u
+1531	*PT	agouti	*wuɨ	w u ɨ	w u ɨ
+#
+489	BAS	ant sp.	~beka	m ẽ k ã	m ẽ k ã
+490	DES	ant sp.	~bega	m ẽ ŋ ã	m ẽ ŋ ã
+491	KAR	ant sp.	~beka	m ẽ k ã	m ẽ k ã
+492	KOR	ant sp.	mekha	m e kh a	m e kh a
+493	KUB	ant sp.	~bea	m ẽ ã	m ẽ - ã
+494	KUE	ant sp.	mekia	m e ki a	m e ki a
+495	MAI	ant sp.	meka	m e k a	m e k a
+496	SIO	ant sp.	mea	m e a	m e - a
+497	TAN	ant sp.	~beka	m ẽ k ã	m ẽ k ã
+498	TUK	ant sp.	~beka	m ẽ k ã	m ẽ k ã
+499	WAN	ant sp.	~bat∫ɨ	m ã t∫ ɨ̃	m ã t∫ ɨ̃
+500	*PT	ant sp.	*meka	m e k a	m e k a
+#
+804	BAS	aracu fish	bodekaʔ	b o d e k a	b o d e k a
+805	DES	aracu fish	bodeka	b o d e k a	b o d e k a
+806	KAR	aracu fish	boteka	b o t e k a	b o t e k ?_a
+807	KUB	aracu fish	bodika	b o d i k a	?_b o d i k a
+808	KUE	aracu fish	polekia	p o l e ki a	p o l e ki a
+809	TAN	aracu fish	botaka	b o t a k a	b o t a k a
+810	TUK	aracu fish	boʔtea	b o ʔt e a	b o ʔt e - a
+811	WAN	aracu fish	boʔtea	b o ʔt e a	?_b o ʔt e - a
+812	*PT	aracu fish	*pʔotʔika	pʔ o tʔ i k a	pʔ o tʔ i k a
+#
+845	BAS	armadillo	~habo	h ã m õ	h ã m õ
+846	DES	armadillo	~pabo	p ã m õ	p ã m õ
+847	KAR	armadillo	~pabo	p ã m õ	p ã m õ
+848	KOR	armadillo	hamu	h a m u	h a m u
+849	KUB	armadillo	~pabu	p ã m ũ	p ã m ũ
+850	KUE	armadillo	hamu	h a m u	h a m u
+851	PIR	armadillo	~pabo	p ã m õ	p ã m õ
+852	SEK	armadillo	hãmo	h ã m o	h ã m o
+853	SIO	armadillo	hãmu	h ã m u	h ã m u
+854	TAN	armadillo	~pabu	p ã m ũ	p ã m ũ
+855	TUK	armadillo	~pabo	p ã m õ	p ã m õ
+856	WAN	armadillo	~pabo	p ã m õ	p ã m õ
+857	*PT	armadillo	*pãmu	p ã m u	p ã m u
+#
+971	DES	back	~sugu	s ũ ŋ ũ	s ũ ŋ ũ
+972	KAR	back	~hokɨ	h õ k ɨ̃	h õ k ɨ̃
+973	KOR	back	sõkhɨ	s õ kh ɨ	s õ kh ɨ
+974	TUK	back	~suku	s ũ k ũ	s ũ k ũ
+975	TUY	back	suku	s u k u	s u k u
+976	WAN	back	~suku	s ũ k ũ	s ũ k ũ
+977	*PT	back	*sõkɨ	s õ k ɨ	s õ k ɨ
+#
+611	BAS	bat	oco	o c o	o c o
+612	DES	bat	ojo	o j o	o j ?_o
+613	KAR	bat	oso	o s o	o s o
+614	KOR	bat	ojo	o j o	o j o
+615	KUB	bat	ojo	o j o	o j o
+616	KUE	bat	hoijo	h o i j o	h o i j o
+617	MAI	bat	ojo	o j o	o j o
+618	PIR	bat	oso	o s o	o s o
+619	SEK	bat	ojo	o j o	o j o
+620	SIO	bat	ojo	o j o	o j o
+621	TAN	bat	ojo	o j o	o j o
+622	TUK	bat	oso	o s o	o s ?_o
+623	TUY	bat	oso	o s o	o s o
+624	*PT	bat	*ojo	o j o	- o - j o
+#
+836	BAS	big	hai	h a i	h a ?_- ?_i
+837	KAR	big	pai	p a i	p a - ?_i
+838	MAI	big	hai	h a i	h a - i
+839	PIR	big	pahi	p a h i	p a h i
+840	SEK	big	hai	h a i	h a - i
+841	SIO	big	hai	h a i	h a - i
+842	TUK	big	pahi	p a h i	p a h ?_i
+843	TUY	big	pai	p a i	p a - ?_i
+844	*PT	big	*pahi	p a h i	p a h i
+#
+1151	BAS	black	~jii	ɲ ĩ ĩ	ɲ ĩ ĩ
+1152	DES	black	~jii	ɲ ĩ ĩ	ɲ ĩ ĩ
+1153	KAR	black	~jii	ɲ ĩ ĩ	ɲ ĩ ĩ
+1154	KOR	black	ji	j i	j i
+1155	KUB	black	~jebi	ɲ ẽ m ĩ	ɲ ẽ m ĩ
+1156	MAI	black	nea	n e a	n e a
+1157	SIO	black	sʔi	sʔ i	sʔ i
+1158	TAN	black	~deʔi	n ẽ ʔ ĩ	n ẽ ʔ ?_ĩ
+1159	TUK	black	~jii	ɲ ĩ ĩ	ɲ ĩ ĩ
+1160	TUY	black	~jii	ɲ ĩ ĩ	ɲ ĩ ĩ
+1161	WAN	black	~jii	ɲ ĩ ĩ	ɲ ĩ ĩ
+1162	*PT	black	*tjʔĩ	tjʔ ĩ	tjʔ ĩ - -
+#
+1482	BAS	black_ink	wei	w e i	w e - ?_i
+1484	KUB	black_ink	wei	w e i	w e - ?_i
+1485	*PT	black_ink	*weʔe	w e ʔ e	w e ʔ e
+#
+1199	BAS	blood	rii	r i i	r i i
+1200	DES	blood	dii	d i i	d i i
+1201	KAR	blood	rii	r i i	r i i
+1202	KOR	blood	jie	j i e	j i e
+1203	KUB	blood	hiwe	h i w e	h i w e
+1204	KUE	blood	lieri	l i e r i	?_l i e r i
+1205	SEK	blood	sʔie	sʔ i e	sʔ i e
+1206	SIO	blood	sʔie	sʔ i e	sʔ i e
+1207	TAN	blood	ribe	r i b e	r i b e
+1208	TUK	blood	dii	d i i	d i i
+1209	TUY	blood	dii	d i i	d i i
+1210	WAN	blood	di	d i	d i -
+1211	*PT	blood	*tjʔie	t jʔ i e	tjʔ i - e ( - - )
+#
+919	BAS	blow	huti	h u t i	h u t ?_i
+920	DES	blow	pudi	p u d i	p u d ?_i
+921	KAR	blow	puti	p u t i	p u t ?_i
+922	KOR	blow	hu+i	h u + i	h u ?_i
+923	KUB	blow	pu	p u	p u
+924	MAI	blow	hú+i	h ú + i	h ú i
+925	SEK	blow	hu	h u	h u
+926	SIO	blow	hu+i	h u + i	h u i
+927	TUK	blow	puti	p u t i	p u t ?_i
+928	WAN	blow	puti	p u t i	p u t ?_i
+929	YUP	blow	puri	p u r i	p u r i
+930	*PT	blow	*pu-	p u	p u ( - - )
+#
+359	BAS	bone	~goa	ŋ õ ã	?_ŋ ?_õ - ã
+360	DES	bone	~goa	ŋ õ ã	ŋ õ - ã
+361	KAR	bone	~oʔa	õ ʔ ã	õ ʔ ã
+362	KUB	bone	~kua	k ũ ã	k ũ - ã
+363	KUE	bone	koa	k o a	k o - a
+364	SIO	bone	kʔõʔa	kʔ õ ʔ a	kʔ õ ʔ a
+365	TAN	bone	~uʔa	ũ ʔ ã	ũ ʔ ã
+366	TUK	bone	~oʔa	õ ʔ ã	õ ʔ ã
+367	TUY	bone	~koa	k õ ã	?_k õ - ã
+368	WAN	bone	~khoʔa	kh õ ʔ ã	?_kh õ ʔ ã
+369	*PT	bone	*kʔoʔa	kʔ õ ʔ ã	kʔ õ ʔ ã
+#
+781	BAS	break	bohe	b o h e	b o h e
+782	DES	break	bohe	b o h e	b o ?_h e
+783	KOR	break	hũhe	h ũ h e	h ?_ũ h e
+784	KUB	break	pope	p o p e	?_p o ?_p e
+785	MAI	break	hoa	h o a	?_h o ?_- ?_a
+786	SEK	break	hoʔa	h o ʔ a	?_h o ?_ʔ ?_a
+787	TUK	break	bope	b o p e	b o p e
+788	TUY	break	paa	p a a	?_p a ?_- ?_a
+789	WAN	break	poʔa	p o ʔ a	?_p ?_o ?_ʔ ?_a
+790	*PT	break	*pʔope	pʔ o p e	pʔ o p e
+#
+1364	BAS	breast	~ohe	õ h ẽ	õ h ?_ẽ
+1365	DES	breast	~api	ã p ĩ	ã p ?_ĩ
+1366	KAR	breast	~upe	ũ p ẽ	ũ p ?_ẽ
+1367	KOR	breast	ohe	o h e	o h e
+1368	KUB	breast	ope	o p e	o p e
+1369	KUE	breast	huheri	h u h e r i	h u h e r ?_i
+1370	MAI	breast	ohe	o h e	o h e
+1371	SEK	breast	ohe	o h e	o h e
+1372	SIO	breast	ohe	o h e	o h e
+1373	TAN	breast	ũʔpe	ũ ʔp e	ũ ʔp e
+1374	TUK	breast	~ope	õ p ẽ	õ p ?_ẽ
+1375	TUY	breast	~opea	õ p ẽ ã	õ p ẽ ã
+1376	WAN	breast	~pedo	p ẽ n õ	p ẽ n õ
+1377	*PT	breast	*upe	u p e	- u p e ( - - )
+#
+560	BAS	buriti palm	~ree	r̃ e e	r̃ e - e
+561	DES	buriti palm	~deʔe	n ẽ ʔ ẽ	n ẽ ʔ ẽ
+562	KAR	buriti palm	~dee	n e e	n e - e
+563	KOR	buriti palm	neʔe	n e ʔ e	n e ʔ e
+564	KUB	buriti palm	~dei	n ẽ ĩ	n ẽ - ĩ
+565	SEK	buriti palm	~deʔe	n ẽ ʔ ẽ	n ẽ ʔ ẽ
+566	SIO	buriti palm	neʔe	n e ʔ e	n e ʔ e
+567	TUK	buriti palm	~deʔe	n ẽ ʔ ẽ	n ẽ ʔ ẽ
+568	WAN	buriti palm	~daʔa	n ã ʔ ã	n ã ʔ ã
+569	*PT	buriti palm	*neʔe	n e ʔ e	n e ʔ e
+#
+438	KOR	capybara	kuẽso	k u ẽ s o	k u ẽ s o
+439	KUE	capybara	ketu	k e t u	k e t u
+440	SEK	capybara	kueso	k u e s o	k u e s o
+441	SIO	capybara	kʔueso	kʔ u e s o	kʔ u e s o
+442	TAN	capybara	keehu	k e e h u	k e e h u
+443	*PT	capybara	*kwetju	k w e t j u	kw - e tj u
+#
+190	BAS	cará(Dioscorea alata)	~jahi	ɲ ã h ĩ	?_ɲ ã h ĩ
+191	DES	cará(Dioscorea alata)	~japi	ɲ ã p ĩ	?_ɲ ã p ?_ĩ
+192	KAR	cará(Dioscorea alata)	~japi	ɲ ã p ĩ	?_ɲ ã p ?_ĩ
+193	KOR	cará(Dioscorea alata)	jahi	j a h i	j a h i
+194	KUB	cará(Dioscorea alata)	~japi	ɲ ã p ĩ	?_ɲ ã p ?_ĩ
+195	KUE	cará(Dioscorea alata)	jahiri	j a h i r i	j a h i ?_r ?_i
+196	SEK	cará(Dioscorea alata)	jahi	j a h i	j a h i
+197	TAN	cará(Dioscorea alata)	~jaʔpi	ɲ ã ʔp ĩ	?_ɲ ã ʔp ?_ĩ
+198	TUK	cará(Dioscorea alata)	~japi	ɲ ã p ĩ	?_ɲ ã p ?_ĩ
+199	WAN	cará(Dioscorea alata)	~japi	ɲ ã p ĩ	?_ɲ ã p ?_ĩ
+200	*PT	cará(Dioscorea alata)	*japi	j a p i	j a p i ( - - )
+#
+158	DES	centipede	~aʔgi	ã ʔŋ ĩ	ã ʔŋ ĩ
+159	KUB	centipede	ãi	a w i m e k ɨ	a w i m ?_e ?_k ?_ɨ
+160	TUK	centipede	~aʔki	ã ʔk ĩ	ã ʔk ĩ
+162	WAN	centipede	~jaʔki	ɲ ã ʔk ĩ	ɲ ã ʔk ĩ
+163	*PT	centipede	*jãkʔi	j ã kʔ i	j ã kʔ i ( - - - - )
+#
+570	BAS	charcoal (1)	~riti	r̃ ĩ t ĩ	r̃ ĩ t ĩ
+571	DES	charcoal (1)	~diti	n ĩ t ĩ	n ĩ t ?_ĩ
+572	KAR	charcoal (1)	~diti	n ĩ t ĩ	n ĩ t ?_ĩ
+573	TAN	charcoal (1)	~diti	n ĩ t ĩ	n ĩ t ?_ĩ
+574	TUK	charcoal (1)	~diti	n ĩ t ĩ	n ĩ t ?_ĩ
+575	TUY	charcoal (1)	~diti	n ĩ t ĩ	n ĩ t ĩ
+576	WAN	charcoal (1)	~diti	n ĩ t ĩ	n ĩ t ?_ĩ
+577	*PT	charcoal (1)	*nitti	n i t t i	n i tt i
+#
+554	KOR	charcoal (2)	neo	n e o	n e o
+555	KUB	charcoal (2)	~deo	n ẽ õ	n ẽ õ
+556	MAI	charcoal (2)	neo	n e o	n e o
+557	SEK	charcoal (2)	~deo	n ẽ õ	n ẽ õ
+558	SIO	charcoal (2)	neo	n e o	n e o
+559	*PT	charcoal (2)	*neo	n e o	n e o
+#
+1399	BAS	cheek	waju	w a j u	w a j ?_u
+1400	DES	cheek	waʔju	w a ʔj u	w a ʔj u
+1401	KAR	cheek	waso	w a s o	w a s o
+1402	KOR	cheek	wajo	w a j o	w a j o
+1403	KUB	cheek	wɨo	w ɨ o	w ɨ - o
+1404	MAI	cheek	bajo	b a j o	b ?_a j o
+1405	SEK	cheek	wajo	w a j o	w a j o
+1406	SIO	cheek	wajo	w a j o	w a j o
+1407	TUK	cheek	waʔsu	w a ʔs u	w a ʔs ?_u
+1408	TUY	cheek	wasopu	w a s o p u	w a s o p ?_u
+1409	WAN	cheek	waʔsu	w a ʔs u	w a ʔs u
+1410	*PT	cheek	*wajo	w a j o	w a j o ( - - )
+#
+1120	KOR	chew	jaki	j a k i	j a k i
+1121	KUB	chew	~hahɨ	h ã h ɨ̃	h ã h ɨ̃
+1122	MAI	chew	naki	n a k i	n a k i
+1123	SEK	chew	sʔãki	sʔ ã k i	sʔ ã k i
+1124	TUK	chew	jaʔge	j a ʔg e	j a ʔg e
+1125	TUY	chew	yage	y a g e	y a g e
+1126	WAN	chew	jaʔka	j a ʔk a	j a ʔk a
+1127	*PT	chew	*tjʔãkʔɨ	tjʔ ã k ʔ ɨ	tjʔ ã kʔ ɨ
+#
+728	BAS	chili	bia	b i a	b i a
+729	DES	chili	bia	b i a	b i a
+730	KAR	chili	bia	b i a	b i a
+731	KOR	chili	pia	p i a	p i a
+732	KUB	chili	bia	b i a	?_b i a
+733	KUE	chili	bia	b i a	b i a
+734	MAI	chili	bia	b i a	b i a
+735	PIR	chili	bia	b i a	b i a
+736	SEK	chili	pia	p i a	p i a
+737	SIO	chili	pʔia	pʔ i a	pʔ i a
+738	TAN	chili	bia	b i a	b i a
+739	TUK	chili	bia	b i a	b i a
+740	TUY	chili	bia	b i a	b i a
+741	WAN	chili	bia	b i a	?_b i a
+742	*PT	chili	*pʔia	pʔ i a	pʔ i a
+#
+1303	BAS	cold	ɨca	ɨ c a	ɨ c ?_a
+1304	DES	cold	jɨsa	j ɨ s a	j ɨ s a
+1305	KOR	cold	sɨsɨ	s ɨ s ɨ	s ɨ s ?_ɨ
+1306	KUB	cold	hɨhɨ	h ɨ h ɨ	h ɨ h ?_ɨ
+1307	KUE	cold	jɨsɨa	j ɨ s ɨ a	j ɨ s ɨ a
+1308	MAI	cold	sɨsɨ	s ɨ s ɨ	s ɨ s ?_ɨ
+1309	SEK	cold	sɨsɨ	s ɨ s ɨ	s ɨ s ɨ
+1310	SIO	cold	sɨsɨ	s ɨ s ɨ	s ɨ s ?_ɨ
+1311	TAN	cold	hiʔhia	h i ʔh i a	h i ʔh i a
+1312	TUK	cold	jɨsɨa	j ɨ s ɨ a	j ɨ s ɨ a
+1313	TUY	cold	jɨsɨa	j ɨ s ɨ a	j ɨ s ɨ a
+1314	WAN	cold	jɨsɨ	j ɨ s ɨ	j ɨ s ?_ɨ
+1315	YUP	cold	tsesɨ	ts e s ɨ	ts e s ɨ
+1316	*PT	cold	*tjɨsi	tj ɨ s i	tj ɨ s i ( - )
+#
+1030	BAS	cut	rute	r u t e	?_r u t e
+1031	KOR	cut	ruʔthe	r u ʔth e	r u ʔth e
+1033	SIO	cut	tɨ̃te	t ɨ̃ t e	?_t ɨ̃ t e
+1034	TUK	cut	dɨte	d ɨ t e	?_d ɨ t e
+1035	WAN	cut	dɨte	d ɨ t e	?_d ɨ t e
+1036	*PT	cut	*tʔɨtte	tʔ ɨ t t e	tʔ ɨ tt e
+#
+696	BAS	dance	baca	b a c a	b a ?_c a
+697	DES	dance	baja	b a j a	b a j a
+698	KAR	dance	basa	b a s a	b a ?_s a
+699	KUB	dance	baja	b a j a	?_b a j a
+700	MAI	dance	tɨte	t ɨ t e	t ɨ ?_t ?_e
+701	TAN	dance	baja	b a j a	b a j a
+702	TUK	dance	basa	b a s a	b a ?_s a
+703	TUY	dance	basa	b a s a	b a ?_s a
+704	WAN	dance	basa	b a s a	b a ?_s a
+705	*PT	dance	*pʔaja	pʔ a j a	pʔ a j a
+#
+164	BAS	deer	~jaba	ɲ ã m ã	ɲ ã m ã
+165	DES	deer	~jaba	ɲ ã m ã	ɲ ã m ã
+166	KAR	deer	~jaba	ɲ ã m ã	ɲ ã m ã
+167	KOR	deer	jãma	j ã m a	j ã m a
+168	KUB	deer	~jaba	ɲ ã m ã	ɲ ã m ã
+169	KUE	deer	jãma	j ã m a	j ã m a
+170	SEK	deer	jãma	j ã m a	j ã m a
+171	SIO	deer	jãma	j ã m a	j ã m a
+172	TAN	deer	~jaba	ɲ ã m ã	ɲ ã m ã
+173	TUK	deer	~jaba	ɲ ã m ã	ɲ ã m ã
+174	TUY	deer	~jaba	ɲ ã m ã	ɲ ã m ã
+175	WAN	deer	~jaba	ɲ ã m ã	ɲ ã m ã
+176	*PT	deer	*jama	j a m a	j a m a
+#
+1246	BAS	distant	joa	j o a	j o a
+1247	DES	distant	joa	j o a	j o a
+1248	KAR	distant	joa	j o a	j o a
+1249	KUB	distant	hoa	h o a	h o a
+1250	KUE	distant	joe	j o e	j o e
+1251	MAI	distant	doa	j ã m a	d o a
+1252	SEK	distant	soʔo	s o ʔ o	s o ʔ o
+1253	SIO	distant	sʔoa	sʔ o a	sʔ o a
+1254	TAN	distant	joe	j o e	j o e
+1255	TUK	distant	joa	j o a	j o a
+1256	TUY	distant	joa	j o a	j o a
+1257	WAN	distant	joa	j o a	j o a
+1258	*PT	distant	*tjʔoa	t jʔ o a	tjʔ o - a
+#
+1059	BAS	dove	cioro	c i o r o	c i o r ?_o
+1060	KOR	dove	siʔwi	s i ʔw i	s i ʔw i
+1061	KUB	dove	hude	h u d e	h ?_u d ?_e
+1062	MAI	dove	sɨni	s ɨ n i	?_s ɨ n i
+1063	SEK	dove	sɨra	s ɨ r a	s ɨ r a
+1064	SIO	dove	t∫iʔwi	t∫ i ʔw i	t∫ i ʔw i
+1065	TUK	dove	siri	s i r i	s i r ?_i
+1066	WAN	dove	siripi	s i r i p i	s i r ?_i ?_p ?_i
+1067	*PT	dove	*t∫ɨ-	t∫ ɨ	t∫ ɨ ( - - - - )
+#
+723	KOR	duck	pete	p e t e	p e t e
+724	KUB	duck	bede	b e d e	b e d e
+725	SEK	duck	pete	p e t e	p e t e
+726	SIO	duck	pʔete	pʔ e t e	pʔ e t e
+727	*PT	duck	*pʔete	pʔ e t e	pʔ e t e
+#
+264	BAS	ear	~gabo	ŋ ã m õ	ŋ ã m õ
+265	DES	ear	~gabi	ŋ ã m ĩ	ŋ ã ?_m ?_ĩ
+266	KAR	ear	~abo	ã m õ	ã m õ
+267	KOR	ear	kãho	k ã h o	k ã h o
+268	KUB	ear	~kamu	k ã m ũ	k ã m ũ
+269	KUE	ear	~kiau	kĩ ã ũ	kĩ ã - ?_ũ
+270	MAI	ear	gãho	g ã h o	g ã h o
+271	SEK	ear	kãho	k ã h o	k ã h o
+272	SIO	ear	kʔãho	kʔ ã h o	kʔ ã h o
+273	TAN	ear	~abu	ã m ũ	ã ?_m ũ
+274	TUK	ear	~oʔbe	õ ʔm ẽ	õ ?_ʔm ?_ẽ
+275	TUY	ear	~kabo	k ã m õ	k ã m ?_õ
+276	WAN	ear	~kaʔbo	k ã ʔm õ	k ã ?_ʔm ?_õ
+277	*PT	ear	*kʔãpʔo	kʔ ã p ʔ o	kʔ ã pʔ o
+#
+1163	BAS	egg	ria	r i a	r i a
+1164	KAR	egg	ria	r i a	r i a
+1165	KOR	egg	jia	j i a	j i a
+1166	KUB	egg	hĩdɨ	h ĩ d ɨ	h ?_ĩ ?_d ?_ɨ
+1167	MAI	egg	jia	j i a	?_j i a
+1168	SEK	egg	sʔia	sʔ i a	sʔ i a
+1169	SIO	egg	sʔia	sʔ i a	sʔ i a -
+1170	TAN	egg	ria	r i a	r i a
+1171	TUK	egg	die	d i e	d i ?_e
+1172	TUY	egg	diye	d i y e	d i y e
+1173	WAN	egg	die	d i e	d i ?_e
+1174	*PT	egg	*tjʔia	t jʔ i a	tjʔ i ( - a )
+#
+750	BAS	elder	bɨkɨ	b ɨ k ɨ	b ɨ k ɨ
+751	DES	elder	bɨgɨ	b ɨ g ɨ	b ɨ g ɨ
+752	KAR	elder	bɨkɨ	b ɨ k ɨ	b ɨ k ɨ
+753	KUB	elder	bɨkɨ	b ɨ k ɨ	?_b ɨ k ɨ
+754	KUE	elder	bɨikɨ	b ɨ i k ɨ	?_b ɨ i k ɨ
+755	TUK	elder	bɨkɨ	b ɨ k ɨ	b ɨ k ɨ
+756	TUY	elder	bɨkɨ	b ɨ k ɨ	b ɨ k ɨ
+757	WAN	elder	bɨkɨ	b ɨ k ɨ	?_b ɨ k ɨ
+758	*PT	elder	*pʔɨkɨ	pʔ ɨ k ɨ	pʔ ɨ - k ɨ
+#
+395	BAS	elevated structure (shelves roof etc.)	kaca	k a c a	k a ?_c a
+396	DES	elevated structure (shelves roof etc.)	kaja	k a j a	k a j a
+397	KAR	elevated structure (shelves roof etc.)	kaja	k a j a	k a ?_j a
+398	KOR	elevated structure (shelves roof etc.)	khaja	kh a j a	kh a j ?_a
+399	KUB	elevated structure (shelves roof etc.)	kaja	k a j a	k a j a
+400	TUK	elevated structure (shelves roof etc.)	kasa	k a s a	k a ?_s a
+401	WAN	elevated structure (shelves roof etc.)	kasa	k a s a	k a ?_s a
+402	*PT	elevated structure (shelves roof etc.)	*kaja	k a j a	k a j a
+#
+879	BAS	end	hedi	h e d i	h e d i
+880	DES	end	peʔdea	p e ʔd e a	p e ʔd e a
+881	KUE	end	peti	p e t i	?_p e t i
+882	TUK	end	peʔti	p e ʔt i	p e ʔt i
+883	WAN	end	piʔti	p i ʔt i	?_p i ʔt i
+884	*PT	end	*petʔi	p e tʔ i	p e tʔ i -
+#
+292	BAS	excrement	gɨda	g ɨ d a	g ɨ d a
+293	DES	excrement	gɨda	g ɨ d a	g ɨ d a
+294	KAR	excrement	gɨta	g ɨ t a	?_g ɨ t a
+295	KOR	excrement	kɨta	k ɨ t a	k ɨ t a
+296	KUB	excrement	kɨda	k ɨ d a	k ɨ d a
+297	KUE	excrement	ɨta	ɨ t a	ɨ t a
+298	MAI	excrement	ɨ̃ta	ɨ̃ t a	ɨ̃ t a
+299	PIR	excrement	kɨʔta	k ɨ ʔt a	k ɨ ʔt a
+300	SEK	excrement	ɨ̃ta	ɨ̃ t a	ɨ̃ t a
+301	SIO	excrement	kʔɨta	kʔ ɨ t a	kʔ ɨ t a
+302	TAN	excrement	ita	i t a	i t a
+303	TUK	excrement	ɨʔta	ɨ ʔt a	ɨ ʔt a
+304	TUY	excrement	~kɨda	k ɨ̃ n ã	?_k ɨ̃ n ã
+305	WAN	excrement	~ta	t ã	t ã
+306	*PT	excrement	*kʔɨtʔa	kʔ ɨ tʔ a	kʔ ɨ tʔ a
+#
+1175	BAS	face	ria	r i a	r i a
+1176	DES	face	dia	d i a	d i a
+1177	KAR	face	ria	r i a	r i a
+1178	KOR	face	jia	j i a	j i a
+1179	KUB	face	hiwa	h i w a	h i ?_w a
+1180	MAI	face	jia	j i a	?_j i a
+1181	SEK	face	sʔia	sʔ i a	sʔ i a
+1182	TUK	face	dia	d i a	d i a
+1183	TUY	face	dia_poa	d i a _ p o a	d i a _ ?_p ?_o ?_a
+1184	*PT	face	*tjʔia	t jʔ i a	tjʔ i - a ( - - - - )
+#
+822	BAS	father	hakɨ	h a k ɨ	h a k ɨ
+823	DES	father	pagɨ	p a g ɨ	p a g ɨ
+824	KAR	father	pakɨ	p a k ɨ	p a k ɨ
+825	KOR	father	hakhɨ	h a kh ɨ	h a kh ɨ
+826	KUB	father	pakɨ	p a k ɨ	p a k ɨ
+827	KUE	father	hakɨ	h a k ɨ	h a k ɨ
+828	MAI	father	hakɨ	h a k ɨ	h a k ɨ
+829	SEK	father	hakɨ	h a k ɨ	h a k ɨ
+830	SIO	father	hakɨ	h a k ɨ	h a k ɨ
+831	TAN	father	paki	p a k i	p a k i
+832	TUK	father	pakɨ	p a k ɨ	p a k ɨ
+833	TUY	father	pakɨ	p a k ɨ	p a k ɨ
+834	WAN	father	phɨkɨ	ph ɨ k ɨ	?_ph ɨ k ɨ
+835	*PT	father	*pa-kɨ	p a k ɨ	p a k ɨ
+#
+1	BAS	feminine	go	g o	g o
+2	DES	feminine	go	g o	g o
+3	KAR	feminine	o	o	o
+4	KOR	feminine	o	o	o
+5	KUB	feminine	ko	k o	k o
+6	MAI	feminine	o	o	o
+7	PIR	feminine	ko	k o	k o
+8	SEK	feminine	o	o	o
+9	SIO	feminine	go	g o	?_g o
+10	TUK	feminine	go	g o	?_g o
+11	WAN	feminine	ko	k o	k o
+12	*PT	feminine	*-kʔo	kʔ o	kʔ o
+#
+865	BAS	fire	hea	h e a	h e - a
+866	DES	fire	pea	p e a	p e - a
+867	KAR	fire	pee	p e e	p e - ?_e
+868	KOR	fire	hẽkha	h ẽ kh a	h ẽ kh a
+869	KUB	fire	peka	p e k a	p e k a
+870	KUE	fire	hekia	h e ki a	?_h e ki a
+871	MAI	fire	heka	h e k a	h e k a
+872	SEK	fire	heka	h e k a	h e k a
+873	SIO	fire	hẽka	h ẽ k a	h ẽ k a
+874	TAN	fire	peka	p e k a	p e k a
+875	TUK	fire	peka	p e k a	p e k a
+876	TUY	fire	peka	p e k a	p e k ?_a
+877	WAN	fire	phit∫a	ph i t∫ a	?_ph i t∫ a
+878	*PT	fire	*peka	p e k a	p e k a
+#
+1436	BAS	fish	wai	w a i	w a - i
+1437	DES	fish	waʔi	w a ʔ i	w a ʔ i
+1438	KOR	fish	βaʔi	β a ʔ i	?_β a ʔ i
+1439	KUB	fish	wáwi	w á w i	w á w i
+1440	KUE	fish	uai	u a i	u a - i
+1441	MAI	fish	bai	b a i	b a - i
+1442	SEK	fish	waʔi	w a ʔ i	w a ʔ i
+1443	SIO	fish	waʔi	w a ʔ i	w a ʔ i
+1444	TAN	fish	waʔi	w a ʔ i	w a ʔ i
+1445	TUK	fish	waʔi	w a ʔ i	w a ʔ i
+1446	TUY	fish	wai	w a i	w a - i
+1447	WAN	fish	waʔi	w a ʔ i	w a ʔ i
+1448	*PT	fish	*waʔi	w a ʔ i	w a ʔ i
+#
+1392	BAS	fish with a net	waja	w a j a	w a ?_j a
+1393	DES	fish with a net	waja	w a j a	w a j a
+1394	KOR	fish with a net	wajo	w a j o	w a j ?_o
+1395	MAI	fish with a net	bejo	b e j o	b ?_e j ?_o
+1396	TUK	fish with a net	waʔsa	w a ʔs a	w a ?_ʔs a
+1397	WAN	fish with a net	waʔsa	w a ʔs a	w a ?_ʔs a
+1398	*PT	fish with a net	*waja	w a j a	w a j a
+#
+706	BAS	fishing net	bahi	b a h i	b a h ?_i
+707	KAR	fishing net	bapi	b a p i	b a p ?_i
+708	KUB	fishing net	pápi	p á p i	?_p á p i
+709	TUY	fishing net	bapi	b a p i	b a p i
+710	*PT	fishing net	*pʔapi	pʔ a p i	pʔ a p i
+#
+858	BAS	float	haja	h a j a	h a j a
+859	DES	float	pája	p á j a	p á j a
+860	KAR	float	pasa	p a s a	p a s a
+861	TUK	float	paʔsa	p a ʔs a	p a ʔs a
+862	TUY	float	pasa	p a s a	p a s a
+863	WAN	float	paʔsa	p a ʔs a	?_p a ʔs a
+864	*PT	float	*paʔja	p a ʔj a	p a ʔj a
+#
+370	BAS	flower	godo	g o d o	g o - *-* d ?_o
+371	DES	flower	go	g o	g o - *-*
+372	KOR	flower	koro	k o r o	k o - *-* ?_r o
+373	KUB	flower	kowɨ	k o w ɨ	k o w ɨ
+374	KUE	flower	teko	t e k o	?_t e k o - *-*
+375	SEK	flower	hodo	h o d o	?_h o - *-* d o
+376	SIO	flower	kodo	k o d o	?_k o - *-* ?_d ?_o
+377	TAN	flower	~oʔo	õ ʔ õ	õ ʔ õ
+378	TUK	flower	oʔo	o ʔ o	o ʔ o
+379	TUY	flower	koo	k o o	k o - o
+380	WAN	flower	koʔo	k o ʔ o	k o ʔ o
+381	*PT	flower	*kʔoʔo	kʔ o ʔ o	- - kʔ o ʔ o ( - - )
+#
+278	BAS	foot	gɨbo	g ɨ b o	g ɨ b o
+279	DES	foot	guʔbu	g u ʔb u	g u ʔb u
+280	KAR	foot	rɨpo	r ɨ p o	?_r ɨ p o
+281	KOR	foot	~kuʔa	k ũ ʔ ã	k ũ ʔ ã
+282	KUB	foot	kɨbo	k ɨ b o	k ɨ b o
+283	KUE	foot	kohu	k o h u	?_k o h u
+284	MAI	foot	~gɨo	ŋ ɨ̃ õ	?_ŋ ɨ̃ - õ
+285	SEK	foot	~kɨo	k ɨ̃ õ	?_k ɨ̃ - õ
+286	SIO	foot	~kʔɨo	kʔ ɨ̃ õ	kʔ ɨ̃ - õ
+287	TAN	foot	~uʔpu	ũ ʔp ũ	ũ ʔp ũ
+288	TUK	foot	dɨʔpo	d ɨ ʔp o	?_d ɨ ʔp o
+289	TUY	foot	dɨpo	d ɨ p o	?_d ɨ p o
+290	WAN	foot	daʔpo	d a ʔp o	?_d a ʔp o
+291	*PT	foot	*kʔɨpʔo	kʔ ɨ p ʔ o	kʔ ɨ pʔ o
+#
+1339	BAS	fruit sp.	toa	t o a	t o a
+1340	KOR	fruit sp.	thoa	th o a	th o a
+1341	KUB	fruit sp.	toa	t o a	t o a
+1342	MAI	fruit sp.	toa	t o a	t o a
+1343	SEK	fruit sp.	toa	t o a	t o a
+1344	SIO	fruit sp.	toa	t o a	t o a
+1345	TUK	fruit sp.	toa	t o a	t o a
+1346	WAN	fruit sp.	thoa	th o a	th o a
+1347	*PT	fruit sp.	*toa	t o a	t o a
+#
+1473	BAS	garden	wece	w e c e	w e c e
+1474	DES	garden	wese	w e s e	w e s e
+1475	KOR	garden	weʔse	w e ʔs e	w e ʔs e
+1476	MAI	garden	bese	b e s e	b e s e
+1477	SEK	garden	βeʔse	β e ʔs e	?_β e ʔs e
+1478	TUK	garden	wese	w e s e	w e s e
+1479	TUY	garden	wese	w e s e	w e s e
+1480	WAN	garden	wese	w e s e	w e s e
+1481	*PT	garden	*wese	w e s e	w e s e
+#
+1068	BAS	gather	cãa	c ã a	c ã a
+1069	KAR	gather	hee	h e e	h e e
+1070	KOR	gather	sia	s i a	s i a
+1071	KUB	gather	hewa	h e w a	h ?_e w a
+1072	MAI	gather	t∫ia	t∫ i a	?_t∫ i a
+1073	SEK	gather	sia	s i a	s i a
+1074	SIO	gather	t∫ia	t∫ i a	t∫ i a
+1075	TUK	gather	sua	s u a	s u a
+1076	WAN	gather	saa	s a a	s a a
+1077	*PT	gather	*t∫ɨ-a	t ∫ ɨ a	t∫ ɨ - a
+#
+201	BAS	grand-father	~jikɨ	ɲ ĩ k ɨ̃	ɲ ĩ k ɨ̃
+202	DES	grand-father	~jekɨ	ɲ ẽ k ɨ̃	ɲ ẽ k ɨ̃
+203	KAR	grand-father	~jikɨ	ɲ ĩ k ɨ̃	ɲ ĩ k ɨ̃
+204	KOR	grand-father	jẽkuɨ	j ẽ k u ɨ	j ẽ k u ɨ
+205	KUB	grand-father	~jekũjo	ɲ ẽ k ũ j õ	ɲ ẽ k ũ j ?_o
+206	MAI	grand-father	jẽkɨ	j ẽ k ɨ	j ẽ k ɨ
+207	TUK	grand-father	~jekɨ	ɲ ẽ k ɨ̃	ɲ ẽ k ɨ̃
+208	TUY	grand-father	~jekɨ	ɲ ẽ k ɨ̃	ɲ ẽ k ɨ̃
+209	WAN	grand-father	~jɨt∫ɨ	ɲ ɨ̃ t∫ ɨ̃	ɲ ɨ̃ t∫ ɨ̃
+210	*PT	grand-father	*jẽkku-	j ẽ kk u	j ẽ kk u ( - - )
+#
+124	BAS	grape	ɨje	ɨ j e	ɨ j e
+125	DES	grape	igi	i g i	i g i
+126	KAR	grape	ɨse	ɨ s e	ɨ s e
+127	KOR	grape	ɨje	ɨ j e	ɨ j e
+128	KUB	grape	ɨ́jai	ɨ́ j a i	ɨ́ j a i
+129	MAI	grape	ede	e d e	e d e
+130	SIO	grape	ɨje	ɨ j e	ɨ j e
+131	TUK	grape	ɨʔse	ɨ ʔs e	ɨ ʔs e
+132	TUY	grape	ɨse	ɨ s e	ɨ s e
+133	WAN	grape	se	s e	s e
+134	*PT	grape	*ɨʔje	ɨ ʔj e	ɨ ʔj e -
+#
+1093	BAS	grass	taa	t a a	?_t a ?_- a
+1094	DES	grass	taa	t a a	?_t a ?_- a
+1095	KAR	grass	taa	t a a	?_t a ?_- a
+1096	KOR	grass	thaja	th a j a	?_th a j ?_a
+1097	KUB	grass	dá	d á	?_d á ?_- ?_-
+1098	KUE	grass	taja	t a j a	t a j a
+1099	MAI	grass	taja	t a j a	t a j ?_a
+1100	SEK	grass	taja	t a j a	t a j a
+1101	SIO	grass	taja	t a j a	t a j a
+1102	TAN	grass	taja	t a j a	t a j a
+1103	TUK	grass	taa	t a a	?_t a ?_- a
+1104	TUY	grass	taa	t a a	?_t a ?_- a
+1105	WAN	grass	thaa	th a a	?_th a ?_- a
+1106	*PT	grass	*taja	t a j a	t a j a
+#
+1293	BAS	green	~cɨbe	c ɨ̃ m ẽ	c ɨ̃ m ẽ
+1294	KAR	green	~hɨbe	h ɨ̃ m ẽ	h ɨ̃ m ẽ
+1295	KUB	green	~hɨbe	h ɨ̃ m ẽ	h ɨ̃ m ẽ
+1296	KUE	green	tɨmɨ	t ɨ m ɨ	t ɨ m ɨ
+1297	SIO	green	sɨho	s ɨ h o	s ɨ h o
+1298	TAN	green	~hiʔbi	h ĩ ʔb ĩ	h ĩ ʔb ĩ
+1299	TUK	green	sɨʔme	s ɨ ʔm e	s ɨ ʔm e
+1300	TUY	green	~sɨbere	s ɨ̃ m ẽ r̃ ẽ	s ɨ̃ m ẽ r̃ ?_ẽ
+1301	YUP	green	tsɨmɨ	ts ɨ m ɨ	ts ɨ m ɨ
+1302	*PT	green	*tjɨ̃pʔe	tj ɨ̃ pʔ e	tj ɨ̃ pʔ e ( - - )
+#
+905	KOR	handpalm	hɨ̃thɨ	h ɨ̃ th ɨ	h ɨ̃ th ɨ
+906	KUB	handpalm	pɨdɨ	p ɨ d ɨ	p ɨ d ɨ
+907	MAI	handpalm	hɨ̃tɨ	h ɨ̃ t ɨ	h ɨ̃ t ɨ
+908	SEK	handpalm	hɨ̃tɨ	h ɨ̃ t ɨ	h ɨ̃ t ɨ
+909	SIO	handpalm	ɨ̃tɨ	ɨ̃ t ɨ	ɨ̃ t ɨ
+910	TAN	handpalm	pita	p i t a	p i t a
+911	*PT	handpalm	*pɨtɨ	p ɨ t ɨ	p ɨ t ɨ
+#
+1221	BAS	head	riho	r i h o	r i h o
+1222	DES	head	dipu	d i p u	d i p u
+1223	KAR	head	rɨpo	r ɨ p o	r ɨ p ?_o
+1224	KOR	head	~siho	s ĩ h õ	s ĩ h ?_õ
+1225	KUB	head	hipo	h i p o	h i p o
+1226	MAI	head	t∫io	t∫ i o	t∫ i - o
+1227	SEK	head	~sio	s ĩ õ	s ĩ - ?_õ
+1228	SIO	head	~sʔiho	sʔ ĩ h õ	sʔ ĩ h ?_õ
+1229	TAN	head	rupu	r u p u	r u p ?_u
+1230	TUK	head	dɨpo	d ɨ p o	d ɨ p ?_o
+1231	TUY	head	dupu	d u p u	d u p ?_u
+1232	WAN	head	dapu	d a p u	d a p ?_u
+1233	YUP	head	dɨpɨ	d ɨ p ɨ	d ɨ p ɨ
+1234	*PT	head	*tjʔɨpo	t jʔ ɨ p o	tjʔ ɨ p o
+#
+1007	BAS	heavy	~rɨkɨ	r̃ ɨ̃ k ɨ̃	?_r̃ ɨ̃ k ?_ɨ̃
+1008	DES	heavy	~nɨkɨ	n ɨ̃ k ɨ̃	n ɨ̃ k ?_ɨ̃
+1009	KAR	heavy	~dɨkɨ	n ɨ̃ k ɨ̃	n ɨ̃ k ɨ̃
+1010	KOR	heavy	rɨkhɨ	r ɨ kh ɨ	r ɨ kh ɨ
+1011	KUB	heavy	dɨkɨ	d ɨ k ɨ	d ɨ k ɨ
+1012	MAI	heavy	dɨkɨ	d ɨ k ɨ	d ɨ k ɨ
+1013	SEK	heavy	dɨkɨ	d ɨ k ɨ	d ɨ k ɨ
+1014	SIO	heavy	dɨkɨ	d ɨ k ɨ	?_d ɨ k ɨ
+1015	TAN	heavy	~riki	r̃ ĩ k ĩ	r̃ ĩ k ĩ
+1016	TUK	heavy	~dɨkɨ	n ɨ̃ k ɨ̃	?_n ɨ̃ k ?_ɨ̃
+1017	TUY	heavy	~dɨkɨ	n ɨ̃ k ɨ̃	n ɨ̃ k ?_ɨ̃
+1018	WAN	heavy	~dɨkɨ	n ɨ̃ k ɨ̃	?_n ɨ̃ k ?_ɨ̃
+1019	*PT	heavy	*tʔɨkkɨ	tʔ ɨ k k ɨ	tʔ ɨ kk ɨ
+#
+135	BAS	heron	jehe	j e h e	?_j e ?_h ?_e
+136	DES	heron	jahi	j a h i	j a h i
+137	KAR	heron	jee	j e e	?_j e - ?_e
+138	KUB	heron	jai	j a i	j a - i
+139	MAI	heron	jai	j a i	j a - i
+140	SEK	heron	jai	j a i	j a - i
+141	TUK	heron	jahe	j a h e	?_j a h ?_e
+142	TUY	heron	yee	j e e	j e - ?_e
+143	WAN	heron	jaha	j a h a	?_j a h a
+144	*PT	heron	*jahi	j a h i	j a h i
+#
+332	BAS	hole	gohe	g o h e	g o h e
+333	DES	hole	gobe	g o b e	g o ?_b e
+334	KAR	hole	ope	o p e	o p ?_e
+335	KOR	hole	kohe	k o h e	k o h e
+336	KUB	hole	kobe	k o b e	k o ?_b e
+337	KUE	hole	gohe	g o h e	?_g o h e
+338	MAI	hole	gohe	g o h e	?_g o ?_h e
+339	SEK	hole	kohe	k o h e	?_k o ?_h e
+340	SIO	hole	kʔohe	kʔ o h e	?_kʔ o h e
+341	TAN	hole	kope	k o p e	?_k o p e
+342	TUK	hole	kope	k o p e	?_k o p e
+343	TUY	hole	kope	k o p e	k o ?_p ?_e
+344	WAN	hole	kope	k o p e	k o ?_p ?_e
+345	*PT	hole	*kʔope	kʔ o p e	kʔ o p e
+#
+65	BAS	hot	aci	a c i	a c i
+66	DES	hot	asi	a s i	a s i
+67	KAR	hot	asi	a s i	a s i
+68	KOR	hot	asu	a s u	a s u
+69	KUE	hot	hatɨ	h a t ɨ	h a t ɨ
+70	MAI	hot	at∫u	a t∫ u	a t∫ u
+71	SIO	hot	haʔsu	h a ʔs u	h a ʔs u
+72	TUK	hot	asi	a s i	a s i
+73	TUY	hot	asi	a s i	a s i
+74	WAN	hot	si	s i	s i
+75	YUP	hot	ahtsiama	a h ts i a m a	a h ts i a m a
+76	*PT	hot	*atjɨ	a tj ɨ	- a - tj ɨ - - -
+#
+1495	BAS	house	wi	w i	w i - *-*
+1496	DES	house	wiʔi	w i ʔ i	w i ʔ i
+1497	KAR	house	wii	w i i	w i - i
+1498	KOR	house	βɨʔe	β ɨ ʔ e	β ɨ ʔ e
+1499	KUB	house	wɨe	w ɨ e	w ɨ - ?_e
+1500	KUE	house	wɨri	w ɨ r i	w ɨ - *-* r ?_i
+1501	MAI	house	ue	u e	u - e
+1502	SEK	house	wɨʔe	w ɨ ʔ e	w ɨ ʔ e
+1503	SIO	house	wɨʔe	w ɨ ʔ e	w ɨ ʔ e
+1504	TAN	house	wiʔi	w i ʔ i	w i ʔ i
+1505	TUK	house	wiʔi	w i ʔ i	w i ʔ i
+1506	TUY	house	wii	w i i	w i - i
+1507	WAN	house	wɨʔɨ	w ɨ ʔ ɨ	w ɨ ʔ ɨ
+1508	*PT	house	*wɨʔe	w ɨ ʔ e	w ɨ ʔ e ( - - )
+#
+501	BAS	hummingbird	~bibi	m ĩ m ĩ	m ĩ m ĩ
+502	DES	hummingbird	~bibi	m ĩ m ĩ	m ĩ m ĩ
+503	KAR	hummingbird	~bibi	m ĩ m ĩ	m ĩ m ?_ĩ
+504	KOR	hummingbird	mimi	m i m i	m i m i
+505	KUB	hummingbird	~bibi	m ĩ m ĩ	m ĩ m ĩ
+506	KUE	hummingbird	mimi	m i m i	m i m i
+507	MAI	hummingbird	mimi	m i m i	m i m i
+508	SEK	hummingbird	mimi	m i m i	m i m i
+509	SIO	hummingbird	mimi	m i m i	m i m i
+510	TUK	hummingbird	~bibi	m ĩ m ĩ	m ĩ m ?_ĩ
+511	WAN	hummingbird	~wiʔbi	w̃ ĩ ʔm ĩ	w̃ ĩ ʔm ?_ĩ
+512	*PT	hummingbird	*mimi	m i m i	m i m i
+#
+711	BAS	inga (fruit sp.)	~bede	m ẽ n ẽ	m ẽ n ẽ
+712	DES	inga (fruit sp.)	~behe	m ẽ h ẽ	m ẽ h ẽ
+713	KAR	inga (fruit sp.)	~bede	m ẽ n ẽ	m ẽ n ẽ
+714	KOR	inga (fruit sp.)	pene	p e n e	p e n e
+715	KUB	inga (fruit sp.)	~bede	m ẽ n ẽ	m ẽ n ẽ
+716	KUE	inga (fruit sp.)	meʔne	m e ʔn e	m e ʔn e
+717	MAI	inga (fruit sp.)	mene	m e n e	m e n e
+718	SEK	inga (fruit sp.)	pedẽ	p e n ẽ	p e n ?_ẽ
+719	SIO	inga (fruit sp.)	pʔene	pʔ e n e	pʔ e n e
+720	TUK	inga (fruit sp.)	~bede	m ẽ n ẽ	m ẽ n ẽ
+721	WAN	inga (fruit sp.)	~bede	m ẽ n ẽ	m ẽ n ẽ
+722	*PT	inga (fruit sp.)	*pʔene	pʔ e n e	pʔ e n e
+#
+1331	BAS	insect sp.	usi	u s i	u s ?_i
+1332	KOR	insect sp.	sũsi	s ũ s i	s ũ s ?_i
+1333	KUB	insect sp.	huhi	h u h i	h u h i
+1334	KUE	insect sp.	tosi	t o s i	t o s i
+1335	SIO	insect sp.	susi	s u s i	s u s i
+1336	WAN	insect sp.	jĩ	j ĩ	j ĩ - *-*
+1337	YUP	insect sp.	tsutsiga	ts u ts i g a	ts u ts i g a
+1338	*PT	insect sp.	*tjusi	tj u s i	tj u s i ( - - )
+#
+145	BAS	jaguar	jai	j a i	?_j a i
+146	DES	jaguar	jee	j e e	j e e
+147	KAR	jaguar	jai	j a i	?_j a i
+148	KOR	jaguar	jai	j a i	j a i
+149	KUB	jaguar	jawi	j a w i	j a w i
+150	KUE	jaguar	hijai	h i j a i	?_h i j a i
+151	MAI	jaguar	jai	j a i	j a i
+152	SEK	jaguar	jai	j a i	j a i
+153	SIO	jaguar	jai	j a i	j a i
+154	TAN	jaguar	jaia	j a i a	?_j a i a
+155	TUK	jaguar	jai	j a i	?_j a i
+156	WAN	jaguar	jai	j a i	?_j a i
+157	*PT	jaguar	*jai	j a i	( - - ) j a - i ( - )
+#
+1483	KOR	jenipapo	weʔe	w e ʔ e	w e ʔ e
+#
+227	BAS	kapok	jɨta	j ɨ t a	j ɨ t a
+228	DES	kapok	juda	j u d a	j u d a
+229	KAR	kapok	jita	j i t a	j i t a
+231	KUB	kapok	jɨi	j ɨ i	j ɨ i
+232	KUE	kapok	iʔotahe	i ʔ o t a h e	i ʔ o t a ?_h ?_e
+233	SEK	kapok	jɨi	j ɨ i	j ɨ i
+234	SIO	kapok	jɨi	j ɨ i	j ɨ i
+235	TAN	kapok	juʔta	j u ʔt a	j u - ʔt a
+236	TUK	kapok	juta	j u t a	j u t a
+237	WAN	kapok	juta	j u t a	j u t a
+238	*PT	kapok	*jɨi	j ɨ i	j - ɨ - i - ( - )
+#
+1259	BAS	king-fisher	~jasa	ɲ ã s ã	ɲ ã s ã
+1260	DES	king-fisher	~sada	s ã n ã	s ã n ã
+1261	KAR	king-fisher	~jasa	ɲ ã s ã	ɲ ã s ã
+1262	KOR	king-fisher	sãsʔa	s ã sʔ a	s ã ʔs a
+1263	KUB	king-fisher	~haha	h ã h ã	h ã h ã
+1264	SEK	king-fisher	sʔãʔsa	sʔ ã ʔ s a	sʔ ã ʔs a
+1265	TAN	king-fisher	~haha	h ã h ã	h ã h ã
+1266	TUK	king-fisher	~sada	s ã n ã	s ã n ã
+1267	WAN	king-fisher	~sada	s ã n ã	s ã n ã
+1268	YUP	king-fisher	~sasa	s ã s ã	s ã s ã
+1269	*PT	king-fisher	*tjãsa	t j ã s a	tj ã s a
+#
+465	BAS	know	~baci	m ã c ĩ	m ã c ĩ
+466	DES	know	~basi	m ã s ĩ	m ã s ĩ
+467	KOR	know	masi	m a s i	m a s i
+468	KUB	know	mahi	m a h i	m a h i
+469	KUE	know	masi	m a s i	m a s i
+470	SIO	know	maʔsi	m a ʔs i	m a ʔs i
+471	TUK	know	~basi	m ã s ĩ	m ã s ĩ
+472	TUY	know	~basi	m ã s ĩ	m ã s ĩ
+473	WAN	know	~basi	m ã s ĩ	m ã s ĩ
+474	*PT	know	*masi	m a s i	m a s i
+#
+1212	DES	lake	dita	d i t a	d i t a
+1213	KUB	lake	hita	h i t a	h i t a
+1214	KUE	lake	rita	r i t a	?_r i t a
+1215	MAI	lake	t∫ita	t∫ i t a	?_t∫ i t a
+1216	SIO	lake	sʔitada	sʔ i t a d a	sʔ i t a d ?_a
+1217	TUK	lake	dita	d i t a	d i t a
+1218	TUY	lake	-taro	t a r o	t a r ?_o
+1219	YUP	lake	tita	t i t a	t i t a
+1220	*PT	lake	*tjʔitta	tjʔ i tt a	tjʔ i tt a ( - - )
+#
+211	BAS	land	jeba	j e b a	j e b a
+212	DES	land	jeba	j e b a	j e b a
+213	KAR	land	jepa	j e p a	j e p a
+214	KOR	land	jeha	j e h a	j e h a
+215	KUB	land	jiba	j i b a	j i b a
+216	MAI	land	jiha	j i h a	j i h a
+217	SEK	land	jeha	j e h a	j e h a
+218	SIO	land	jiha	j i h a	j i h a
+219	TUK	land	jeʔpa	j e ʔp a	j e ʔp a
+220	WAN	land	jaʔpa	j a ʔp a	j a ʔp a
+221	*PT	land	*jepʔa	j e pʔ a	j e pʔ a
+#
+652	BAS	larva	beko	b e k o	b e k o
+653	DES	larva	beka	b e k a	b e k ?_a
+654	KAR	larva	beko	b e k o	b e k o
+655	KOR	larva	pekho	p e kh o	p e ?_kh o
+656	MAI	larva	beku	b e k u	b e k ?_u
+657	SEK	larva	peko	p e k o	p e k o
+658	SIO	larva	pʔeko	pʔ e k o	pʔ e k o
+659	TUK	larva	beko	b e k o	b e k o
+660	*PT	larva	*pʔekko	pʔ e k k o	pʔ e kk o
+#
+239	BAS	leg	~jika	ɲ ĩ k ã	ɲ ĩ k ?_ã
+240	DES	leg	~jiga	ɲ ĩ g ã	ɲ ĩ g ?_ã
+241	KAR	leg	~jika	ɲ ĩ k ã	ɲ ĩ k ?_ã
+242	KOR	leg	jũka	j ũ k a	j ũ k a
+243	KUB	leg	~jɨa	ɲ ɨ̃ ã	ɲ ɨ̃ - ?_ã
+244	SEK	leg	dɨ̃ka	d ɨ̃ k a	d ɨ̃ k a
+245	TAN	leg	~jika	ɲ ĩ k ã	ɲ ĩ k ?_ã
+246	TUK	leg	~jeka	ɲ ẽ k ã	ɲ ẽ k ?_ã
+247	TUY	leg	~jika	ɲ ĩ k ã	ɲ ĩ k ?_ã
+248	WAN	leg	~jɨt∫ɨ	ɲ ɨ̃ t∫ ɨ̃	ɲ ɨ̃ t∫ ?_ɨ̃
+249	*PT	leg	*jɨ̃ka	j ɨ̃ k a	j ɨ̃ k a
+#
+39	BAS	locative	do	d o	?_d o
+40	DES	locative	do	d o	d o
+41	KAR	locative	do	d o	?_d o
+42	KUB	locative	~do	n õ	?_n õ
+43	MAI	locative	do	d o	d o
+44	PIR	locative	do	d o	d o
+45	SEK	locative	ro	r o	?_r o
+46	SIO	locative	ro	r o	r o
+47	TUK	locative	do	d o	d o
+48	WAN	locative	do	d o	d o
+49	*PT	locative	*-tʔo	tʔ o	tʔ o
+#
+454	BAS	macaw	~baha	m ã h ã	m ã h ã
+455	DES	macaw	~baha	m ã h ã	m ã h ã
+456	KAR	macaw	~baa	m a a	m a - a
+457	KOR	macaw	maa	m a a	m a - a
+458	KUB	macaw	~ma	m ã	m ã - *-*
+459	MAI	macaw	ma	m a	m a - *-*
+460	SEK	macaw	toa+ma	t o a m a	t o a m a - *-*
+461	SIO	macaw	ma	m a	m a - *-*
+462	TUK	macaw	~baha	m ã h ã	m ã h ã
+463	WAN	macaw	~baha	m ã h ã	m ã h ã
+464	*PT	macaw	*maha	m a h a	( - - - ) m a h a
+#
+92	BAS	man	~ɨbɨ	ɨ̃ m ɨ̃	ɨ̃ m ɨ̃
+93	DES	man	~ɨbɨ	ɨ̃ m ɨ̃	ɨ̃ m ɨ̃
+94	KAR	man	~bɨ	m ɨ̃	m ɨ̃
+95	KOR	man	ɨmɨ	ɨ m ɨ	ɨ m ɨ
+96	KUB	man	~ɨbɨ	ɨ̃ m ɨ̃	ɨ̃ m ɨ̃
+97	MAI	man	ɨmɨ	ɨ m ɨ	ɨ m ɨ
+98	SEK	man	ɨ̃mɨ̃	ɨ̃ m ɨ̃	ɨ̃ m ɨ̃
+99	SIO	man	ɨmɨ	ɨ m ɨ	ɨ m ɨ
+100	TAN	man	~ɨbɨ	ɨ̃ m ɨ̃	ɨ̃ m ɨ̃
+101	TUK	man	~ɨbɨ	ɨ̃ m ɨ̃	ɨ̃ m ɨ̃
+102	TUY	man	~ɨbɨ	ɨ̃ m ɨ̃	ɨ̃ m ɨ̃
+103	WAN	man	~ɨbɨ	ɨ̃ m ɨ̃	ɨ̃ m ɨ̃
+104	*PT	man	*ɨmɨ	ɨ m ɨ	ɨ m ɨ
+#
+403	BAS	manioc	kĩ	k ĩ ĩ	k ĩ ĩ
+404	DES	manioc	kĩĩ	k ĩ ĩ	k ĩ ĩ
+405	KAR	manioc	kii	k i i	k i i
+406	KOR	manioc	khɨi	kh ɨ i	kh ɨ i
+407	KUB	manioc	kɨi	k ɨ i	k ɨ i
+408	KUE	manioc	kɨ	k ɨ	k ɨ -
+409	MAI	manioc	kɨi	k ɨ i	k ɨ i
+410	SIO	manioc	kɨi	k ɨ i	k ɨ i
+411	TAN	manioc	ki	k i	k - i
+412	TUK	manioc	kii	k i i	k i i
+413	WAN	manioc	khɨɨ	kh ɨ ɨ	kh ɨ ɨ
+414	*PT	manioc	*kɨi	k ɨ i	k ɨ i
+#
+1107	BAS	monkey	gake	g a k e	?_g a k e
+1108	DES	monkey	gaki	g a k i	?_g a k i
+1109	KAR	monkey	ake	a k e	a k e
+1110	KOR	monkey	tãkhe	t ã kh e	?_t ã kh e
+1111	KUB	monkey	take	t a k e	?_t a k e
+1112	MAI	monkey	tãke	t ã k e	t ã k e
+1113	SEK	monkey	tãke	t ã k e	t ã k e
+1114	SIO	monkey	tãke	t ã k e	t ã k e
+1115	TAN	monkey	take	t a k e	t a k e
+1116	TUK	monkey	ake	a k e	a k e
+1117	TUY	monkey	ake	a k e	a k e
+1118	WAN	monkey	ka	k a	k a
+1119	*PT	monkey	*takke	t a k k e	t a kk e
+#
+950	BAS	monkey sp.	icikamu	i c i k a m u	i c i k ?_a ?_m ?_u
+951	KAR	monkey sp.	~sii	s i i	s i - i
+952	KOR	monkey sp.	sisikoʔroro	s i s i k o ʔr o r o	s i s i k ?_o ?_ʔr ?_o ?_r o
+953	KUB	monkey sp.	hihijo	h i h i j o	h i h i j ?_o
+954	MAI	monkey sp.	t∫it∫i	t∫ i t∫ i	t∫ i t∫ ?_i
+955	SIO	monkey sp.	sisi	s i s i	s i s i
+956	WAN	monkey sp.	~bede+_~iʔsi	m ẽ n ẽ + _ ĩ ʔs ĩ	m ?_ẽ ?_n ẽ _ - ĩ ʔs ?_ĩ
+957	*PT	monkey sp.	*sisi	i s i	( - - - - - ) s i s i ( - - - - - - )
+#
+540	BAS	mosquito	~bɨte	m ɨ̃ t ẽ	m ɨ̃ t ẽ
+541	DES	mosquito	~bɨde	m ɨ̃ n ẽ	m ɨ̃ n ẽ
+542	KAR	mosquito	~bɨte	m ɨ̃ t ẽ	m ɨ̃ t ẽ
+543	KOR	mosquito	mɨthe	m ɨ th e	m ɨ th e
+544	KUB	mosquito	~bɨte	m ɨ̃ t ẽ	m ɨ̃ t ẽ
+545	KUE	mosquito	mɨne	m ɨ n e	m ɨ n e
+546	MAI	mosquito	mɨte	m ɨ t e	m ɨ t e
+547	SEK	mosquito	muʔte	m u ʔt e	m u ʔt e
+548	SIO	mosquito	mɨte	m ɨ t e	m ɨ t e
+549	TAN	mosquito	~biri	m ĩ r̃ ĩ	m ĩ r̃ ĩ
+550	TUK	mosquito	~bɨte	m ɨ̃ t ẽ	m ɨ̃ t ẽ
+551	TUY	mosquito	~bɨte	m ɨ̃ t ẽ	m ɨ̃ t ẽ
+552	WAN	mosquito	~bɨte	m ɨ̃ t ẽ	m ɨ̃ t ẽ
+553	*PT	mosquito	*mɨte	m ɨ t e	m ɨ t e
+#
+1235	BAS	mouth1	rice	r i c e	r i c e -
+1236	DES	mouth1	disi	d i s i	d i s i -
+1237	KAR	mouth1	rise	r i s e	r i s e -
+1238	KUB	mouth1	hihe	h i h e	h i h e -
+1239	KUE	mouth1	risepu	r i s e p u	r i s e p u
+1240	TAN	mouth1	riho	r i h o	r i h o -
+1241	TUK	mouth1	ɨʔse	ɨ ʔs e	ɨ ʔs e -
+1242	TUY	mouth1	ɨse	ɨ s e	ɨ s e -
+1243	WAN	mouth1	dɨse	d ɨ s e	d ɨ s e -
+1244	YUP	mouth1	ditsi	d i ts i	d i ts i -
+1245	*PT	mouth1	*tjʔɨseo	t jʔ ɨ s e o	tjʔ ɨ s e ( o - )
+#
+222	KOR	mouth2	jiʔobo	j i ʔ o b o	j ?_i ʔ ?_o ?_b o
+223	MAI	mouth2	jo	j o	j ?_- - o
+224	SEK	mouth2	jɨʔo	j ɨ ʔ o	j ɨ ʔ o
+225	SIO	mouth2	jiʔobo	j i ʔ o b o	j ?_i ʔ o ?_b ?_o
+226	*PT	mouth2	*jɨ-ʔo	j ɨ ʔ o	j ɨ ʔ o ( - - )
+#
+1424	BAS	mythical being	wãti	w ã t i	w ã t ?_i
+1425	DES	mythical being	wãti	w ã t i	w ã t ?_i
+1426	KAR	mythical being	wãti	w ã t i	w ã t ?_i
+1427	KOR	mythical being	vathi	v a th i	?_v a th i
+1428	KUB	mythical being	~at∫i	ã t∫ ĩ	ã t∫ ĩ
+1429	MAI	mythical being	ãi	ã i	ã - i
+1430	SEK	mythical being	wati	w a t i	w a t i
+1431	SIO	mythical being	wati	w a t i	w a t i
+1432	TAN	mythical being	wãti	w ã t i	?_w ã t ?_i
+1433	TUK	mythical being	wãti	w ã t i	w ã t ?_i
+1434	WAN	mythical being	wãti	w ã t i	w ã t ?_i
+1435	*PT	mythical being	*wãtti	w ã t t i	w ã tt i
+#
+1411	BAS	name	~wabe	w̃ ã m ẽ	?_w̃ ã m ?_ẽ
+1412	DES	name	~wai	w̃ ã ĩ	?_w̃ ã - ĩ
+1413	KAR	name	~wabe	w̃ ã m ẽ	w̃ ã m ?_ẽ
+1414	KOR	name	mami	m a m i	?_m a m i
+1415	KUB	name	~abi	ã m ĩ	ã m ĩ
+1416	MAI	name	mami	m a m i	?_m a m i
+1417	SEK	name	mami	m a m i	?_m a m i
+1418	SIO	name	mami	m a m i	?_m a m i
+1419	TAN	name	~wabe	w̃ ã m ẽ	?_w̃ ã m ?_ẽ
+1420	TUK	name	~wabe	w̃ ã m ẽ	w̃ ã m ?_ẽ
+1421	TUY	name	~wabe	w̃ ã m ẽ	w̃ ã m ẽ
+1422	WAN	name	~waba	w̃ ã m ã	w̃ ã m ?_ã
+1423	*PT	name	*wãmi	w ã m i	w ã m i
+#
+1078	BAS	navel	~cobɨ	c õ m ɨ̃	c õ m ɨ̃
+1079	DES	navel	~subu	s ũ m ũ	s ũ m ũ
+1080	KAR	navel	~hobɨ	h õ m ɨ̃	h õ m ɨ̃
+1081	KOR	navel	sũhũ	s ũ h ũ	s ũ h ũ
+1082	KUB	navel	~hobɨ	h õ m ɨ̃	h õ m ɨ̃
+1083	KUE	navel	tou	t o u	t o - u
+1084	MAI	navel	sõhõ	s õ h õ	s õ h õ
+1085	SEK	navel	sõhõ	s õ h õ	s õ h õ
+1086	SIO	navel	t∫õhõ	t∫ õ h õ	t∫ õ h õ
+1087	TAN	navel	~hubu	h ũ m ũ	h ũ m ũ
+1088	TUK	navel	~subu	s ũ m ũ	s ũ m ũ
+1089	TUY	navel	~subua	s ũ m ũ ã	s ũ m ũ ã
+1090	WAN	navel	~sɨbɨka	s ɨ̃ m ɨ̃ k ã	s ɨ̃ m ɨ̃ k ?_ã
+1091	YUP	navel	~t∫ubu	t∫ ũ m ũ	t∫ ũ m ũ
+1092	*PT	navel	*t∫õpʔɨ	tʃ õ pʔ ɨ	t∫ õ pʔ ɨ ( - - )
+#
+13	BAS	non.3rd.animate.person	bɨ	b ɨ	b ɨ
+14	DES	non.3rd.animate.person	bɨ	b ɨ	b ɨ
+15	KUB	non.3rd.animate.person	wɨ	w ɨ	?_w ɨ
+16	SEK	non.3rd.animate.person	wɨ	w ɨ	w ɨ
+17	SIO	non.3rd.animate.person	wɨ	w ɨ	?_w ɨ
+18	TUK	non.3rd.animate.person	pɨ	p ɨ	?_p ɨ
+19	*PT	non.3rd.animate.person	*-pʔɨ	pʔ ɨ	pʔ ɨ
+#
+77	BAS	nose	~ige	ĩ ŋ ẽ	ĩ ŋ ẽ
+78	DES	nose	~iʔgi	ĩ ʔŋ ĩ	ĩ ʔŋ ĩ
+79	KAR	nose	~ɨke	ɨ̃ k ẽ	ɨ̃ k ẽ
+80	KOR	nose	ɨ̃khe	ɨ̃ kh e	ɨ̃ kh e
+81	KUB	nose	ũeka	ũ e k a	ũ - e k ?_a
+82	KUE	nose	kome	k o m e	k o m e
+83	MAI	nose	ũkue	ũ k u e	ũ k u e
+84	SEK	nose	õkwe	õ kw e	õ k w e
+85	SIO	nose	ũkue	ũ k u e	ũ k u e
+86	TAN	nose	~obe	õ m ẽ	õ m ẽ
+87	TUK	nose	~eʔke	ẽ ʔk ẽ	ẽ ʔk ẽ
+88	TUY	nose	~ekea	ẽ k ẽ ã	ẽ k ẽ ã
+89	WAN	nose	~ke	k ẽ	k ẽ
+90	YUP	nose	ɨgɨ	ɨ g ɨ	ɨ g ɨ
+91	*PT	nose	*ɨ̃kwʔe	ɨ̃ kwʔ e	- ɨ̃ kwʔ - e ( - - )
+#
+931	BAS	paca	~cebe	c ẽ m ẽ	c ẽ m ẽ
+932	DES	paca	~sebe	s ẽ m ẽ	s ẽ m ẽ
+933	KAR	paca	~hebe	h ẽ m ẽ	h ẽ m ẽ
+934	KOR	paca	seme	s e m e	s e m e
+935	KUB	paca	~hebe	h ẽ m ẽ	h ẽ m ẽ
+936	MAI	paca	seme	s e m e	s e m e
+937	SEK	paca	seme	s e m e	s e m e
+938	SIO	paca	seme	s e m e	s e m e
+939	TAN	paca	~hebe	h ẽ m ẽ	h ẽ m ẽ
+940	TUK	paca	~sebe	s ẽ m ẽ	s ẽ m ẽ
+941	WAN	paca	~saba	s ã m ã	s ã m ã
+942	*PT	paca	*seme	e m e	s e m e
+#
+1359	BAS	pacu fish	uhu	u h u	u h u
+1360	DES	pacu fish	uhu	u h u	u h u
+1361	KUE	pacu fish	hohu	h o h u	h o h u
+1362	TUK	pacu fish	uhu	u h u	u h u
+1363	*PT	pacu fish	*uhu	u h u	- u h u
+#
+894	BAS	palm-weevil	~hiko	h ĩ k õ	h ĩ k õ
+895	DES	palm-weevil	~pigu	p ĩ ŋ ũ	p ĩ ŋ ũ
+896	KOR	palm-weevil	hĩʔkho	h ĩ ʔkh o	h ĩ ʔkh o
+897	KUB	palm-weevil	~piko	p ĩ k õ	p ĩ k õ
+898	MAI	palm-weevil	hɨ̃ko	h ɨ̃ k o	h ɨ̃ k o
+899	SEK	palm-weevil	hĩko	h ĩ k o	h ĩ k o
+900	SIO	palm-weevil	hĩko	h ĩ k o	h ĩ k o
+901	TAN	palm-weevil	~piko	p ĩ k õ	p ĩ k õ
+902	TUK	palm-weevil	~piko	p ĩ k õ	p ĩ k õ
+903	WAN	palm-weevil	~_phit∫o	_ ph i t∫ o	ph i t∫ o
+904	*PT	palm-weevil	*pĩko	p ĩ k o	p ĩ k o
+#
+1461	BAS	parrot	weko	w e k o	w e k o
+1462	DES	parrot	weko	w e k o	w e k ?_o
+1463	KAR	parrot	weko	w e k o	w e k o
+1464	KOR	parrot	weko	w e k o	w e ?_k o
+1465	KUB	parrot	weko	w e k o	w e k o
+1466	MAI	parrot	beko	b e k o	b e k o
+1467	SEK	parrot	weko	w e k o	w e k o
+1468	SIO	parrot	weko	w e k o	w e k o
+1469	TUK	parrot	weko	w e k o	w e k o
+1470	TUY	parrot	weko	w e k o	w e k o
+1471	WAN	parrot	wat∫o	w a t∫ o	w a t∫ o
+1472	*PT	parrot	*wekko	w e k k o	w e kk o
+#
+475	BAS	path	~baa	m a a	m a - a
+476	DES	path	~baʔa	m ã ʔ ã	m ã ʔ ã
+477	KAR	path	~baʔa	m ã ʔ ã	m ã ʔ ?_ã
+478	KOR	path	maʔa	m a ʔ a	m a ʔ a
+479	KUB	path	~ba	m ã	m ã - *-*
+480	KUE	path	maa	m a a	m a - a
+481	MAI	path	ma	m a	m a - *-*
+482	SEK	path	maʔa	m a ʔ a	m a ʔ a
+483	SIO	path	maʔa	m a ʔ a	m a ʔ a
+484	TAN	path	~baʔa	m ã ʔ ã	m ã ʔ ã
+485	TUK	path	~ba	m ã	m ã - *-*
+486	TUY	path	~baa	m a a	m a - ?_a
+487	WAN	path	~baʔa	m ã ʔ ã	m ã ʔ ã
+488	*PT	path	*maʔa	m a ʔ a	m a ʔ a
+#
+1270	BAS	peccary	jece	j e c e	j e c e
+1271	DES	peccary	jese	j e s e	j e s e
+1272	KOR	peccary	sẽse	s ẽ s e	s ẽ s e
+1273	KUB	peccary	~hehe	h ẽ h ẽ	h ẽ h ẽ
+1274	KUE	peccary	jese	j e s e	j e s e
+1275	MAI	peccary	sẽse	s ẽ s e	s ẽ s e
+1276	SEK	peccary	sẽse	s ẽ s e	s ẽ s e
+1277	SIO	peccary	sẽse	s ẽ s e	s ẽ s e
+1278	TAN	peccary	~hehe	h ẽ h ẽ	h ẽ h ẽ
+1279	TUK	peccary	jese	j e s e	j e s e
+1280	TUY	peccary	jese	j e s e	j e s e
+1281	WAN	peccary	jese	j e s e	j e s e
+1282	YUP	peccary	tsetse	ts e ts e	ts e ts e
+1283	*PT	peccary	*tjẽse	t j ẽ s e	tj ẽ s e
+#
+589	KAR	penis	~dudi	n ũ n ĩ	n ũ n ĩ
+590	KUB	penis	~doe	n õ ẽ	n õ ẽ
+591	KUE	penis	noni	n o n i	n o n i
+592	MAI	penis	noa	n o a	n o a
+593	TAN	penis	rũri	r ũ r i	r ũ r ?_i
+594	TUK	penis	~dudi	n ũ n ĩ	n ũ n ĩ
+596	WAN	penis	~dudɨ	n ũ n ɨ̃	n ũ n ?_ɨ̃
+597	*PT	penis	*no-	n o	n o - ( - - )
+#
+682	BAS	people	~baca	m ã c ã	m ã c ã
+683	KAR	people	~basa	m ã s ã	m ã s ã
+684	KOR	people	pã+i	p ã + i	p ã - *-* i
+685	KUB	people	~baha	m ã h ã	m ã h ã
+686	KUE	people	matarɨ	m a t a r ɨ	m a t a r ɨ
+687	MAI	people	~ba+i	m ã + ĩ	m ã - *-* ĩ
+688	SEK	people	pã+i	p ã + i	p ã - *-* i
+689	SIO	people	pʔã+i	pʔ ã i	pʔ ã - *-*
+690	TAN	people	~baha	m ã h ã	m ã h ã
+691	TUK	people	~basa	m ã s ã	m ã s ã
+692	TUY	people	baso	b a s o	b a s o
+693	WAN	people	~baha	m ã h ã	m ã h ã
+694	YUP	people	~batsa	m ã ts ã	m ã ts ã
+695	*PT	people	*pʔã-tjã	pʔ ã tj ã	pʔ ã tj ã ( - - )
+#
+639	BAS	plant	ote	o t e	o t e
+640	DES	plant	ote	o t e	o t e
+641	KAR	plant	ote	o t e	o t e
+642	KOR	plant	othe	o th e	o th e
+643	KUB	plant	ote	o t e	o t e
+644	MAI	plant	ote	o t e	o t e
+645	SEK	plant	ote	o t e	o t e
+646	SIO	plant	ote	o t e	o t e
+647	TAN	plant	hoto	h o t o	h o t o
+648	TUK	plant	ote	o t e	o t e
+649	TUY	plant	ote	o t e	o t e
+650	WAN	plant	toa	t o a	t o a
+651	*PT	plant	*otte	o t t e	- o tt e -
+#
+1284	DES	poison	~diba	n ĩ m ã	n ĩ m ã
+1285	KAR	poison	~diba	n ĩ m ã	n ĩ m ã
+1286	KOR	poison	jima	j i m a	j i m a
+1287	KUB	poison	~hima	h ĩ m ã	h ĩ m ã
+1288	SEK	poison	sʔĩma	sʔ ĩ m a	sʔ ĩ m a
+1289	TUK	poison	~diba	n ĩ m ã	n ĩ m ã
+1290	TUY	poison	~diba	n ĩ m ã	n ĩ m ã
+1291	WAN	poison	~jiba	ɲ ĩ m ã	ɲ ĩ m ã
+1292	*PT	poison	*tjima	t j i m a	tj i m a
+#
+978	BAS	pot	cotɨ	c o t ɨ	c o t ɨ
+979	DES	pot	sodo	s o d o	s o d o
+980	KAR	pot	hotɨ	h o t ɨ	h o t ɨ
+981	KOR	pot	thotho	th o th o	th o th o
+982	KUB	pot	hodo	h o d o	h o d o
+983	MAI	pot	toto	t o t o	t o t o
+984	SEK	pot	soto	s o t o	s o t o
+985	SIO	pot	soto	s o t o	s o t o
+986	TAN	pot	hoto	h o t o	h o t o
+987	TUK	pot	sɨtɨ	s ɨ t ɨ	s ɨ t ɨ
+988	TUY	pot	sotɨ	s o t ɨ	s o t ɨ
+989	WAN	pot	situ	s i t u	s i t u
+990	*PT	pot	*sot-	s o t	s o t -
+#
+105	BAS	pupunha	~ɨde	ɨ̃ n ẽ	ɨ̃ n ẽ
+106	DES	pupunha	~ɨdi	ɨ̃ n ĩ	ɨ̃ n ?_ĩ
+107	KAR	pupunha	~ɨde	ɨ̃ n ẽ	ɨ̃ n ẽ
+108	KOR	pupunha	ɨne	ɨ n e	ɨ n e
+109	KUB	pupunha	~ɨde	ɨ̃ n ẽ	ɨ̃ n ẽ
+110	KUE	pupunha	ɨʔne	ɨ ʔn e	ɨ ʔn e
+111	PIR	pupunha	~ɨde	ɨ̃ n ẽ	ɨ̃ n ẽ
+112	SIO	pupunha	ɨne	ɨ n e	ɨ n e
+113	TAN	pupunha	~ire	ĩ r̃ ẽ	ĩ r̃ ẽ
+114	TUK	pupunha	~ɨde	ɨ̃ n ẽ	ɨ̃ n ẽ
+115	WAN	pupunha	~ɨde	ɨ̃ n ẽ	ɨ̃ n ẽ
+116	*PT	pupunha	*ɨne	ɨ n e	ɨ n e
+#
+991	BAS	red	~cua	c ũ ã	c ũ - ?_ã
+992	KAR	red	hõa	h õ a	h õ - ?_a
+993	KUB	red	~hua	h ũ ã	h ũ - ?_ã
+994	TAN	red	~hua	h ũ ã	h ũ - ã
+995	TUK	red	~soʔa	s õ ʔ ã	s õ ʔ ?_ã
+996	TUY	red	~soa	s õ ã	s õ - ?_ã
+997	WAN	red	~soʔa	s õ ʔ ã	s õ ʔ ã
+998	*PT	red	*sõʔa	õ ʔ a	s õ ʔ a
+#
+1185	BAS	river	ria	r i a	r i a
+1186	DES	river	dia	d i a	d i a
+1187	KAR	river	ria	r i a	r i a
+1188	KOR	river	jia	j i a	j i a
+1189	KUB	river	hia	h i a	h i a
+1190	KUE	river	la	l a	?_l - a
+1191	MAI	river	jia	j i a	?_j i a
+1192	SEK	river	sʔia	sʔ i a	sʔ i a
+1193	SIO	river	sʔia	sʔ i a	sʔ i a
+1194	TAN	river	ria	r i a	r i a
+1195	TUK	river	dia	d i a	d i a
+1196	TUY	river	dia	d i a	d i a
+1197	WAN	river	dia	d i a	d i a
+1198	*PT	river	*tjʔia	t jʔ i a	tjʔ i a
+#
+999	DES	root	~dugu	n ũ ŋ ũ	n ũ ŋ ũ
+1000	KAR	root	~dɨʔko	n ɨ̃ ʔk õ	n ɨ̃ ʔk õ
+1001	KUB	root	~dɨo	n ɨ̃ õ	n ɨ̃ - õ
+1002	TAN	root	~riko	r̃ ĩ k õ	r̃ ĩ k õ
+1003	TUK	root	~dɨʔko	n ɨ̃ ʔk õ	n ɨ̃ ʔk õ
+1004	TUY	root	~dɨko	n ɨ̃ k õ	n ɨ̃ k õ
+1005	WAN	root	~dɨʔko	n ɨ̃ ʔk õ	n ɨ̃ ʔk õ
+1006	*PT	root	*tʔɨ̃kʔo	tʔ ɨ̃ k ʔ o	tʔ ɨ̃ kʔ o
+#
+943	BAS	rub	~cige	c ĩ ŋ ẽ	c ĩ ŋ ẽ
+944	KAR	rub	~hike	h ĩ k ẽ	h ĩ k ẽ
+945	KUB	rub	hĩhũ	h ĩ h ũ	h ĩ h ũ
+946	TUK	rub	~saʔke	s ã ʔk ẽ	s ã ʔk ẽ
+947	TUY	rub	tuu_~sake	t u u _ s ã k ẽ	t u u _ s ã k ẽ
+948	WAN	rub	thu_saʔka	th u _ s a ʔk a	th u _ s a ʔk a
+949	*PT	rub	*sĩkʔe	ĩ kʔ e	- - - - s ĩ kʔ e
+#
+382	BAS	sleep	~kadi	k ã n ĩ	k ã n ĩ
+383	DES	sleep	~kadi	k ã n ĩ	k ã n ĩ
+384	KAR	sleep	~kadi	k ã n ĩ	k ã n ĩ
+385	KOR	sleep	kã+i	k ã + i	k ã
+386	KUB	sleep	kã	k ã	k ã
+387	MAI	sleep	kã+i	k ã + i	k ã
+388	SEK	sleep	kã+i	k ã + i	k ã
+389	SIO	sleep	kã+i	k ã + i	k ã
+390	TAN	sleep	~kari	k ã r̃ ĩ	k ã r̃ ?_ĩ
+391	TUK	sleep	~kadi	k ã n ĩ	k ã n ĩ
+392	TUY	sleep	~kadi	k ã n ĩ	k ã n ĩ
+393	WAN	sleep	~khadi	kh ã n ĩ	kh ã n ?_ĩ
+394	*PT	sleep	*kã-	k ã	k ã - -
+#
+50	BAS	snake	~aja	ã ɲ ã	ã ɲ ã
+51	DES	snake	~aja	ã ɲ ã	ã ɲ ã
+52	KAR	snake	~aja	ã ɲ ã	ã ɲ ã
+53	KOR	snake	ãjã	ã j ã	ã j ã
+54	KUB	snake	~aja	ã ɲ ã	ã ɲ ã
+55	KUE	snake	haja	h a j a	h a j a
+56	MAI	snake	ãjã	ã j ã	ã j ã
+57	PIR	snake	~aja	ã ɲ ã	ã ɲ ã
+58	SEK	snake	ãjã	ã j ã	ã j ã
+59	SIO	snake	ãjã	ã j ã	ã j ã
+60	TAN	snake	~aja	ã ɲ ã	ã ɲ ã
+61	TUK	snake	~aja	ã ɲ ã	ã ɲ ã
+62	TUY	snake	~aja	ã ɲ ã	ã ɲ ã
+63	WAN	snake	~aja	ã ɲ ã	ã ɲ ã
+64	*PT	snake	*ãja	ã j a	- ã j a
+#
+661	BAS	spider	bɨhɨ	b ɨ h ɨ	b ɨ h ɨ
+662	DES	spider	bɨpɨ	b ɨ p ɨ	b ɨ p ɨ
+663	KAR	spider	bɨpɨ	b ɨ p ɨ	b ɨ p ɨ
+664	KOR	spider	~hɨhɨ	h ɨ̃ h ɨ̃	h ɨ̃ h ɨ̃
+665	KUB	spider	~pɨpɨ	p ɨ̃ p ɨ̃	?_p ɨ̃ p ɨ̃
+666	KUE	spider	hehe	h e h e	?_h e h e
+667	MAI	spider	~hɨhɨ	h ɨ̃ h ɨ̃	h ɨ̃ h ɨ̃
+668	SIO	spider	~hɨhɨ	h ɨ̃ h ɨ̃	?_h ɨ̃ h ɨ̃
+669	TUK	spider	bɨpɨ	b ɨ p ɨ	b ɨ p ɨ
+670	TUY	spider	bɨpɨ	b ɨ p ɨ	b ɨ p ɨ
+671	WAN	spider	wɨpɨ	w ɨ p ɨ	?_w ɨ p ɨ
+672	YUP	spider	bɨbɨ	b ɨ b ɨ	b ɨ b ɨ
+673	*PT	spider	*pʔɨpɨ	pʔ ɨ p ɨ	pʔ ɨ p ɨ
+#
+743	BAS	squeeze	buhe	b u h e	b u h ?_e
+744	DES	squeeze	bipi	b i p i	b i p ?_i
+745	KUB	squeeze	pipo	p i p o	?_p i p o
+746	TUK	squeeze	bipe	b i p e	b i p ?_e
+748	WAN	squeeze	wipe	w i p e	?_w i p ?_e
+749	*PT	squeeze	*pʔipo	pʔ i p o	pʔ i p o
+#
+1532	BAS	stone	~gɨta	ŋ ɨ̃ t ã	ŋ ɨ̃ t ?_ã
+1533	DES	stone	~ɨta	ɨ̃ t ã	ɨ̃ t ?_ã
+1534	KAR	stone	~ɨta	ɨ̃ t ã	ɨ̃ t ?_ã
+1535	KOR	stone	katha	k a th a	k a th a
+1536	PIR	stone	~kɨta	k ɨ̃ t ã	k ɨ̃ t ã
+1537	SEK	stone	kɨna	k ɨ n a	k ɨ n a
+1538	SIO	stone	kʔata	kʔ a t a	kʔ a t a
+1539	TAN	stone	ãta	ã t a	ã t a
+1540	TUK	stone	~ɨta	ɨ̃ t ã	ɨ̃ t ?_ã
+1541	TUY	stone	~ɨta	ɨ̃ t ã	ɨ̃ t ã
+1542	YUP	stone	gɨlɨ	g ɨ l ɨ	g ɨ l ɨ
+1543	*PT	stone	*kʔɨ̃ta	kʔ ɨ̃ t a	kʔ ɨ̃ t a
+#
+578	BAS	stop	~rɨgo	r̃ ɨ̃ ŋ õ	r̃ ɨ̃ ŋ õ
+579	DES	stop	~dugu	n ũ ŋ ũ	n ũ ŋ ũ
+580	KAR	stop	~dɨka	n ɨ̃ k ã	n ɨ̃ k ã
+581	KOR	stop	nɨkha	n ɨ kh a	n ɨ kh a
+582	KUB	stop	~dú	n ú	n ú -
+583	MAI	stop	nɨka	n ɨ k a	n ɨ k a
+584	SEK	stop	dɨ̃ka	d ɨ̃ k a	n ɨ̃ k a
+585	SIO	stop	̃dɨka	n ɨ k a	n ɨ̃ k a
+586	TUK	stop	̃dɨʔka	n ɨ̃ ʔk ã	n ɨ̃ ʔk ã
+587	TUY	stop	~duku	n ũ k ũ	n ũ k ũ
+588	*PT	stop	*nɨkʔ-	n ɨ kʔ	n ɨ kʔ -
+#
+1348	BAS	stump	tutu	t u t u	t u t ?_u
+1349	DES	stump	tudu	t u d u	t u d ?_u
+1350	KAR	stump	tutu	t u t u	t u t ?_u
+1351	KOR	stump	thuu	th u u	th u ?_u
+1352	KUB	stump	tutudi	t u t u d i	t u t ?_u ?_d ?_i
+1353	MAI	stump	tu	t u	t u
+1354	SEK	stump	tu	t u	t u
+1355	SIO	stump	tu	t u	t u
+1356	TUK	stump	tutu	t u t u	t u t ?_u
+1357	WAN	stump	thutu	th u t u	th u t ?_u
+1358	*PT	stump	*tu-	t u	t u ( - - - - )
+#
+813	BAS	swell	~bihi	m ĩ h ĩ	?_m ĩ h ĩ
+814	DES	swell	bihi	b i h i	b i h ?_i
+815	MAI	swell	huhu	h u h u	h u h u
+816	SIO	swell	huhu	h u h u	h u h u
+817	TAN	swell	pĩpi	p ĩ p i	?_p ĩ p ?_i
+818	TUK	swell	bipi	b i p i	b i p ?_i
+819	TUY	swell	bipi	b i p i	b i p i
+820	WAN	swell	wipi	w i p i	?_w i p ?_i
+821	*PT	swell	*pʔupi	pʔ u p i	pʔ u p i
+#
+1449	BAS	tapir	wekɨ	w e k ɨ	w e k ?_ɨ
+1450	DES	tapir	wekɨ	w e k ɨ	w e k ?_ɨ
+1451	KOR	tapir	βekhɨ	β e kh ɨ	?_β e kh ɨ
+1452	KUB	tapir	wekɨ	w e k ɨ	w e k ɨ
+1453	KUE	tapir	uekɨ	u e k ɨ	u e k ɨ
+1454	MAI	tapir	bekɨ	b e k ɨ	b e k ɨ
+1455	SEK	tapir	wẽkɨ	w ẽ k ɨ	w ?_ẽ k ɨ
+1456	SIO	tapir	wekɨ	w e k ɨ	w e k ɨ
+1457	TUK	tapir	wekɨ	w e k ɨ	w e k ?_ɨ
+1458	TUY	tapir	wekɨ	w e k ɨ	w e k ?_ɨ
+1459	WAN	tapir	wat∫ɨ	w a t∫ ɨ	w a t∫ ?_ɨ
+1460	*PT	tapir	*wekkɨ	w e k k ɨ	w e kk ɨ
+#
+674	BAS	termite	butu	b u t u	b u t u
+675	DES	termite	budu	b u d u	b u d u
+676	KAR	termite	butu	b u t u	b u t u
+677	KUE	termite	poru	p o r u	p o r u
+678	TAN	termite	butu	b u t u	?_b u t u
+679	TUK	termite	butu	b u t u	b u t u
+680	WAN	termite	butu	b u t u	?_b u t u
+681	*PT	termite	*pʔutu	pʔ u t u	pʔ u t u
+#
+912	BAS	thorn	hota	h o t a	h o t a
+913	DES	thorn	poda	p o d a	p o d a
+914	KAR	thorn	pota	p o t a	p o t ?_a
+915	TAN	thorn	ɸota	ɸ o t a	ɸ o t a
+916	TUK	thorn	pota	p o t a	p o t a
+917	WAN	thorn	phota	ph o t a	ph o t a
+918	*PT	thorn	*pota	p o t a	p o t a
+#
+117	BAS	three	idia	i d i a	i d i a
+118	DES	three	ɨʔde	ɨ ʔd e	ɨ ʔd - e
+119	KUE	three	itia	i t i a	i t i a
+120	TUK	three	iʔtia	i ʔt i a	i ʔt i a
+121	TUY	three	itia	i t i a	i t i a
+122	WAN	three	tia	t i a	t i a
+123	*PT	three	*ɨtʔia	ɨ tʔ i a	ɨ tʔ i a
+#
+1509	BAS	thunder	bɨho	b ɨ h o	b ɨ h o
+1510	DES	thunder	bupu	b u p u	b u p u
+1511	KUB	thunder	õpõ	õ p õ	õ p ?_õ
+1512	KUE	thunder	mɨʔho	m ɨ ʔh o	m ɨ ʔh o
+1513	MAI	thunder	mɨha	m ɨ h a	m ɨ h ?_a
+1514	SEK	thunder	moho	m o h o	m o h o
+1515	SIO	thunder	mɨho	m ɨ h o	m ɨ h o
+1516	TAN	thunder	awĩpo	a w ĩ p o	a w ĩ ?_p ?_o
+1517	TUK	thunder	bɨpo	b ɨ p o	b ɨ ?_p ?_o
+1518	TUY	thunder	bɨpo	b ɨ p o	b ɨ ?_p ?_o
+1519	WAN	thunder	wɨpo	w ɨ p o	w ɨ ?_p ?_o
+1520	*PT	thunder	*wɨ̃po	w ɨ̃ p o	( - ) w ɨ̃ p o
+#
+426	BAS	to bite	~kuni	k ũ n ĩ	k ũ n ĩ
+427	DES	to bite	~kudi	k ũ n ĩ	k ũ n ĩ
+428	KOR	to bite	khũʔi	kh ũ ʔ i	kh ũ ʔ i
+429	KUB	to bite	~ku	k ũ	k ũ
+430	MAI	to bite	kũi	k ũ i	k ũ i
+431	SEK	to bite	kõkɨ	k õ k ɨ	k õ k ɨ
+432	SIO	to bite	kũʔi	k ũ ʔ i	k ũ ʔ i
+433	TAN	to bite	kuʔku	k u ʔk u	k u ʔk ?_u
+434	TUK	to bite	~kuʔdi	k ũ ʔn ĩ	k ũ ʔn ĩ
+436	YUP	to bite	~kuri	k ũ r̃ ĩ	k ũ r̃ ĩ
+437	*PT	to bite	*kũ	k ũ	k ũ - -
+#
+598	BAS	to cry	oti	o t i	o t ?_i
+599	DES	to cry	oti	o t i	o ?_t ?_i
+600	KAR	to cry	oti	o t i	o t ?_i
+601	KOR	to cry	oi	o i	o i
+602	KUB	to cry	o	o	o
+604	MAI	to cry	oi	o i	o i
+605	SEK	to cry	oi	o i	o i
+606	SIO	to cry	oi	o i	o i
+607	TUY	to cry	uti	u t i	u t ?_i
+608	WAN	to cry	ti	t i	?_t ?_i
+609	YUP	to cry	oti	o t i	o t i
+610	*PT	to cry	*o-	o	o - -
+#
+958	BAS	to smoke meat	ceco	c e c o	c e c o
+959	DES	to smoke meat	siju	s i j u	s i j u
+960	KAR	to smoke meat	siso	s i s o	s i s o
+961	KOR	to smoke meat	sɨjo	s ɨ j o	s ɨ j o
+962	KUB	to smoke meat	hɨjowa	h ɨ j o w a	h ɨ j o w ?_a
+963	KUE	to smoke meat	ãsɨ	ã s ɨ	ã s ɨ
+964	MAI	to smoke meat	sɨjo	s ɨ j o	s ɨ j o
+965	SEK	to smoke meat	sɨjo	s ɨ j o	s ɨ j o
+966	SIO	to smoke meat	sẽjo	s ẽ j o	s ẽ j o
+967	TUK	to smoke meat	sɨʔso	s ɨ ʔs o	s ɨ ʔs o
+968	WAN	to smoke meat	sɨso	s ɨ s o	s ɨ s o
+969	YUP	to smoke meat	siju	s i j u	s i j u
+970	*PT	to smoke meat	*sɨʔjo	ɨ ʔj o	s ɨ ʔj o - -
+#
+773	BAS	toad sp.	momo	m o m o	?_m o m o
+774	DES	toad sp.	moma	m o m a	?_m o m a
+775	KOR	toad sp.	hoho	h o h o	h ?_o h o
+776	KUB	toad sp.	popo	p o p o	?_p o p o
+777	SEK	toad sp.	hoho	h o h o	?_h o h o
+778	TUK	toad sp.	moʔmo	m o ʔm o	?_m o ʔm o
+779	WAN	toad sp.	waʔmu	w a ʔm u	?_w ?_a ʔm u
+780	*PT	toad sp.	*pʔopa	pʔ o p a	pʔ o p a
+#
+527	BAS	tobacco	~bɨʔdo	m ɨ̃ ʔn õ	m ɨ̃ ʔn õ
+528	DES	tobacco	~budu	m ũ n ũ	m ũ n ũ
+529	KAR	tobacco	~bɨdo	m ɨ̃ n õ	m ɨ̃ n õ
+530	KOR	tobacco	mɨto	m ɨ t o	m ɨ t o
+531	KUE	tobacco	mɨno	m ɨ n o	m ɨ n o
+532	MAI	tobacco	mɨto	m ɨ t o	m ɨ t o
+533	SEK	tobacco	mɨto	m ɨ t o	m ɨ t o
+534	SIO	tobacco	muto	m u t o	m u t o
+535	TAN	tobacco	~biʔro	m ĩ ʔr̃ õ	m ĩ ʔr̃ õ
+536	TUK	tobacco	~bɨʔdo	m ɨ̃ ʔn õ	m ɨ̃ ʔn õ
+537	TUY	tobacco	~bɨdo	m ɨ̃ n õ	m ɨ̃ n õ
+538	WAN	tobacco	~bɨʔto	m ɨ̃ ʔt õ	m ɨ̃ ʔt õ
+539	*PT	tobacco	*mɨtʔo	m ɨ tʔ o	m ɨ tʔ o
+#
+885	BAS	tocandira ant	heta	h e t a	?_h e - t a
+886	DES	tocandira ant	peda	p e d a	?_p e - d a
+887	KAR	tocandira ant	peta	p e t a	p e - t ?_a
+888	KUB	tocandira ant	piada	p i a d a	?_p i a d a
+889	KUE	tocandira ant	hata	h a t a	h a - t a
+890	TAN	tocandira ant	patajah	p a t a	p a - t a
+891	TUK	tocandira ant	peta	p e t a	?_p e - t a
+892	WAN	tocandira ant	phita	ph i t a	ph i - t a
+893	*PT	tocandira ant	*piata	p i a t a	p i a t a
+#
+1139	BAS	tongue	~jebe	ɲ ẽ m ẽ	ɲ ẽ m ẽ
+1140	KAR	tongue	~jebe	ɲ ẽ m ẽ	ɲ ẽ m ẽ
+1141	KOR	tongue	jeme	j e m e	j e m e
+1142	KUB	tongue	~hebe	h ẽ m ẽ	h ẽ m ẽ
+1143	KUE	tongue	jame	j a m e	j a m e
+1144	MAI	tongue	neme	n e m e	n e m e
+1145	SEK	tongue	sʔeme	sʔ e m e	sʔ e m e
+1146	SIO	tongue	sʔeme	sʔ e m e	sʔ e m e
+1147	TUK	tongue	~jebe	ɲ ẽ m ẽ	ɲ ẽ m ẽ
+1148	TUY	tongue	~jebe	ɲ ẽ m ẽ	ɲ ẽ m ẽ
+1149	WAN	tongue	~jaba	ɲ ã m ã	ɲ ã m ã
+1150	*PT	tongue	*tjʔeme	t jʔ e m e	tjʔ e m e
+#
+346	BAS	tooth	guhi	g u h i	?_g u h i
+347	KAR	tooth	opi	o p i	o p i
+348	KOR	tooth	~khohi	kh õ h ĩ	kh õ h ĩ
+349	KUB	tooth	~kopi	k õ p ĩ	k õ p ĩ
+350	KUE	tooth	kohi	k o h i	k o h i
+351	MAI	tooth	gũhi	g ũ h i	g ũ h i
+352	SEK	tooth	~koʔhi	k õ ʔh ĩ	k õ ʔh ĩ
+353	SIO	tooth	~kʔuhi	kʔ ũ h ĩ	kʔ ũ h ĩ
+354	TAN	tooth	opi	o p i	o p i
+355	TUK	tooth	upi	u p i	u p i
+356	TUY	tooth	upi	u p i	u p i
+357	WAN	tooth	pidiaka	p i d i a k a	p i d ?_i ?_a ?_k ?_a
+358	*PT	tooth	*kʔõpi	kʔ õ p i	kʔ õ p i ( - - - - - )
+#
+307	BAS	tortoise	guu	g u u	g u u
+308	DES	tortoise	gui	g u i	g u i
+309	KAR	tortoise	uu	u u	u u
+310	KOR	tortoise	koɨ	k o ɨ	k o ɨ
+311	KUB	tortoise	~kuɨ	k ũ ɨ̃	k ũ ɨ̃
+312	KUE	tortoise	kaɨ	k a ɨ	?_k a ɨ
+313	SEK	tortoise	kou	k o u	?_k o u
+314	SIO	tortoise	kʔoɨ	kʔ o ɨ	?_kʔ o ɨ
+315	TAN	tortoise	oʔi	o ʔ i	o ʔ i
+316	TUK	tortoise	uhudi	u h u d i	u h u d i
+317	TUY	tortoise	kuu	k u u	k u u
+318	WAN	tortoise	ku	k u	k u -
+319	*PT	tortoise	*kʔoɨ	kʔ o ɨ	kʔ o - ɨ ( - - )
+#
+1128	DES	toucan	~dasi	n ã s ĩ	n ã s ?_ĩ
+1129	KAR	toucan	dasa	d a s a	d a s a
+1130	KOR	toucan	jãse	j ã s e	j ã s e
+1131	KUB	toucan	hoewe	h o e w e	h o e w e
+1132	KUE	toucan	rase	r a s e	r a s e
+1133	SEK	toucan	jãse	j ã s e	j ã s e
+1134	SIO	toucan	jãse	j ã s e	j ã s e
+1135	TAN	toucan	~dahe	n ã h ẽ	n ã h ẽ
+1136	TUK	toucan	race	r a c e	r a c e
+1137	WAN	toucan	dase	d a s e	d a s e
+1138	*PT	toucan	*tjʔase(?)	t jʔ a s e	tjʔ - a s e
+#
+1037	BAS	traira fish	roe	r o e	?_r o - e
+1038	DES	traira fish	doe	d o e	d o - e
+1039	KAR	traira fish	rose	r o s e	?_r o s e
+1040	KOR	traira fish	roje	r o j e	r o j e
+1041	KUB	traira fish	doje	d o j e	?_d o j e
+1042	SEK	traira fish	doje	d o j e	?_d o j e
+1043	TAN	traira fish	roje	r o j e	r o j e
+1044	TUK	traira fish	doe	d o e	d o - e
+1045	*PT	traira fish	*tʔoje	tʔ o j e	tʔ o j e
+#
+1317	BAS	tree	jukɨ	j u k ɨ	j u k ɨ
+1318	DES	tree	jukɨ	j u k ɨ	j u k ɨ
+1319	KAR	tree	jukɨ	j u k ɨ	j u k ɨ
+1320	KOR	tree	sũkij̃ɨ	s ũ k i j̃ ɨ	s ũ k i j̃ ?_ɨ
+1321	KUB	tree	hokɨ	h o k ɨ	h o k ɨ
+1322	KUE	tree	tokɨ	t o k ɨ	t o k ɨ
+1323	MAI	tree	sũkij̃i	s ũ k i j̃ i	s ũ k i j̃ i
+1324	SEK	tree	sõkɨ	s õ k ɨ	s õ k ɨ
+1325	SIO	tree	sũki	s ũ k i	s ũ k i
+1326	TAN	tree	~huki	h ũ k ĩ	h ũ k ĩ
+1327	TUK	tree	jukɨ	j u k ɨ	j u k ɨ
+1328	TUY	tree	jukɨ	j u k ɨ	j u k ɨ
+1329	WAN	tree	jukɨ	j u k ɨ	j u k ɨ
+1330	*PT	tree	*tjũkkɨ	t j ũ k k ɨ	tj ũ kk ɨ ( - - )
+#
+320	BAS	urinate	~gode	ŋ õ n ẽ	ŋ õ n ẽ
+321	DES	urinate	~gode	ŋ õ n ẽ	ŋ õ n ẽ
+322	KAR	urinate	~ode	õ n ẽ	õ n ẽ
+323	KOR	urinate	õne	õ n e	õ n e
+324	KUB	urinate	~kode	k õ n ẽ	k õ n ẽ
+325	MAI	urinate	gone	g o n e	g o n e
+326	SEK	urinate	kõne	k õ n e	k õ n e
+327	SIO	urinate	kʔõne	kʔ õ n e	kʔ õ n e
+328	TUK	urinate	~oʔde	õ ʔn ẽ	õ ?_ʔn ẽ
+329	TUY	urinate	~kode	k õ n ẽ	k õ n ẽ
+330	WAN	urinate	~khudu	kh ũ n ũ	kh ũ n ?_ũ
+331	*PT	urinate	*kʔone	kʔ o n e	kʔ o n e
+#
+791	BAS	urucum (achiote)	~buca	m ũ c ã	m ũ c ã
+792	DES	urucum (achiote)	~busa	m ũ s ã	m ũ s ã
+793	KAR	urucum (achiote)	~busa	m ũ s ã	m ũ s ã
+794	KOR	urucum (achiote)	pũsa	p ũ s a	p ũ s a
+795	KUB	urucum (achiote)	~buha	m ũ h ã	m ũ h ã
+796	KUE	urucum (achiote)	muhia	m u hi a	m u hi a
+797	MAI	urucum (achiote)	bosa	b o s a	b o s a
+798	SEK	urucum (achiote)	pʔõsa	pʔ õ s a	pʔ õ s a
+799	SIO	urucum (achiote)	pʔõsa	pʔ õ s a	pʔ õ s a
+800	TAN	urucum (achiote)	~buha	m ũ h ã	m ũ h ã
+801	TUK	urucum (achiote)	~bosa	m õ s ã	m õ s ã
+803	*PT	urucum (achiote)	*pʔõsa	pʔ õ s a	pʔ õ s a
+#
+444	BAS	wait	kode	k o d e	k o d e
+445	DES	wait	kode	k o d e	k o d e
+446	KUB	wait	kode	k o d e	k o d e
+447	KUE	wait	hote	h o t e	h o t e
+448	MAI	wait	ɨ̃te	ɨ̃ t e	- ɨ̃ t e
+449	SEK	wait	ute	u t e	u t e
+450	TUK	wait	koʔte	k o ʔt e	k o ʔt e
+451	WAN	wait	koʔta	k o ʔt a	k o ʔt a
+452	YUP	wait	kore	k o r e	k o r e
+453	*PT	wait	*kwɨtʔe	kw ɨ tʔ e	kw ɨ tʔ e
+#
+1378	BAS	wasp	uti	u t i	u t i
+1379	DES	wasp	uti	u t i	u t i
+1380	KAR	wasp	uti	u t i	u t i
+1381	KOR	wasp	uthi	u th i	u th i
+1382	KUB	wasp	ut∫i	u t∫ i	u t∫ i
+1383	KUE	wasp	huti	h u t i	h u t i
+1384	MAI	wasp	uti	u t i	u t i
+1385	SEK	wasp	uti	u t i	u t i
+1386	SIO	wasp	uti	u t i	u t i
+1387	TAN	wasp	uti	u t i	u t i
+1388	TUK	wasp	uti	u t i	u t i
+1389	TUY	wasp	utia	u t i a	u t i a
+1390	WAN	wasp	ti	t i	t i
+1391	*PT	wasp	*utti	u t t i	- u tt i -
+#
+625	BAS	water	oko	o k o	o k o
+626	DES	water	deko	d e k o	d e - k ?_o
+627	KAR	water	oko	o k o	o k o
+628	KOR	water	okho	o kh o	o kh o
+629	KUB	water	oko	o k o	o k o
+630	KUE	water	kotapu	k o t a p u	k o t ?_a ?_p ?_u
+631	MAI	water	oko	o k o	o k o
+632	SEK	water	oko	o k o	o k o
+633	SIO	water	oko	o k o	o k o
+634	TAN	water	oko	o k o	o k o
+635	TUK	water	oko	o k o	o k o
+636	TUY	water	oko	o k o	o k o
+637	WAN	water	ko	k o	k o
+638	*PT	water	*okko	o k k o	- - o kk o ( - - - - )
+#
+759	BAS	white	boti	b o t i	b o t ?_i
+760	DES	white	bode	b o d e	b o ?_d ?_e
+761	KAR	white	boti	b o t i	b o t ?_i
+762	KOR	white	po	p o	?_p o
+763	KUB	white	bo	b o	?_b o
+764	KUE	white	po	p o	p o
+765	MAI	white	bo	b o	?_b o
+766	SEK	white	po	p o	?_p o
+767	SIO	white	pʔo	pʔ o	pʔ o
+768	TAN	white	boi	b o i	b o i
+769	TUK	white	buti	b u t i	b u t ?_i
+770	TUY	white	buti	b u t i	?_b u t ?_i
+771	WAN	white	boʔta	b o ʔt a	?_b o ?_ʔt ?_a
+772	*PT	white	*pʔo-	pʔ o	pʔ o - -
+#
+1020	KAR	wife	~dɨbo	n ɨ̃ m õ	n ɨ̃ m ?_õ
+1021	KOR	wife	rɨho	r ɨ h o	r ɨ h ?_o
+1022	MAI	wife	nɨho	n ɨ h o	n ɨ h o
+1023	SEK	wife	dɨho	d ɨ h o	d ɨ h o
+1024	SIO	wife	dɨ̃ho	d ɨ̃ h o	d ɨ̃ h o
+1025	TAN	wife	~rubu	r̃ ũ m ũ	r̃ ũ ?_m ?_ũ
+1026	TUK	wife	~dɨbo	n ɨ̃ m õ	n ɨ̃ ?_m ?_õ
+1027	TUY	wife	~dɨbo	n ɨ̃ m õ	n ɨ̃ ?_m ?_õ
+1028	WAN	wife	~dabo	n ã m õ	n ?_ã ?_m ?_õ
+1029	*PT	wife	*tʔɨ̃po	tʔ ɨ̃ p o	tʔ ɨ̃ p o
+#
+1486	BAS	wind	~bido	m ĩ n õ	m ĩ n õ
+1487	DES	wind	~bidu	m ĩ n ũ	m ĩ n ũ
+1488	KAR	wind	~wido	w̃ ĩ n õ	w̃ ĩ n õ
+1489	TAN	wind	~wiro	w̃ ĩ r̃ õ	w̃ ĩ r̃ õ
+1490	TUK	wind	~wido	w̃ ĩ n õ	w̃ ĩ n õ
+1491	TUY	wind	~wido	w̃ ĩ n õ	w̃ ĩ n õ
+1492	WAN	wind	~wido	w̃ ĩ n õ	w̃ ĩ n õ
+1493	YUP	wind	uíne	u í n e	u í n e
+1494	*PT	wind	*wĩno	w ĩ n o	w ĩ n o
+#
+1046	BAS	woman	~robio	r̃ õ m ĩ õ	r̃ õ m ĩ õ
+1047	DES	woman	~dobeo	n õ m ẽ õ	n õ m ẽ õ
+1048	KAR	woman	~robio	r̃ õ m ĩ õ	r̃ õ m ĩ õ
+1049	KOR	woman	romio	r o m i o	r o m i o
+1050	KUB	woman	~dobi	n õ m ĩ	n õ m ĩ
+1051	MAI	woman	nomio	n o m i o	n o m i o
+1052	SEK	woman	dõmio	d õ m i o	d õ m i o
+1053	SIO	woman	domi	d o m i	d o m i
+1054	TAN	woman	~robo	r̃ õ m õ	r̃ õ m ?_õ
+1055	TUK	woman	~dubio	n ũ m ĩ õ	n ũ m ĩ õ
+1056	TUY	woman	~dubio	n ũ m ĩ õ	n ũ m ĩ õ
+1057	WAN	woman	~dubido	n ũ m ĩ n õ	n ũ m ĩ n õ
+1058	*PT	woman	*tʔõmi-	tʔ õ m i	tʔ õ m i ( - - )
+#
+415	BAS	woodpecker	~kode	k õ n ẽ	k õ n ẽ
+416	DES	woodpecker	~kode	k õ n ẽ	k õ n ẽ
+417	KAR	woodpecker	~kode	k õ n ẽ	k õ n ẽ
+418	KOR	woodpecker	khõne	kh õ n e	kh õ n e
+419	KUB	woodpecker	~kode	k õ n ẽ	k õ n ẽ
+420	MAI	woodpecker	kone	k o n e	k o n e
+421	SEK	woodpecker	kõne	k õ n e	k õ n e
+422	SIO	woodpecker	kone	k o n e	k o n e
+423	TUK	woodpecker	~kode	k õ n ẽ	k õ ?_n ẽ
+424	WAN	woodpecker	~khode	kh õ n ẽ	kh õ n ẽ
+425	*PT	woodpecker	*kone	k o n e	k o n e
+#
+177	BAS	yam	~jabo	ɲ ã m õ	ɲ ã m õ
+178	DES	yam	~jaʔbo	ɲ ã ʔb õ	?_ɲ ã ?_ʔb ?_õ
+179	KAR	yam	~jabo	ɲ ã m õ	ɲ ã m õ
+180	KOR	yam	jãho	j ã h o	j ã h o
+181	KUB	yam	~jabu	ɲ ã m ũ	?_ɲ ã m ũ
+182	KUE	yam	jau	j a u	j a - ?_u
+183	MAI	yam	jãho	j ã h o	j ã h o
+184	SIO	yam	jãho	j ã h o	j ã h o
+185	TAN	yam	~jaʔbu	ɲ ã ʔb ũ	ɲ ã ?_ʔb ũ
+186	TUK	yam	~jaʔbu	ɲ ã ʔb ũ	?_ɲ ã ?_ʔb ?_ũ
+187	TUY	yam	~jabu	ɲ ã m ũ	ɲ ã m ?_ũ
+188	WAN	yam	~jaʔbu	ɲ ã ʔb ũ	ɲ ã ?_ʔb ?_ũ
+189	*PT	yam	*jãpʔo	j ã pʔ o	j ã pʔ o
+#
+513	BAS	you all	~bɨa	m ɨ̃ ã	m ɨ̃ - ã
+514	DES	you all	~bɨa	m ɨ̃ ã	m ɨ̃ - ã
+515	KAR	you all	~bɨsa	m ɨ̃ s ã	m ɨ̃ s ã
+516	KOR	you all	mɨsanɨkhona	m ɨ s a n ɨ kh o n a	m ɨ s a n ?_ɨ ?_kh ?_o ?_n ?_a
+517	KUB	you all	~bɨha	m ɨ̃ h ã	m ɨ̃ h ã
+518	KUE	you all	mɨta	m ɨ t a	m ɨ t a
+519	MAI	you all	mɨsa	m ɨ s a	m ɨ s a
+520	SEK	you all	mɨsaru	m ɨ s a r u	m ɨ s a r u
+521	SIO	you all	mɨsakwa	m ɨ s a k w a	m ɨ s a k w a
+522	TAN	you all	~biha	m ĩ h ã	m ĩ h ã
+523	TUK	you all	~bɨsa	m ɨ̃ s ã	m ɨ̃ s ã
+524	TUY	you all	~bɨa	m ɨ̃ ã	m ɨ̃ - ã
+525	WAN	you all	~bɨha	m ɨ̃ h ã	m ɨ̃ h ã
+526	*PT	you all	*mɨ-tja	m ɨ tj a	m ɨ tj a ( - - - - - - )

@@ -1,0 +1,1412 @@
+# Wordlist
+
+# META
+@tree:((((German,'Yiddish_New_York'),Dutch),((English,Scottish),'West_Frisian_Grou')),((('Norwegian_Stavanger',Danish),('Swedish_Skane','Swedish_Stockholm')),(Faroese,Icelandic)));
+
+# DATA
+ID	DOCULECT	CONCEPT	IPA	TOKENS	COGID	PROTO	PROTO_SHORT	CONSENSUS	ALIGNMENT
+#
+463	Danish	I	j.aɪ	j aɪ	40	eka	eka	aɪ	j aɪ -
+464	Dutch	I	ɪ.k	ɪ k	40	eka	eka	aɪ	- ɪ k
+465	English	I	aɪ	aɪ	40	eka	eka	aɪ	- aɪ -
+466	Faroese	I	eə	eə	40	eka	eka	aɪ	- eə -
+467	German	I	ʔ.i.ç	ʔ i ç	40	eka	eka	aɪ	ʔ i ç
+468	Icelandic	I	j.ɛː.x	j ɛː x	40	eka	eka	aɪ	j ɛː x
+469	Norwegian_Stavanger	I	eː.k	eː k	40	eka	eka	aɪ	- eː k
+470	Scottish	I	ɑɪ	ɑɪ	40	eka	eka	aɪ	- ɑɪ -
+471	Swedish_Skane	I	j.aʊ	j aʊ	40	eka	eka	aɪ	j aʊ -
+472	Swedish_Stockholm	I	j.ɔː.ɡ	j ɔː ɡ	40	eka	eka	aɪ	j ɔː ɡ
+473	West_Frisian_Grou	I	e.k	e k	40	eka	eka	aɪ	- e k
+474	Yiddish_New_York	I	ʔ.iə.χ	ʔ iə χ	40	eka	eka	aɪ	ʔ iə χ
+#
+60	Danish	all	ʔ.ɛ.lˀ	ʔ ɛ lˀ	6	allaz	all	aɫ	ʔ ɛ lˀ - -
+61	Dutch	all	ɑ.ɫ	ɑ ɫ	6	allaz	all	aɫ	- ɑ ɫ - -
+62	English	all	ɔː.ɫ	ɔː ɫ	6	allaz	all	aɫ	- ɔː ɫ - -
+63	Faroese	all	a.l̥.ʌ.ɹ	a l̥ ʌ ɹ	6	allaz	all	aɫ	- a l̥ ʌ ɹ
+64	German	all	ʔ.a.l	ʔ a l	6	allaz	all	aɫ	ʔ a l - -
+65	Icelandic	all	a.ɬ̥	a ɬ̥	6	allaz	all	aɫ	- a ɬ̥ - -
+66	Norwegian_Stavanger	all	a.l	a l	6	allaz	all	aɫ	- a l - -
+67	Scottish	all	ɔː.ɫ	ɔː ɫ	6	allaz	all	aɫ	- ɔː ɫ - -
+68	Swedish_Skane	all	a.l	a l	6	allaz	all	aɫ	- a l - -
+69	Swedish_Stockholm	all	ɑ.l	ɑ l	6	allaz	all	aɫ	- ɑ l - -
+70	West_Frisian_Grou	all	ɒ.ɫ	ɒ ɫ	6	allaz	all	aɫ	- ɒ ɫ - -
+71	Yiddish_New_York	all	ʔ.a.ɫ	ʔ a ɫ	6	allaz	all	aɫ	ʔ a ɫ - -
+#
+809	Danish	ash	ʔ.ɛ.s.k.ə	ʔ ɛ s k ə	70	askoːn	ask	askə	ʔ ɛ - s k ə
+810	Dutch	ash	ɑ.s	ɑ s	70	askoːn	ask	askə	- ɑ - s - -
+811	English	ash	æ.ʃ	æ ʃ	70	askoːn	ask	askə	- æ - ʃ - -
+812	Faroese	ash	œ.s.k.a	œ s k a	70	askoːn	ask	askə	- œ - s k a
+813	German	ash	ʔ.a.ʃ.ə	ʔ a ʃ ə	70	askoːn	ask	askə	ʔ a - ʃ - ə
+814	Icelandic	ash	a.s.k.a	a s k a	70	askoːn	ask	askə	- a - s k a
+815	Norwegian_Stavanger	ash	a.sː.k.ə	a sː k ə	70	askoːn	ask	askə	- a - sː k ə
+816	Scottish	ash	a.ʃ	a ʃ	70	askoːn	ask	askə	- a - ʃ - -
+817	Swedish_Skane	ash	a.s.k.ə	a s k ə	70	askoːn	ask	askə	- a - s k ə
+818	Swedish_Stockholm	ash	a.sː.k.ə	a sː k ə	70	askoːn	ask	askə	- a - sː k ə
+819	West_Frisian_Grou	ash	j.ɪ.s.k.ə	j ɪ s k ə	70	askoːn	ask	askə	j ɪ - s k ə
+820	Yiddish_New_York	ash	ʔ.a.ʃ	ʔ a ʃ	70	askoːn	ask	askə	ʔ a - ʃ - -
+#
+845	Danish	bath	b.ɛ.lˀ	b ɛ lˀ	73	baθan	baθ	baːt	b ɛ lˀ
+846	Dutch	bath	b.ɑ.t	b ɑ t	73	baθan	baθ	baːt	b ɑ t
+847	English	bath	b.ɑː.θ	b ɑː θ	73	baθan	baθ	baːt	b ɑː θ
+848	Faroese	bath	b.ea	b ea	73	baθan	baθ	baːt	b ea -
+849	German	bath	b.aː.t	b aː t	73	baθan	baθ	baːt	b aː t
+850	Icelandic	bath	b.aː.θ	b aː θ	73	baθan	baθ	baːt	b aː θ
+851	Norwegian_Stavanger	bath	b.aɑ.t	b aɑ t	73	baθan	baθ	baːt	b aɑ t
+852	Scottish	bath	b.a.θ	b a θ	73	baθan	baθ	baːt	b a θ
+853	Swedish_Skane	bath	b.ɒɔ.d	b ɒɔ d	73	baθan	baθ	baːt	b ɒɔ d
+854	Swedish_Stockholm	bath	b.ɒː.d	b ɒː d	73	baθan	baθ	baːt	b ɒː d
+855	West_Frisian_Grou	bath	b.a.t	b a t	73	baθan	baθ	baːt	b a t
+856	Yiddish_New_York	bath	b.ɔ.d	b ɔ d	73	baθan	baθ	baːt	b ɔ d
+#
+156	Danish	better	b.ɪ.ð.ə.ʁ.ʌ	b ɪ ð ə ʁ ʌ	14	batizoːn	batiz	bɛtɾ	b ɪ ð ə ʁ ʌ
+157	Dutch	better	b.ɛɪ.tʰ.ɹ	b ɛɪ tʰ ɹ	14	batizoːn	batiz	bɛtɾ	b ɛɪ tʰ - ɹ -
+158	English	better	b.ɛ.t.ə	b ɛ t ə	14	batizoːn	batiz	bɛtɾ	b ɛ t ə - -
+159	Faroese	better	b.eə.tʰ.ɹ.ə	b eə tʰ ɹ ə	14	batizoːn	batiz	bɛtɾ	b eə tʰ - ɹ ə
+160	German	better	b.ɛ.s.ɐ	b ɛ s ɐ	14	batizoːn	batiz	bɛtɾ	b ɛ s ɐ - -
+161	Icelandic	better	b.eə.t.ɾ.ɪ	b eə t ɾ ɪ	14	batizoːn	batiz	bɛtɾ	b eə t - ɾ ɪ
+162	Norwegian_Stavanger	better	b.eə.ʁ.ə	b eə ʁ ə	14	batizoːn	batiz	bɛtɾ	b eə - - ʁ ə
+163	Scottish	better	b.ɛ.tʰ.ə.ɹ	b ɛ tʰ ə ɹ	14	batizoːn	batiz	bɛtɾ	b ɛ tʰ ə ɹ -
+164	Swedish_Skane	better	b.ɛ.t.χ	b ɛ t χ	14	batizoːn	batiz	bɛtɾ	b ɛ t - χ -
+165	Swedish_Stockholm	better	b.ɛ.tː.ɾ.ə	b ɛ tː ɾ ə	14	batizoːn	batiz	bɛtɾ	b ɛ tː - ɾ ə
+166	West_Frisian_Grou	better	b.ɛ.t.r	b ɛ t r	14	batizoːn	batiz	bɛtɾ	b ɛ t - r -
+167	Yiddish_New_York	better	b.ɛ.s.ɛ.ɾ	b ɛ s ɛ ɾ	14	batizoːn	batiz	bɛtɾ	b ɛ s ɛ ɾ -
+#
+857	Danish	bite!	b.ɪ.lˀ	b ɪ lˀ	74	biːt	biːt	baɪt	b ɪ lˀ -
+858	Dutch	bite!	b.æɪ.t	b æɪ t	74	biːt	biːt	baɪt	b æɪ t -
+859	English	bite!	b.aɪ.tʰ	b aɪ tʰ	74	biːt	biːt	baɪt	b aɪ tʰ -
+860	Faroese	bite!	b.ʊi.t	b ʊi t	74	biːt	biːt	baɪt	b ʊi t -
+861	German	bite!	b.aɪ.s	b aɪ s	74	biːt	biːt	baɪt	b aɪ s -
+862	Icelandic	bite!	b.iː.tʰ.a	b iː tʰ a	74	biːt	biːt	baɪt	b iː tʰ a
+863	Norwegian_Stavanger	bite!	b.iː.t	b iː t	74	biːt	biːt	baɪt	b iː t -
+864	Scottish	bite!	b.ʌi.tʰ	b ʌi tʰ	74	biːt	biːt	baɪt	b ʌi tʰ -
+865	Swedish_Skane	bite!	b.ɪi.tʰ	b ɪi tʰ	74	biːt	biːt	baɪt	b ɪi tʰ -
+866	Swedish_Stockholm	bite!	b.iː.t	b iː t	74	biːt	biːt	baɪt	b iː t -
+867	West_Frisian_Grou	bite!	b.i.t	b i t	74	biːt	biːt	baɪt	b i t -
+868	Yiddish_New_York	bite!	b.aɪ.s	b aɪ s	74	biːt	biːt	baɪt	b aɪ s -
+#
+356	Danish	blood	b.l.ʊ.ðˀ	b l ʊ ðˀ	31	bloːdan	bloːd	bloːt	b - l ʊ ðˀ
+357	Dutch	blood	b.l.ø.t	b l ø t	31	bloːdan	bloːd	bloːt	b - l ø t
+358	English	blood	b.l.ɐ.d	b l ɐ d	31	bloːdan	bloːd	bloːt	b - l ɐ d
+359	Faroese	blood	b.l.ɒu	b l ɒu	31	bloːdan	bloːd	bloːt	b - l ɒu -
+360	German	blood	b.l.uː.t	b l uː t	31	bloːdan	bloːd	bloːt	b - l uː t
+361	Icelandic	blood	b.l.ɔu.θ	b l ɔu θ	31	bloːdan	bloːd	bloːt	b - l ɔu θ
+362	Norwegian_Stavanger	blood	b.l.oː	b l oː	31	bloːdan	bloːd	bloːt	b - l oː -
+363	Scottish	blood	b.l.ʌ.d	b l ʌ d	31	bloːdan	bloːd	bloːt	b - l ʌ d
+364	Swedish_Skane	blood	b.l.øʉ	b l øʉ	31	bloːdan	bloːd	bloːt	b - l øʉ -
+365	Swedish_Stockholm	blood	b.ə.l.oː.d	b ə l oː d	31	bloːdan	bloːd	bloːt	b ə l oː d
+366	West_Frisian_Grou	blood	b.ɫ.oə.t	b ɫ oə t	31	bloːdan	bloːd	bloːt	b - ɫ oə t
+367	Yiddish_New_York	blood	b.l.u.t	b l u t	31	bloːdan	bloːd	bloːt	b - l u t
+#
+869	Danish	bone	b.i.nˀ	b i nˀ	75	bainan	bain	bɛɪn	b i nˀ - -
+870	Dutch	bone	b.ɛɪ.n	b ɛɪ n	75	bainan	bain	bɛɪn	b ɛɪ n - -
+871	English	bone	b.əʊ.n	b əʊ n	75	bainan	bain	bɛɪn	b əʊ n - -
+872	Faroese	bone	b.ai.n	b ai n	75	bainan	bain	bɛɪn	b ai n - -
+873	German	bone	b.aɪ.n	b aɪ n	75	bainan	bain	bɛɪn	b aɪ n - -
+874	Icelandic	bone	b.ɛɪ.n	b ɛɪ n	75	bainan	bain	bɛɪn	b ɛɪ n - -
+875	Norwegian_Stavanger	bone	b.ɛi.n	b ɛi n	75	bainan	bain	bɛɪn	b ɛi n - -
+876	Scottish	bone	b.oə.n	b oə n	75	bainan	bain	bɛɪn	b oə n - -
+877	Swedish_Skane	bone	b.aɪ.n	b aɪ n	75	bainan	bain	bɛɪn	b aɪ n - -
+878	Swedish_Stockholm	bone	b.eə.n	b eə n	75	bainan	bain	bɛɪn	b eə n - -
+879	West_Frisian_Grou	bone	b.iə.n	b iə n	75	bainan	bain	bɛɪn	b iə n - -
+880	Yiddish_New_York	bone	b.ɛɪ.n	b ɛɪ n	75	bainan	bain	bɛɪn	b ɛɪ n - -
+#
+637	Danish	brother	b.ʁ.u.ð.ɔ	b ʁ u ð ɔ	55	broːθeːr	broːθeːr	bʁoː	b - ʁ u ð ɔ -
+638	Dutch	brother	b.ʁ.uə.ʁ	b ʁ uə ʁ	55	broːθeːr	broːθeːr	bʁoː	b - ʁ uə - - ʁ
+639	English	brother	b.ɹ.ɐ.ð.ə	b ɹ ɐ ð ə	55	broːθeːr	broːθeːr	bʁoː	b - ɹ ɐ ð ə -
+640	Faroese	brother	b.ɾ.ɒ.w.ə.ɹ	b ɾ ɒ w ə ɹ	55	broːθeːr	broːθeːr	bʁoː	b - ɾ ɒ w ə ɹ
+641	German	brother	b.ʁ.uː.d.ɐ	b ʁ uː d ɐ	55	broːθeːr	broːθeːr	bʁoː	b - ʁ uː d ɐ -
+642	Icelandic	brother	b.ɾ.oː.ð.ɪ.s	b ɾ oː ð ɪ s	55	broːθeːr	broːθeːr	bʁoː	b - ɾ oː ð ɪ s
+643	Norwegian_Stavanger	brother	b.ʁ.oː.χ	b ʁ oː χ	55	broːθeːr	broːθeːr	bʁoː	b - ʁ oː χ - -
+644	Scottish	brother	b.ɹ.ʌ.ð.ə.ɹ	b ɹ ʌ ð ə ɹ	55	broːθeːr	broːθeːr	bʁoː	b - ɹ ʌ ð ə ɹ
+645	Swedish_Skane	brother	b.ʁ.øʉ.ʁ	b ʁ øʉ ʁ	55	broːθeːr	broːθeːr	bʁoː	b - ʁ øʉ - - ʁ
+646	Swedish_Stockholm	brother	b.ə.r.uː.r	b ə r uː r	55	broːθeːr	broːθeːr	bʁoː	b ə r uː - - r
+647	West_Frisian_Grou	brother	b.ɾ.oə.r	b ɾ oə r	55	broːθeːr	broːθeːr	bʁoː	b - ɾ oə - - r
+648	Yiddish_New_York	brother	b.ɾ.u.d.ɛ.ɾ	b ɾ u d ɛ ɾ	55	broːθeːr	broːθeːr	bʁoː	b - ɾ u d ɛ ɾ
+#
+1061	Danish	calf	kʰ.ɛ.lˀ.f	kʰ ɛ lˀ f	92	kalbaz	kalb	kʰalf	kʰ ɛ lˀ - f
+1062	Dutch	calf	k.ɑ.ɫ.f	k ɑ ɫ f	92	kalbaz	kalb	kʰalf	k ɑ ɫ - f
+1063	English	calf	kʰ.ɑː.f	kʰ ɑː f	92	kalbaz	kalb	kʰalf	kʰ ɑː - - f
+1064	Faroese	calf	kʰ.ɔ.l.ə.v	kʰ ɔ l ə v	92	kalbaz	kalb	kʰalf	kʰ ɔ l ə v
+1065	German	calf	kʰ.a.l.p	kʰ a l p	92	kalbaz	kalb	kʰalf	kʰ a l - p
+1066	Icelandic	calf	kʰ.a.l.f	kʰ a l f	92	kalbaz	kalb	kʰalf	kʰ a l - f
+1067	Norwegian_Stavanger	calf	kʰ.a.l.f	kʰ a l f	92	kalbaz	kalb	kʰalf	kʰ a l - f
+1068	Scottish	calf	kʰ.aː.f	kʰ aː f	92	kalbaz	kalb	kʰalf	kʰ aː - - f
+1069	Swedish_Skane	calf	kʰ.aː.b	kʰ aː b	92	kalbaz	kalb	kʰalf	kʰ aː - - b
+1070	Swedish_Stockholm	calf	kʰ.aː.l.ə.v	kʰ aː l ə v	92	kalbaz	kalb	kʰalf	kʰ aː l ə v
+1071	West_Frisian_Grou	calf	k.ɪiə.ɫ	k ɪiə ɫ	92	kalbaz	kalb	kʰalf	k ɪiə ɫ - -
+1072	Yiddish_New_York	calf	kʰ.a.ɫ.b	kʰ a ɫ b	92	kalbaz	kalb	kʰalf	kʰ a ɫ - b
+#
+929	Danish	cold	kʰ.ɔ.lˀ	kʰ ɔ lˀ	80	kaldaz	kald	kʰalt	kʰ ɔ lˀ - - -
+930	Dutch	cold	k.aʊ.t	k aʊ t	80	kaldaz	kald	kʰalt	k aʊ - t - -
+931	English	cold	kʰ.əʊ.ɫ.d	kʰ əʊ ɫ d	80	kaldaz	kald	kʰalt	kʰ əʊ ɫ d - -
+932	Faroese	cold	kʰ.a.l.t.ʌ.ɹ	kʰ a l t ʌ ɹ	80	kaldaz	kald	kʰalt	kʰ a l t ʌ ɹ
+933	German	cold	kʰ.a.l.t	kʰ a l t	80	kaldaz	kald	kʰalt	kʰ a l t - -
+934	Icelandic	cold	kʰ.a.ɮ.d	kʰ a ɮ d	80	kaldaz	kald	kʰalt	kʰ a ɮ d - -
+935	Norwegian_Stavanger	cold	kʰ.a.l.t	kʰ a l t	80	kaldaz	kald	kʰalt	kʰ a l t - -
+936	Scottish	cold	kʰ.oː.ɫ.d	kʰ oː ɫ d	80	kaldaz	kald	kʰalt	kʰ oː ɫ d - -
+937	Swedish_Skane	cold	kʰ.o.l	kʰ o l	80	kaldaz	kald	kʰalt	kʰ o l - - -
+938	Swedish_Stockholm	cold	kʰ.a.l	kʰ a l	80	kaldaz	kald	kʰalt	kʰ a l - - -
+939	West_Frisian_Grou	cold	k.ɔː.t	k ɔː t	80	kaldaz	kald	kʰalt	k ɔː - t - -
+940	Yiddish_New_York	cold	kʰ.aʊ.t	kʰ aʊ t	80	kaldaz	kald	kʰalt	kʰ aʊ - t - -
+#
+72	Danish	corn	kʰ.oə.n	kʰ oə n	7	kurnan	kurn	kʰɔn	kʰ oə - - n
+73	Dutch	corn	k.o.ʁ.ə	k o ʁ ə	7	kurnan	kurn	kʰɔn	k o ʁ ə -
+74	English	corn	kʰ.ɔː.n	kʰ ɔː n	7	kurnan	kurn	kʰɔn	kʰ ɔː - - n
+75	Faroese	corn	kʰ.ɔ.n̥	kʰ ɔ n̥	7	kurnan	kurn	kʰɔn	kʰ ɔ - - n̥
+76	German	corn	kʰ.ɔː.n	kʰ ɔː n	7	kurnan	kurn	kʰɔn	kʰ ɔː - - n
+77	Icelandic	corn	kʰ.ɔ.r.n̥	kʰ ɔ r n̥	7	kurnan	kurn	kʰɔn	kʰ ɔ r - n̥
+78	Norwegian_Stavanger	corn	kʰ.o.ʁ.n	kʰ o ʁ n	7	kurnan	kurn	kʰɔn	kʰ o ʁ - n
+79	Scottish	corn	kʰ.ɔ.ɹ.n	kʰ ɔ ɹ n	7	kurnan	kurn	kʰɔn	kʰ ɔ ɹ - n
+80	Swedish_Skane	corn	kʰ.ʊ.ʁ.n	kʰ ʊ ʁ n	7	kurnan	kurn	kʰɔn	kʰ ʊ ʁ - n
+81	Swedish_Stockholm	corn	kʰ.oː.n	kʰ oː n	7	kurnan	kurn	kʰɔn	kʰ oː - - n
+82	West_Frisian_Grou	corn	k.õə̃.n	k õə̃ n	7	kurnan	kurn	kʰɔn	k õə̃ - - n
+83	Yiddish_New_York	corn	kʰ.ɔ.ɾ.n	kʰ ɔ ɾ n	7	kurnan	kurn	kʰɔn	kʰ ɔ ɾ - n
+#
+881	Danish	cow	kʰ.uˀ	kʰ uˀ	76	koːwz	koːwz	kʰuː	kʰ uˀ - -
+882	Dutch	cow	k.u	k u	76	koːwz	koːwz	kʰuː	k u - -
+883	English	cow	kʰ.aʊ	kʰ aʊ	76	koːwz	koːwz	kʰuː	kʰ aʊ - -
+884	Faroese	cow	kʰ.e.k.f	kʰ e k f	76	koːwz	koːwz	kʰuː	kʰ e k f
+885	German	cow	kʰ.uː	kʰ uː	76	koːwz	koːwz	kʰuː	kʰ uː - -
+886	Icelandic	cow	kʰ.uː	kʰ uː	76	koːwz	koːwz	kʰuː	kʰ uː - -
+887	Norwegian_Stavanger	cow	kʰ.yː	kʰ yː	76	koːwz	koːwz	kʰuː	kʰ yː - -
+888	Scottish	cow	kʰ.ɐʊ	kʰ ɐʊ	76	koːwz	koːwz	kʰuː	kʰ ɐʊ - -
+889	Swedish_Skane	cow	kʰ.ʏʉ	kʰ ʏʉ	76	koːwz	koːwz	kʰuː	kʰ ʏʉ - -
+890	Swedish_Stockholm	cow	kʰ.ʊo	kʰ ʊo	76	koːwz	koːwz	kʰuː	kʰ ʊo - -
+891	West_Frisian_Grou	cow	k.ɒʊ	k ɒʊ	76	koːwz	koːwz	kʰuː	k ɒʊ - -
+892	Yiddish_New_York	cow	kʰ.uː	kʰ uː	76	koːwz	koːwz	kʰuː	kʰ uː - -
+#
+965	Danish	daughter	d.ɛ.ɾ.ʌ	d ɛ ɾ ʌ	83	duxteːr	duxteːr	dɔtə	d ɛ - ɾ ʌ -
+966	Dutch	daughter	d.ɔ.χ.t.ə.ɹ	d ɔ χ t ə ɹ	83	duxteːr	duxteːr	dɔtə	d ɔ χ t ə ɹ
+967	English	daughter	d.ɔ.t.ə	d ɔ t ə	83	duxteːr	duxteːr	dɔtə	d ɔ - t ə -
+968	Faroese	daughter	d.ɔʰ.tː.ə.ɹ	d ɔʰ tː ə ɹ	83	duxteːr	duxteːr	dɔtə	d ɔʰ - tː ə ɹ
+969	German	daughter	t.ɒ.χ.t.ɐ	t ɒ χ t ɐ	83	duxteːr	duxteːr	dɔtə	t ɒ χ t ɐ -
+970	Icelandic	daughter	d.ɔ.tʰ.ɪ.z	d ɔ tʰ ɪ z	83	duxteːr	duxteːr	dɔtə	d ɔ - tʰ ɪ z
+971	Norwegian_Stavanger	daughter	d.a.tʰ.ə.ʁ	d a tʰ ə ʁ	83	duxteːr	duxteːr	dɔtə	d a - tʰ ə ʁ
+972	Scottish	daughter	d.ɔ.tʰ.ə.ɹ	d ɔ tʰ ə ɹ	83	duxteːr	duxteːr	dɔtə	d ɔ - tʰ ə ɹ
+973	Swedish_Skane	daughter	d.o.t.ʁ	d o t ʁ	83	duxteːr	duxteːr	dɔtə	d o - t - ʁ
+974	Swedish_Stockholm	daughter	d.ɔ.tː.ɛ.ɾ	d ɔ tː ɛ ɾ	83	duxteːr	duxteːr	dɔtə	d ɔ - tː ɛ ɾ
+975	West_Frisian_Grou	daughter	d.ɒ.χ.t.ə.r	d ɒ χ t ə r	83	duxteːr	duxteːr	dɔtə	d ɒ χ t ə r
+976	Yiddish_New_York	daughter	tʰ.ɔ.χ.t.ɛ.ɾ	tʰ ɔ χ t ɛ ɾ	83	duxteːr	duxteːr	dɔtə	tʰ ɔ χ t ɛ ɾ
+#
+416	Danish	day	d.ɛɪˀ	d ɛɪˀ	36	daɡaz	daɡ	daː	d ɛɪˀ -
+417	Dutch	day	d.ɑ.χ	d ɑ χ	36	daɡaz	daɡ	daː	d ɑ χ
+418	English	day	d.eɪ	d eɪ	36	daɡaz	daɡ	daː	d eɪ -
+419	Faroese	day	d.ɛa	d ɛa	36	daɡaz	daɡ	daː	d ɛa -
+420	German	day	tʰ.aː.k	tʰ aː k	36	daɡaz	daɡ	daː	tʰ aː k
+421	Icelandic	day	d.aː.x	d aː x	36	daɡaz	daɡ	daː	d aː x
+422	Norwegian_Stavanger	day	d.aɑ.k	d aɑ k	36	daɡaz	daɡ	daː	d aɑ k
+423	Scottish	day	d.eː	d eː	36	daɡaz	daɡ	daː	d eː -
+424	Swedish_Skane	day	d.ɒʊ	d ɒʊ	36	daɡaz	daɡ	daː	d ɒʊ -
+425	Swedish_Stockholm	day	d.ɔː.ɡ	d ɔː ɡ	36	daɡaz	daɡ	daː	d ɔː ɡ
+426	West_Frisian_Grou	day	d.ɒɪ	d ɒɪ	36	daɡaz	daɡ	daː	d ɒɪ -
+427	Yiddish_New_York	day	tʰ.ɔ.ɡ	tʰ ɔ ɡ	36	daɡaz	daɡ	daː	tʰ ɔ ɡ
+#
+1	Danish	drink!	d.ʁ.ɛ.kʰ	d ʁ ɛ kʰ	1	drenk	drenk	dʁɪkʰ	d ʁ ɛ - kʰ -
+2	Dutch	drink!	d.ʁ.ɪ.ŋ.k	d ʁ ɪ ŋ k	1	drenk	drenk	dʁɪkʰ	d ʁ ɪ ŋ k -
+3	English	drink!	d.ɹ.ɪ.ŋ.kʰ	d ɹ ɪ ŋ kʰ	1	drenk	drenk	dʁɪkʰ	d ɹ ɪ ŋ kʰ -
+4	Faroese	drink!	d.ɾ.ɛ.kːʰ	d ɾ ɛ kːʰ	1	drenk	drenk	dʁɪkʰ	d ɾ ɛ - kːʰ -
+5	German	drink!	tʰ.ʁ.ɪ.ŋ.k	tʰ ʁ ɪ ŋ k	1	drenk	drenk	dʁɪkʰ	tʰ ʁ ɪ ŋ k -
+6	Icelandic	drink!	d.ɾ.ɛ.kʰ.a	d ɾ ɛ kʰ a	1	drenk	drenk	dʁɪkʰ	d ɾ ɛ - kʰ a
+7	Norwegian_Stavanger	drink!	d.ʁ.ɪ.kːʰ	d ʁ ɪ kːʰ	1	drenk	drenk	dʁɪkʰ	d ʁ ɪ - kːʰ -
+8	Scottish	drink!	d.ɹ.ɪ.ŋ.kʰ	d ɹ ɪ ŋ kʰ	1	drenk	drenk	dʁɪkʰ	d ɹ ɪ ŋ kʰ -
+9	Swedish_Skane	drink!	d.ʁ.ɪ.kʰ	d ʁ ɪ kʰ	1	drenk	drenk	dʁɪkʰ	d ʁ ɪ - kʰ -
+10	Swedish_Stockholm	drink!	d.ɾ.ɪ.kː	d ɾ ɪ kː	1	drenk	drenk	dʁɪkʰ	d ɾ ɪ - kː -
+11	West_Frisian_Grou	drink!	d.ɾ.ɪ.ŋ.k	d ɾ ɪ ŋ k	1	drenk	drenk	dʁɪkʰ	d ɾ ɪ ŋ k -
+12	Yiddish_New_York	drink!	tʰ.ʁ.ɪ.ŋ.k	tʰ ʁ ɪ ŋ k	1	drenk	drenk	dʁɪkʰ	tʰ ʁ ɪ ŋ k -
+#
+120	Danish	ear	ʔ.yɔ	ʔ yɔ	11	auzoːn	auz	iə	ʔ yɔ - -
+121	Dutch	ear	oə.ɹ	oə ɹ	11	auzoːn	auz	iə	- oə ɹ -
+122	English	ear	ɪə	ɪə	11	auzoːn	auz	iə	- ɪə - -
+123	Faroese	ear	ɔɪ.ɹ.a	ɔɪ ɹ a	11	auzoːn	auz	iə	- ɔɪ ɹ a
+124	German	ear	ʔ.oɐ	ʔ oɐ	11	auzoːn	auz	iə	ʔ oɐ - -
+125	Icelandic	ear	ɛɪ.r.a	ɛɪ r a	11	auzoːn	auz	iə	- ɛɪ r a
+126	Norwegian_Stavanger	ear	øː.ʁ.ə	øː ʁ ə	11	auzoːn	auz	iə	- øː ʁ ə
+127	Scottish	ear	iə.ɹ	iə ɹ	11	auzoːn	auz	iə	- iə ɹ -
+128	Swedish_Skane	ear	œː.ʁ.ɐ	œː ʁ ɐ	11	auzoːn	auz	iə	- œː ʁ ɐ
+129	Swedish_Stockholm	ear	ɔː.ɾ.ə	ɔː ɾ ə	11	auzoːn	auz	iə	- ɔː ɾ ə
+130	West_Frisian_Grou	ear	iə.r	iə r	11	auzoːn	auz	iə	- iə r -
+131	Yiddish_New_York	ear	ʔ.ɔɪɛ.ɾ	ʔ ɔɪɛ ɾ	11	auzoːn	auz	iə	ʔ ɔɪɛ ɾ -
+#
+238	Danish	earth	j.oɔ	j oɔ	21	erθoː	erθoː	joːd	j oɔ - - -
+239	Dutch	earth	a.ɹ.d.ə	a ɹ d ə	21	erθoː	erθoː	joːd	- a ɹ d ə
+240	English	earth	ɜː.θ	ɜː θ	21	erθoː	erθoː	joːd	- ɜː - θ -
+241	Faroese	earth	j.øː.ɹ	j øː ɹ	21	erθoː	erθoː	joːd	j øː ɹ - -
+242	German	earth	ʔ.ɛɐ.d.ə	ʔ ɛɐ d ə	21	erθoː	erθoː	joːd	ʔ ɛɐ - d ə
+243	Icelandic	earth	j.œ.r.θ	j œ r θ	21	erθoː	erθoː	joːd	j œ r θ -
+244	Norwegian_Stavanger	earth	j.oː.χ	j oː χ	21	erθoː	erθoː	joːd	j oː χ - -
+245	Scottish	earth	ɛ.ɹ.θ	ɛ ɹ θ	21	erθoː	erθoː	joːd	- ɛ ɹ θ -
+246	Swedish_Skane	earth	j.ʉ.ʁ	j ʉ ʁ	21	erθoː	erθoː	joːd	j ʉ ʁ - -
+247	Swedish_Stockholm	earth	ʝ.oː.d	ʝ oː d	21	erθoː	erθoː	joːd	ʝ oː - d -
+248	West_Frisian_Grou	earth	iə.d.ə	iə d ə	21	erθoː	erθoː	joːd	- iə - d ə
+249	Yiddish_New_York	earth	ʔ.ɛ.ɾ.d	ʔ ɛ ɾ d	21	erθoː	erθoː	joːd	ʔ ɛ ɾ d -
+#
+108	Danish	eat!	ʔ.ɪ.lˀ	ʔ ɪ lˀ	10	et	et	it	ʔ ɪ lˀ -
+109	Dutch	eat!	ɛɪ.t	ɛɪ t	10	et	et	it	- ɛɪ t -
+110	English	eat!	i.tʰ	i tʰ	10	et	et	it	- i tʰ -
+111	Faroese	eat!	iɪ.t	iɪ t	10	et	et	it	- iɪ t -
+112	German	eat!	ʔ.ɛ.s	ʔ ɛ s	10	et	et	it	ʔ ɛ s -
+113	Icelandic	eat!	j.ɪɛ.tʰ.a	j ɪɛ tʰ a	10	et	et	it	j ɪɛ tʰ a
+114	Norwegian_Stavanger	eat!	eə.t	eə t	10	et	et	it	- eə t -
+115	Scottish	eat!	i.tʰ	i tʰ	10	et	et	it	- i tʰ -
+116	Swedish_Skane	eat!	eə.tʰ	eə tʰ	10	et	et	it	- eə tʰ -
+117	Swedish_Stockholm	eat!	ɛə.t	ɛə t	10	et	et	it	- ɛə t -
+118	West_Frisian_Grou	eat!	i.t	i t	10	et	et	it	- i t -
+119	Yiddish_New_York	eat!	ʔ.ɛ.s	ʔ ɛ s	10	et	et	it	ʔ ɛ s -
+#
+203	Danish	eight	ʔ.oː.d.ə	ʔ oː d ə	18	axtoːu	axtoːu	at	ʔ oː - d ə
+204	Dutch	eight	ɑ.χ.t	ɑ χ t	18	axtoːu	axtoːu	at	- ɑ χ t -
+205	English	eight	eɪ.tʰ	eɪ tʰ	18	axtoːu	axtoːu	at	- eɪ - tʰ -
+206	Faroese	eight	ɔʰ.tː.a	ɔʰ tː a	18	axtoːu	axtoːu	at	- ɔʰ - tː a
+207	German	eight	ʔ.a.χ.t	ʔ a χ t	18	axtoːu	axtoːu	at	ʔ a χ t -
+208	Icelandic	eight	aʊ.tʰ.a	aʊ tʰ a	18	axtoːu	axtoːu	at	- aʊ - tʰ a
+209	Norwegian_Stavanger	eight	ɔʰ.tː.ə	ɔʰ tː ə	18	axtoːu	axtoːu	at	- ɔʰ - tː ə
+210	Scottish	eight	e.tʰ	e tʰ	18	axtoːu	axtoːu	at	- e - tʰ -
+211	Swedish_Skane	eight	o.t.a	o t a	18	axtoːu	axtoːu	at	- o - t a
+212	Swedish_Stockholm	eight	ɔ.tː.a	ɔ tː a	18	axtoːu	axtoːu	at	- ɔ - tː a
+213	West_Frisian_Grou	eight	a.χ.t	a χ t	18	axtoːu	axtoːu	at	- a χ t -
+214	Yiddish_New_York	eight	ʔ.a.χ.t	ʔ a χ t	18	axtoːu	axtoːu	at	ʔ a χ t -
+#
+368	Danish	eye	ʔ.ɔɪ	ʔ ɔɪ	32	auɡoːn	auɡ	ɔɪɡ	ʔ ɔɪ - -
+369	Dutch	eye	oʊ.χ	oʊ χ	32	auɡoːn	auɡ	ɔɪɡ	- oʊ χ -
+370	English	eye	aɪ	aɪ	32	auɡoːn	auɡ	ɔɪɡ	- aɪ - -
+371	Faroese	eye	ɛ.jː.a	ɛ jː a	32	auɡoːn	auɡ	ɔɪɡ	- ɛ jː a
+372	German	eye	ʔ.aʊ.ɡ.ə	ʔ aʊ ɡ ə	32	auɡoːn	auɡ	ɔɪɡ	ʔ aʊ ɡ ə
+373	Icelandic	eye	ɛʏ.ɣ.a	ɛʏ ɣ a	32	auɡoːn	auɡ	ɔɪɡ	- ɛʏ ɣ a
+374	Norwegian_Stavanger	eye	øɪ.j.ə	øɪ j ə	32	auɡoːn	auɡ	ɔɪɡ	- øɪ j ə
+375	Scottish	eye	ɑɪ	ɑɪ	32	auɡoːn	auɡ	ɔɪɡ	- ɑɪ - -
+376	Swedish_Skane	eye	œə.ɡ.ɐ	œə ɡ ɐ	32	auɡoːn	auɡ	ɔɪɡ	- œə ɡ ɐ
+377	Swedish_Stockholm	eye	œː.ɡ.ə	œː ɡ ə	32	auɡoːn	auɡ	ɔɪɡ	- œː ɡ ə
+378	West_Frisian_Grou	eye	iə.χ	iə χ	32	auɡoːn	auɡ	ɔɪɡ	- iə χ -
+379	Yiddish_New_York	eye	ʔ.ɔɪ.ɡ	ʔ ɔɪ ɡ	32	auɡoːn	auɡ	ɔɪɡ	ʔ ɔɪ ɡ -
+#
+180	Danish	fast	f.ɛ.s.tʰ	f ɛ s tʰ	16	fastaz	fast	fast	f ɛ s tʰ - -
+181	Dutch	fast	f.ɑ.s.t	f ɑ s t	16	fastaz	fast	fast	f ɑ s t - -
+182	English	fast	f.ɑː.s.t	f ɑː s t	16	fastaz	fast	fast	f ɑː s t - -
+183	Faroese	fast	f.a.sː.t.ʌ.ɹ	f a sː t ʌ ɹ	16	fastaz	fast	fast	f a sː t ʌ ɹ
+184	German	fast	f.a.s.t	f a s t	16	fastaz	fast	fast	f a s t - -
+185	Icelandic	fast	f.a.s.t	f a s t	16	fastaz	fast	fast	f a s t - -
+186	Norwegian_Stavanger	fast	f.a.sː.t	f a sː t	16	fastaz	fast	fast	f a sː t - -
+187	Scottish	fast	f.aː.s.t	f aː s t	16	fastaz	fast	fast	f aː s t - -
+188	Swedish_Skane	fast	f.a.s.tʰ	f a s tʰ	16	fastaz	fast	fast	f a s tʰ - -
+189	Swedish_Stockholm	fast	f.a.sː.t	f a sː t	16	fastaz	fast	fast	f a sː t - -
+190	West_Frisian_Grou	fast	f.ɛə.s.t	f ɛə s t	16	fastaz	fast	fast	f ɛə s t - -
+#
+682	Danish	father	f.ɛ.ð.ɔ	f ɛ ð ɔ	59	fadeːr	fadeːr	faː	f ɛ ð ɔ -
+683	Dutch	father	f.aː.ɾ.ə	f aː ɾ ə	59	fadeːr	fadeːr	faː	f aː ɾ ə -
+684	English	father	f.ɑː.ð.ə	f ɑː ð ə	59	fadeːr	fadeːr	faː	f ɑː ð ə -
+685	Faroese	father	f.ɛæ.j.ə.ɹ	f ɛæ j ə ɹ	59	fadeːr	fadeːr	faː	f ɛæ j ə ɹ
+686	German	father	f.aː.t.ɐ	f aː t ɐ	59	fadeːr	fadeːr	faː	f aː t ɐ -
+687	Icelandic	father	f.aː.ð.ɪ.s	f aː ð ɪ s	59	fadeːr	fadeːr	faː	f aː ð ɪ s
+688	Norwegian_Stavanger	father	f.ɑː.χ	f ɑː χ	59	fadeːr	fadeːr	faː	f ɑː - - χ
+689	Scottish	father	f.a.ð.ə.ɹ	f a ð ə ɹ	59	fadeːr	fadeːr	faː	f a ð ə ɹ
+690	Swedish_Skane	father	f.œʊ.ʁ	f œʊ ʁ	59	fadeːr	fadeːr	faː	f œʊ - - ʁ
+691	Swedish_Stockholm	father	f.ɑː.ɾ	f ɑː ɾ	59	fadeːr	fadeːr	faː	f ɑː - - ɾ
+692	West_Frisian_Grou	father	f.aː.r	f aː r	59	fadeːr	fadeːr	faː	f aː - - r
+693	Yiddish_New_York	father	f.ɔ.tʰ.ɛ.ɾ	f ɔ tʰ ɛ ɾ	59	fadeːr	fadeːr	faː	f ɔ tʰ ɛ ɾ
+#
+272	Danish	fight!	f.ɪ.k.tʰ	f ɪ k tʰ	24	fext	fext	fɛt	f - ɪ k tʰ -
+273	Dutch	fight!	f.ɛ.χ.t	f ɛ χ t	24	fext	fext	fɛt	f - ɛ χ t -
+274	English	fight!	f.aɪ.tʰ	f aɪ tʰ	24	fext	fext	fɛt	f - aɪ - tʰ -
+275	Faroese	fight!	f.ɪ.kʰ.t.a	f ɪ kʰ t a	24	fext	fext	fɛt	f - ɪ kʰ t a
+276	German	fight!	f.ɛ.ç.t	f ɛ ç t	24	fext	fext	fɛt	f - ɛ ç t -
+277	Icelandic	fight!	f.ɪ.x.t.a	f ɪ x t a	24	fext	fext	fɛt	f - ɪ x t a
+278	Norwegian_Stavanger	fight!	f.ɛ.k.t	f ɛ k t	24	fext	fext	fɛt	f - ɛ k t -
+279	Scottish	fight!	f.ʌɪ.tʰ	f ʌɪ tʰ	24	fext	fext	fɛt	f - ʌɪ - tʰ -
+280	Swedish_Skane	fight!	f.aɪ.t.ɐ	f aɪ t ɐ	24	fext	fext	fɛt	f - aɪ - t ɐ
+281	Swedish_Stockholm	fight!	f.ɛ.k.t.a	f ɛ k t a	24	fext	fext	fɛt	f - ɛ k t a
+282	West_Frisian_Grou	fight!	f.j.ʌ.χ.ʦ.i	f j ʌ χ ʦ i	24	fext	fext	fɛt	f j ʌ χ ʦ i
+283	Yiddish_New_York	fight!	f.e.x.t	f e x t	24	fext	fext	fɛt	f - e x t -
+#
+717	Danish	fish	f.ɪ.s.k	f ɪ s k	62	fiskaz	fisk	fɪsk	f ɪ s k
+718	Dutch	fish	f.ɪ.s	f ɪ s	62	fiskaz	fisk	fɪsk	f ɪ s -
+719	English	fish	f.ɪ.ʃ	f ɪ ʃ	62	fiskaz	fisk	fɪsk	f ɪ ʃ -
+720	Faroese	fish	f.ɪ.sː.k	f ɪ sː k	62	fiskaz	fisk	fɪsk	f ɪ sː k
+721	German	fish	f.ɪ.ʃ	f ɪ ʃ	62	fiskaz	fisk	fɪsk	f ɪ ʃ -
+722	Icelandic	fish	f.ɪ.s.k	f ɪ s k	62	fiskaz	fisk	fɪsk	f ɪ s k
+723	Norwegian_Stavanger	fish	f.ɪ.sː.k	f ɪ sː k	62	fiskaz	fisk	fɪsk	f ɪ sː k
+724	Scottish	fish	f.ɪ.ʃ	f ɪ ʃ	62	fiskaz	fisk	fɪsk	f ɪ ʃ -
+725	Swedish_Skane	fish	f.ɪ.s.kʰ	f ɪ s kʰ	62	fiskaz	fisk	fɪsk	f ɪ s kʰ
+726	Swedish_Stockholm	fish	f.ɪ.s.k	f ɪ s k	62	fiskaz	fisk	fɪsk	f ɪ s k
+727	West_Frisian_Grou	fish	f.ɪ.s.k	f ɪ s k	62	fiskaz	fisk	fɪsk	f ɪ s k
+728	Yiddish_New_York	fish	f.i.ʃ	f i ʃ	62	fiskaz	fisk	fɪsk	f i ʃ -
+#
+821	Danish	five	f.ɪ.mˀ	f ɪ mˀ	71	fenfe	fenfe	fɪm	f ɪ mˀ - - -
+822	Dutch	five	f.æɪ.f	f æɪ f	71	fenfe	fenfe	fɪm	f æɪ - - f -
+823	English	five	f.aɪ.v	f aɪ v	71	fenfe	fenfe	fɪm	f aɪ - - v -
+824	Faroese	five	f.ɪ.m	f ɪ m	71	fenfe	fenfe	fɪm	f ɪ m - - -
+825	German	five	f.ʏ.ɱ.f	f ʏ ɱ f	71	fenfe	fenfe	fɪm	f ʏ ɱ - f -
+826	Icelandic	five	f.ɪ.m	f ɪ m	71	fenfe	fenfe	fɪm	f ɪ m - - -
+827	Norwegian_Stavanger	five	f.ɛ.m	f ɛ m	71	fenfe	fenfe	fɪm	f ɛ m - - -
+828	Scottish	five	f.ɑe.v	f ɑe v	71	fenfe	fenfe	fɪm	f ɑe - - v -
+829	Swedish_Skane	five	f.ɛ.m	f ɛ m	71	fenfe	fenfe	fɪm	f ɛ m - - -
+830	Swedish_Stockholm	five	f.ɛ.m	f ɛ m	71	fenfe	fenfe	fɪm	f ɛ m - - -
+831	West_Frisian_Grou	five	f.iː.f	f iː f	71	fenfe	fenfe	fɪm	f iː - - f -
+832	Yiddish_New_York	five	f.ɪ.n.f	f ɪ n f	71	fenfe	fenfe	fɪm	f ɪ n - f -
+#
+332	Danish	foot	f.ʊ.lˀ	f ʊ lˀ	29	foːtz	foːtz	fuːt	f ʊ lˀ
+333	Dutch	foot	f.u.t	f u t	29	foːtz	foːtz	fuːt	f u t
+334	English	foot	f.ʊ.tʰ	f ʊ tʰ	29	foːtz	foːtz	fuːt	f ʊ tʰ
+335	Faroese	foot	f.ɒu.t	f ɒu t	29	foːtz	foːtz	fuːt	f ɒu t
+336	German	foot	f.uː.s	f uː s	29	foːtz	foːtz	fuːt	f uː s
+337	Icelandic	foot	f.ɔʊ.t	f ɔʊ t	29	foːtz	foːtz	fuːt	f ɔʊ t
+338	Norwegian_Stavanger	foot	f.uː.t	f uː t	29	foːtz	foːtz	fuːt	f uː t
+339	Scottish	foot	f.ʉ.tʰ	f ʉ tʰ	29	foːtz	foːtz	fuːt	f ʉ tʰ
+340	Swedish_Skane	foot	f.ʉu.t	f ʉu t	29	foːtz	foːtz	fuːt	f ʉu t
+341	Swedish_Stockholm	foot	f.o.tː	f o tː	29	foːtz	foːtz	fuːt	f o tː
+342	West_Frisian_Grou	foot	f.oə.t	f oə t	29	foːtz	foːtz	fuːt	f oə t
+343	Yiddish_New_York	foot	f.u.s	f u s	29	foːtz	foːtz	fuːt	f u s
+#
+1155	Danish	four	f.iə	f iə	100	fewoːrez	fewoːr	fiəɾ	f - iə - -
+1156	Dutch	four	f.iə.ʁ	f iə ʁ	100	fewoːrez	fewoːr	fiəɾ	f - iə ʁ -
+1157	English	four	f.ɔː	f ɔː	100	fewoːrez	fewoːr	fiəɾ	f - ɔː - -
+1158	Faroese	four	f.ʊi.ɹ.a	f ʊi ɹ a	100	fewoːrez	fewoːr	fiəɾ	f - ʊi ɹ a
+1159	German	four	f.iɐ	f iɐ	100	fewoːrez	fewoːr	fiəɾ	f - iɐ - -
+1160	Icelandic	four	f.j.œː.ɾ	f j œː ɾ	100	fewoːrez	fewoːr	fiəɾ	f j œː ɾ -
+1161	Norwegian_Stavanger	four	f.iː.ʁ.ə	f iː ʁ ə	100	fewoːrez	fewoːr	fiəɾ	f - iː ʁ ə
+1162	Scottish	four	f.oə.ɹ	f oə ɹ	100	fewoːrez	fewoːr	fiəɾ	f - oə ɹ -
+1163	Swedish_Skane	four	f.œʏ.ʁ.ɐ	f œʏ ʁ ɐ	100	fewoːrez	fewoːr	fiəɾ	f - œʏ ʁ ɐ
+1164	Swedish_Stockholm	four	f.yː.ɾ.a	f yː ɾ a	100	fewoːrez	fewoːr	fiəɾ	f - yː ɾ a
+1165	West_Frisian_Grou	four	f.j.aʊ.ɾ	f j aʊ ɾ	100	fewoːrez	fewoːr	fiəɾ	f j aʊ ɾ -
+1166	Yiddish_New_York	four	f.iə.ɾ	f iə ɾ	100	fewoːrez	fewoːr	fiəɾ	f - iə ɾ -
+#
+404	Danish	full	f.u.lˀ	f u lˀ	35	fullaz	full	fʊɫ	f u lˀ - -
+405	Dutch	full	v.ʌ.ɫ	v ʌ ɫ	35	fullaz	full	fʊɫ	v ʌ ɫ - -
+406	English	full	f.ʊ.ɫ	f ʊ ɫ	35	fullaz	full	fʊɫ	f ʊ ɫ - -
+407	Faroese	full	f.ʊ.l̥.ʌ.ɹ	f ʊ l̥ ʌ ɹ	35	fullaz	full	fʊɫ	f ʊ l̥ ʌ ɹ
+408	German	full	f.ɒ.l	f ɒ l	35	fullaz	full	fʊɫ	f ɒ l - -
+409	Icelandic	full	f.ʏ.ɬ̥	f ʏ ɬ̥	35	fullaz	full	fʊɫ	f ʏ ɬ̥ - -
+410	Norwegian_Stavanger	full	f.ʊ.l	f ʊ l	35	fullaz	full	fʊɫ	f ʊ l - -
+411	Scottish	full	f.ʊ.ɫ	f ʊ ɫ	35	fullaz	full	fʊɫ	f ʊ ɫ - -
+412	Swedish_Skane	full	f.ʉ.l	f ʉ l	35	fullaz	full	fʊɫ	f ʉ l - -
+413	Swedish_Stockholm	full	f.ɵ.l	f ɵ l	35	fullaz	full	fʊɫ	f ɵ l - -
+414	West_Frisian_Grou	full	f.ʌ.ɫ	f ʌ ɫ	35	fullaz	full	fʊɫ	f ʌ ɫ - -
+415	Yiddish_New_York	full	f.u.ɫ	f u ɫ	35	fullaz	full	fʊɫ	f u ɫ - -
+#
+764	Danish	good	ɡ.ʊə.lˀ	ɡ ʊə lˀ	66	ɡoːdaz	ɡoːd	ɡut	ɡ - ʊə lˀ
+765	Dutch	good	χ.u.t	χ u t	66	ɡoːdaz	ɡoːd	ɡut	χ - u t
+766	English	good	ɡ.ʊ.d	ɡ ʊ d	66	ɡoːdaz	ɡoːd	ɡut	ɡ - ʊ d
+767	German	good	ɡ.uː.t	ɡ uː t	66	ɡoːdaz	ɡoːd	ɡut	ɡ - uː t
+768	Icelandic	good	ɡ.ɔʊ.ð	ɡ ɔʊ ð	66	ɡoːdaz	ɡoːd	ɡut	ɡ - ɔʊ ð
+769	Norwegian_Stavanger	good	ɡ.oː	ɡ oː	66	ɡoːdaz	ɡoːd	ɡut	ɡ - oː -
+770	Scottish	good	ɡ.ʉ.d	ɡ ʉ d	66	ɡoːdaz	ɡoːd	ɡut	ɡ - ʉ d
+771	Swedish_Skane	good	ɡ.øʉ	ɡ øʉ	66	ɡoːdaz	ɡoːd	ɡut	ɡ - øʉ -
+772	Swedish_Stockholm	good	ɡ.ʊo.t	ɡ ʊo t	66	ɡoːdaz	ɡoːd	ɡut	ɡ - ʊo t
+773	West_Frisian_Grou	good	ɡ.oə.t	ɡ oə t	66	ɡoːdaz	ɡoːd	ɡut	ɡ - oə t
+774	Yiddish_New_York	good	ɡ.u.t	ɡ u t	66	ɡoːdaz	ɡoːd	ɡut	ɡ - u t
+#
+132	Danish	goose	ɡ.ʊ.sˀ	ɡ ʊ sˀ	12	ɡansz	ɡansz	ɡoəs	ɡ ʊ - sˀ -
+133	Dutch	goose	χ.ɑ.n.s	χ ɑ n s	12	ɡansz	ɡansz	ɡoəs	χ ɑ n s -
+134	English	goose	ɡ.u.s	ɡ u s	12	ɡansz	ɡansz	ɡoəs	ɡ u - s -
+135	Faroese	goose	ɡ.ʊa.s	ɡ ʊa s	12	ɡansz	ɡansz	ɡoəs	ɡ ʊa - s -
+136	German	goose	ɡ.a.n.ʦ	ɡ a n ʦ	12	ɡansz	ɡansz	ɡoəs	ɡ a n ʦ -
+137	Icelandic	goose	ɟ.aɪ.s	ɟ aɪ s	12	ɡansz	ɡansz	ɡoəs	ɟ aɪ - s -
+138	Norwegian_Stavanger	goose	ɡ.ɔː.s	ɡ ɔː s	12	ɡansz	ɡansz	ɡoəs	ɡ ɔː - s -
+139	Scottish	goose	ɡ.ʉ.s	ɡ ʉ s	12	ɡansz	ɡansz	ɡoəs	ɡ ʉ - s -
+140	Swedish_Skane	goose	ɡ.ɛʊ.s	ɡ ɛʊ s	12	ɡansz	ɡansz	ɡoəs	ɡ ɛʊ - s -
+141	Swedish_Stockholm	goose	ɡ.oə.s	ɡ oə s	12	ɡansz	ɡansz	ɡoəs	ɡ oə - s -
+142	West_Frisian_Grou	goose	ɡ.oə.s	ɡ oə s	12	ɡansz	ɡansz	ɡoəs	ɡ oə - s -
+143	Yiddish_New_York	goose	ɡ.a.n.s	ɡ a n s	12	ɡansz	ɡansz	ɡoəs	ɡ a n s -
+#
+380	Danish	green	ɡ.ʁ.ɔʏ.nˀ	ɡ ʁ ɔʏ nˀ	33	ɡroːniz	ɡroːniz	ɡʁœːn	ɡ - ʁ ɔʏ nˀ - -
+381	Dutch	green	χ.ʁ.u.n	χ ʁ u n	33	ɡroːniz	ɡroːniz	ɡʁœːn	χ - ʁ u n - -
+382	English	green	ɡ.ɹ.ɪi.n	ɡ ɹ ɪi n	33	ɡroːniz	ɡroːniz	ɡʁœːn	ɡ - ɹ ɪi n - -
+383	Faroese	green	ɡ.ɾ.øː.n.ʌ.ɹ	ɡ ɾ øː n ʌ ɹ	33	ɡroːniz	ɡroːniz	ɡʁœːn	ɡ - ɾ øː n ʌ ɹ
+384	German	green	ɡ.ʁ.yː.n	ɡ ʁ yː n	33	ɡroːniz	ɡroːniz	ɡʁœːn	ɡ - ʁ yː n - -
+385	Icelandic	green	ɡ.r.a.n̥	ɡ r a n̥	33	ɡroːniz	ɡroːniz	ɡʁœːn	ɡ - r a n̥ - -
+386	Norwegian_Stavanger	green	ɡ.ʁ.œ.n	ɡ ʁ œ n	33	ɡroːniz	ɡroːniz	ɡʁœːn	ɡ - ʁ œ n - -
+387	Scottish	green	ɡ.ɹ.i.n	ɡ ɹ i n	33	ɡroːniz	ɡroːniz	ɡʁœːn	ɡ - ɹ i n - -
+388	Swedish_Skane	green	ɡ.ʁ.œː.n	ɡ ʁ œː n	33	ɡroːniz	ɡroːniz	ɡʁœːn	ɡ - ʁ œː n - -
+389	Swedish_Stockholm	green	ɡ.ə.r.œː.n	ɡ ə r œː n	33	ɡroːniz	ɡroːniz	ɡʁœːn	ɡ ə r œː n - -
+390	West_Frisian_Grou	green	ɡ.ɾ.iə.n	ɡ ɾ iə n	33	ɡroːniz	ɡroːniz	ɡʁœːn	ɡ - ɾ iə n - -
+391	Yiddish_New_York	green	ɡ.ɾ.i.n	ɡ ɾ i n	33	ɡroːniz	ɡroːniz	ɡʁœːn	ɡ - ɾ i n - -
+#
+49	Danish	hand	h.ʊ.nˀ	h ʊ nˀ	5	xanduz	xand	hant	h ʊ nˀ -
+50	Dutch	hand	h.ɑ.n.t	h ɑ n t	5	xanduz	xand	hant	h ɑ n t
+51	English	hand	h.æ.n.d	h æ n d	5	xanduz	xand	hant	h æ n d
+52	Faroese	hand	h.ɔ.n.t	h ɔ n t	5	xanduz	xand	hant	h ɔ n t
+53	German	hand	h.a.n.t	h a n t	5	xanduz	xand	hant	h a n t
+54	Icelandic	hand	h.œ.n.t	h œ n t	5	xanduz	xand	hant	h œ n t
+55	Norwegian_Stavanger	hand	h.ɔ.n	h ɔ n	5	xanduz	xand	hant	h ɔ n -
+56	Scottish	hand	h.a.n.d	h a n d	5	xanduz	xand	hant	h a n d
+57	Swedish_Skane	hand	h.œʊ.n	h œʊ n	5	xanduz	xand	hant	h œʊ n -
+58	Swedish_Stockholm	hand	h.ɑ.n.d	h ɑ n d	5	xanduz	xand	hant	h ɑ n d
+59	Yiddish_New_York	hand	h.a.n.t	h a n t	5	xanduz	xand	hant	h a n t
+#
+1261	Dutch	head	h.ɒʊ.f.t	h ɒʊ f t	109	xaubadan	xaubad	hɛt	h ɒʊ f - t -
+1262	English	head	h.ɛ.d	h ɛ d	109	xaubadan	xaubad	hɛt	h ɛ - - d -
+1263	Faroese	head	h.œ.t	h œ t	109	xaubadan	xaubad	hɛt	h œ - - t -
+1264	German	head	h.aʊ.p.t	h aʊ p t	109	xaubadan	xaubad	hɛt	h aʊ p - t -
+1265	Icelandic	head	h.øː.v.ə.θ	h øː v ə θ	109	xaubadan	xaubad	hɛt	h øː v ə θ -
+1266	Norwegian_Stavanger	head	h.oː.d.ə	h oː d ə	109	xaubadan	xaubad	hɛt	h oː - - d ə
+1267	Scottish	head	h.ɛ.d	h ɛ d	109	xaubadan	xaubad	hɛt	h ɛ - - d -
+1268	Swedish_Skane	head	h.øʊə	h øʊə	109	xaubadan	xaubad	hɛt	h øʊə - - - -
+1269	Swedish_Stockholm	head	h.ʉː.v.ʉ.d	h ʉː v ʉ d	109	xaubadan	xaubad	hɛt	h ʉː v ʉ d -
+1270	West_Frisian_Grou	head	h.aː.t	h aː t	109	xaubadan	xaubad	hɛt	h aː - - t -
+1271	Yiddish_New_York	head	h.aɪ.p.t	h aɪ p t	109	xaubadan	xaubad	hɛt	h aɪ p - t -
+#
+1109	Danish	hear!	h.øɔˀ	h øɔˀ	96	xauziː	xauziː	hœːɹ	h øɔˀ - -
+1110	Dutch	hear!	h.o.ɹ	h o ɹ	96	xauziː	xauziː	hœːɹ	h o ɹ -
+1111	English	hear!	h.ɪə	h ɪə	96	xauziː	xauziː	hœːɹ	h ɪə - -
+1112	Faroese	hear!	h.ɔɪ.ɹ	h ɔɪ ɹ	96	xauziː	xauziː	hœːɹ	h ɔɪ ɹ -
+1113	German	hear!	h.œː.ʁ	h œː ʁ	96	xauziː	xauziː	hœːɹ	h œː ʁ -
+1114	Icelandic	hear!	h.ɛɪ.r.a	h ɛɪ r a	96	xauziː	xauziː	hœːɹ	h ɛɪ r a
+1115	Norwegian_Stavanger	hear!	h.øː.χ	h øː χ	96	xauziː	xauziː	hœːɹ	h øː χ -
+1116	Scottish	hear!	h.iə.ɹ	h iə ɹ	96	xauziː	xauziː	hœːɹ	h iə ɹ -
+1117	Swedish_Skane	hear!	h.œː.ʁ	h œː ʁ	96	xauziː	xauziː	hœːɹ	h œː ʁ -
+1118	Swedish_Stockholm	hear!	h.ɔː.r	h ɔː r	96	xauziː	xauziː	hœːɹ	h ɔː r -
+1119	Yiddish_New_York	hear!	h.ɛ.ɾ	h ɛ ɾ	96	xauziː	xauziː	hœːɹ	h ɛ ɾ -
+#
+1132	Danish	heart	j.ɛə.d.ə	j ɛə d ə	98	xertoːn	xert	hat	j ɛə - d ə
+1133	Dutch	heart	h.a.ɹ.t	h a ɹ t	98	xertoːn	xert	hat	h a ɹ t -
+1134	English	heart	h.ɑː.tʰ	h ɑː tʰ	98	xertoːn	xert	hat	h ɑː - tʰ -
+1135	Faroese	heart	j.a.ɹː.t.a	j a ɹː t a	98	xertoːn	xert	hat	j a ɹː t a
+1136	German	heart	h.ɛɐ.ʦ	h ɛɐ ʦ	98	xertoːn	xert	hat	h ɛɐ - ʦ -
+1137	Icelandic	heart	hʲ.a.s.t.a	hʲ a s t a	98	xertoːn	xert	hat	hʲ a s t a
+1138	Norwegian_Stavanger	heart	j.ɛ.χː.t.ə	j ɛ χː t ə	98	xertoːn	xert	hat	j ɛ χː t ə
+1139	Scottish	heart	h.ɒ.ɹ.tʰ	h ɒ ɹ tʰ	98	xertoːn	xert	hat	h ɒ ɹ tʰ -
+1140	Swedish_Skane	heart	j.a.χ.t.ɐ	j a χ t ɐ	98	xertoːn	xert	hat	j a χ t ɐ
+1141	Swedish_Stockholm	heart	j.a.tː.a	j a tː a	98	xertoːn	xert	hat	j a - tː a
+1142	West_Frisian_Grou	heart	h.ɛ.t	h ɛ t	98	xertoːn	xert	hat	h ɛ - t -
+1143	Yiddish_New_York	heart	h.a.r.ʦ	h a r ʦ	98	xertoːn	xert	hat	h a r ʦ -
+#
+344	Danish	holy	h.ɛ.l.i	h ɛ l i	30	xailaɡaz	xailaɡ	hɛlɪ	h ɛ l i - - -
+345	Dutch	holy	h.ɛɪ.l.ʌ.χ	h ɛɪ l ʌ χ	30	xailaɡaz	xailaɡ	hɛlɪ	h ɛɪ l ʌ χ - -
+346	English	holy	h.əʊ.l.ɪ	h əʊ l ɪ	30	xailaɡaz	xailaɡ	hɛlɪ	h əʊ l ɪ - - -
+347	Faroese	holy	h.æi.l.a.v.ʌ.ɹ	h æi l a v ʌ ɹ	30	xailaɡaz	xailaɡ	hɛlɪ	h æi l a v ʌ ɹ
+348	German	holy	h.aɪ.l.ɪ.ç	h aɪ l ɪ ç	30	xailaɡaz	xailaɡ	hɛlɪ	h aɪ l ɪ ç - -
+349	Icelandic	holy	h.ɛ.l.k	h ɛ l k	30	xailaɡaz	xailaɡ	hɛlɪ	h ɛ l - k - -
+350	Norwegian_Stavanger	holy	h.ɛ.lː.i	h ɛ lː i	30	xailaɡaz	xailaɡ	hɛlɪ	h ɛ lː i - - -
+351	Scottish	holy	h.o.ɫ.i	h o ɫ i	30	xailaɡaz	xailaɡ	hɛlɪ	h o ɫ i - - -
+352	Swedish_Skane	holy	h.eə.l.ɪ	h eə l ɪ	30	xailaɡaz	xailaɡ	hɛlɪ	h eə l ɪ - - -
+353	Swedish_Stockholm	holy	h.ɪɐ.l.ɪ.ɡ	h ɪɐ l ɪ ɡ	30	xailaɡaz	xailaɡ	hɛlɪ	h ɪɐ l ɪ ɡ - -
+354	West_Frisian_Grou	holy	h.ɪ.ɫ.ə.χ	h ɪ ɫ ə χ	30	xailaɡaz	xailaɡ	hɛlɪ	h ɪ ɫ ə χ - -
+355	Yiddish_New_York	holy	h.ɛɪ.l.ɪ.ɡ	h ɛɪ l ɪ ɡ	30	xailaɡaz	xailaɡ	hɛlɪ	h ɛɪ l ɪ ɡ - -
+#
+601	Danish	home	j.ɪ.mˀ	j ɪ mˀ	52	xaimaz	xaim	hɛɪm	j ɪ mˀ - -
+602	Dutch	home	h.ɛɪ.m	h ɛɪ m	52	xaimaz	xaim	hɛɪm	h ɛɪ m - -
+603	English	home	h.əʊ.m	h əʊ m	52	xaimaz	xaim	hɛɪm	h əʊ m - -
+604	Faroese	home	h.aɪ.m	h aɪ m	52	xaimaz	xaim	hɛɪm	h aɪ m - -
+605	German	home	h.aɪ.m	h aɪ m	52	xaimaz	xaim	hɛɪm	h aɪ m - -
+606	Icelandic	home	h.ɛɪ.m	h ɛɪ m	52	xaimaz	xaim	hɛɪm	h ɛɪ m - -
+607	Norwegian_Stavanger	home	j.ɛ.m	j ɛ m	52	xaimaz	xaim	hɛɪm	j ɛ m - -
+608	Scottish	home	h.o.m	h o m	52	xaimaz	xaim	hɛɪm	h o m - -
+609	Swedish_Skane	home	h.e.m	h e m	52	xaimaz	xaim	hɛɪm	h e m - -
+610	Swedish_Stockholm	home	h.ɛə.m	h ɛə m	52	xaimaz	xaim	hɛɪm	h ɛə m - -
+611	West_Frisian_Grou	home	h.iə.m	h iə m	52	xaimaz	xaim	hɛɪm	h iə m - -
+612	Yiddish_New_York	home	h.ɛɪ.m	h ɛɪ m	52	xaimaz	xaim	hɛɪm	h ɛɪ m - -
+#
+144	Danish	honey	h.ɔ.n.ɪ.ŋ	h ɔ n ɪ ŋ	13	hunaɡan	hunaɡ	hɔnɪŋ	h ɔ n ɪ ŋ -
+145	Dutch	honey	h.ɔ.n.ɪ.ŋ	h ɔ n ɪ ŋ	13	hunaɡan	hunaɡ	hɔnɪŋ	h ɔ n ɪ ŋ -
+146	English	honey	h.ɐ.n.ɪ	h ɐ n ɪ	13	hunaɡan	hunaɡ	hɔnɪŋ	h ɐ n ɪ - -
+147	Faroese	honey	h.ʊ.n.a.ŋ.k	h ʊ n a ŋ k	13	hunaɡan	hunaɡ	hɔnɪŋ	h ʊ n a ŋ k
+148	German	honey	h.oː.n.ɪ.ç	h oː n ɪ ç	13	hunaɡan	hunaɡ	hɔnɪŋ	h oː n ɪ - ç
+149	Icelandic	honey	h.øː.n.a.ŋ.k	h øː n a ŋ k	13	hunaɡan	hunaɡ	hɔnɪŋ	h øː n a ŋ k
+150	Norwegian_Stavanger	honey	h.ʊ.nː.ɪ.ŋ	h ʊ nː ɪ ŋ	13	hunaɡan	hunaɡ	hɔnɪŋ	h ʊ nː ɪ ŋ -
+151	Scottish	honey	h.ʌ.n.i	h ʌ n i	13	hunaɡan	hunaɡ	hɔnɪŋ	h ʌ n i - -
+152	Swedish_Skane	honey	h.øə.n.ʉ.ŋ	h øə n ʉ ŋ	13	hunaɡan	hunaɡ	hɔnɪŋ	h øə n ʉ ŋ -
+153	Swedish_Stockholm	honey	h.oə.n.ʌ.ŋ	h oə n ʌ ŋ	13	hunaɡan	hunaɡ	hɔnɪŋ	h oə n ʌ ŋ -
+154	West_Frisian_Grou	honey	h.y.n.ɪ.ŋ	h y n ɪ ŋ	13	hunaɡan	hunaɡ	hɔnɪŋ	h y n ɪ ŋ -
+155	Yiddish_New_York	honey	h.ɔ.n.ɪ.ɡ	h ɔ n ɪ ɡ	13	hunaɡan	hunaɡ	hɔnɪŋ	h ɔ n ɪ - ɡ
+#
+753	Dutch	horn	h.o.ɹ.n	h o ɹ n	65	xurnan	xurn	hɔn	h o ɹ - n
+754	English	horn	h.ɔː.n	h ɔː n	65	xurnan	xurn	hɔn	h ɔː - - n
+755	Faroese	horn	h.ɔ.n̥	h ɔ n̥	65	xurnan	xurn	hɔn	h ɔ - - n̥
+756	German	horn	h.ɔː.n	h ɔː n	65	xurnan	xurn	hɔn	h ɔː - - n
+757	Icelandic	horn	h.ɔ.r.nˀ	h ɔ r nˀ	65	xurnan	xurn	hɔn	h ɔ r - nˀ
+758	Norwegian_Stavanger	horn	h.o.ʁ.n	h o ʁ n	65	xurnan	xurn	hɔn	h o ʁ - n
+759	Scottish	horn	h.ɔ.ɹ.n	h ɔ ɹ n	65	xurnan	xurn	hɔn	h ɔ ɹ - n
+760	Swedish_Skane	horn	h.oə.ʁ.n	h oə ʁ n	65	xurnan	xurn	hɔn	h oə ʁ - n
+761	Swedish_Stockholm	horn	h.o.ʁ.n	h o ʁ n	65	xurnan	xurn	hɔn	h o ʁ - n
+762	West_Frisian_Grou	horn	h.õə̃.n	h õə̃ n	65	xurnan	xurn	hɔn	h õə̃ - - n
+763	Yiddish_New_York	horn	h.ɔ.r.n	h ɔ r n	65	xurnan	xurn	hɔn	h ɔ r - n
+#
+1284	Danish	hound	h.u.nˀ	h u nˀ	111	xundaz	xund	hʊnt	h u nˀ -
+1285	Dutch	hound	h.ɔ.n.t	h ɔ n t	111	xundaz	xund	hʊnt	h ɔ n t
+1286	English	hound	h.aʊ.n.d	h aʊ n d	111	xundaz	xund	hʊnt	h aʊ n d
+1287	Faroese	hound	h.ʊ.n.t	h ʊ n t	111	xundaz	xund	hʊnt	h ʊ n t
+1288	German	hound	h.ʊ.n.t	h ʊ n t	111	xundaz	xund	hʊnt	h ʊ n t
+1289	Icelandic	hound	h.ʏ.n.t	h ʏ n t	111	xundaz	xund	hʊnt	h ʏ n t
+1290	Norwegian_Stavanger	hound	h.ʊ.nː	h ʊ nː	111	xundaz	xund	hʊnt	h ʊ nː -
+1291	Scottish	hound	h.ɐʉ.n.d	h ɐʉ n d	111	xundaz	xund	hʊnt	h ɐʉ n d
+1292	Swedish_Skane	hound	h.ʉə.n	h ʉə n	111	xundaz	xund	hʊnt	h ʉə n -
+1293	Swedish_Stockholm	hound	h.ɵ.n.d	h ɵ n d	111	xundaz	xund	hʊnt	h ɵ n d
+1294	West_Frisian_Grou	hound	h.ũ.n	h ũ n	111	xundaz	xund	hʊnt	h ũ n -
+1295	Yiddish_New_York	hound	h.u.n.t	h u n t	111	xundaz	xund	hʊnt	h u n t
+#
+1190	Danish	house	h.u.s	h u s	103	xuːsan	xuːs	huːs	h u s
+1191	Dutch	house	h.aø.s	h aø s	103	xuːsan	xuːs	huːs	h aø s
+1192	English	house	h.aʊ.s	h aʊ s	103	xuːsan	xuːs	huːs	h aʊ s
+1193	Faroese	house	h.øu.s	h øu s	103	xuːsan	xuːs	huːs	h øu s
+1194	German	house	h.aʊ.s	h aʊ s	103	xuːsan	xuːs	huːs	h aʊ s
+1195	Icelandic	house	h.uː.s	h uː s	103	xuːsan	xuːs	huːs	h uː s
+1196	Norwegian_Stavanger	house	h.ʏy.s	h ʏy s	103	xuːsan	xuːs	huːs	h ʏy s
+1197	Scottish	house	h.ɐʉ.s	h ɐʉ s	103	xuːsan	xuːs	huːs	h ɐʉ s
+1198	Swedish_Skane	house	h.ʏy.s	h ʏy s	103	xuːsan	xuːs	huːs	h ʏy s
+1199	Swedish_Stockholm	house	h.ʏː.s	h ʏː s	103	xuːsan	xuːs	huːs	h ʏː s
+1200	West_Frisian_Grou	house	h.uː.s	h uː s	103	xuːsan	xuːs	huːs	h uː s
+1201	Yiddish_New_York	house	h.ɔɪ.z	h ɔɪ z	103	xuːsan	xuːs	huːs	h ɔɪ z
+#
+658	Danish	hundred	h.ʊ.n.ʁ.œː	h ʊ n ʁ œː	57	xundaradan	xundarad	hʊndɹə	h ʊ n - - ʁ œː -
+659	Dutch	hundred	h.ʊ.n.ə.ɹ.t	h ʊ n ə ɹ t	57	xundaradan	xundarad	hʊndɹə	h ʊ n - ə ɹ - t
+660	English	hundred	h.ɐ.n.d.ɹ.ə.d	h ɐ n d ɹ ə d	57	xundaradan	xundarad	hʊndɹə	h ɐ n d - ɹ ə d
+661	Faroese	hundred	h.ʊ.n.t.ɹ.a	h ʊ n t ɹ a	57	xundaradan	xundarad	hʊndɹə	h ʊ n t - ɹ a -
+662	German	hundred	h.ʊ.n.d.ɐ.t	h ʊ n d ɐ t	57	xundaradan	xundarad	hʊndɹə	h ʊ n d ɐ - - t
+663	Icelandic	hundred	h.ʏ.n.d.ɾ.a.θ	h ʏ n d ɾ a θ	57	xundaradan	xundarad	hʊndɹə	h ʏ n d - ɾ a θ
+664	Norwegian_Stavanger	hundred	h.ʊ.n.d.ʁ.ə	h ʊ n d ʁ ə	57	xundaradan	xundarad	hʊndɹə	h ʊ n d - ʁ ə -
+665	Scottish	hundred	h.ʌ.n.d.ɹ.ə.d	h ʌ n d ɹ ə d	57	xundaradan	xundarad	hʊndɹə	h ʌ n d - ɹ ə d
+666	Swedish_Skane	hundred	h.ʏ.n.d.ʁ.ɐ	h ʏ n d ʁ ɐ	57	xundaradan	xundarad	hʊndɹə	h ʏ n d - ʁ ɐ -
+667	Swedish_Stockholm	hundred	h.ʊ.n.d.ɾ.a	h ʊ n d ɾ a	57	xundaradan	xundarad	hʊndɹə	h ʊ n d - ɾ a -
+668	West_Frisian_Grou	hundred	h.ʊ.n.d.ə.t	h ʊ n d ə t	57	xundaradan	xundarad	hʊndɹə	h ʊ n d ə - - t
+669	Yiddish_New_York	hundred	h.u.n.d.ə.ɾ.ə.t	h u n d ə ɾ ə t	57	xundaradan	xundarad	hʊndɹə	h u n d ə ɾ ə t
+#
+1037	Danish	hunger	h.ʊ.ŋˀ.ɔ	h ʊ ŋˀ ɔ	90	xunɡruz	xunɡr	hʊŋə	h ʊ ŋˀ - ɔ -
+1038	Dutch	hunger	h.ʌ.ŋ.ə.ʁ	h ʌ ŋ ə ʁ	90	xunɡruz	xunɡr	hʊŋə	h ʌ ŋ - ə ʁ
+1039	English	hunger	h.ɐ.ŋ.ɡ.ə	h ɐ ŋ ɡ ə	90	xunɡruz	xunɡr	hʊŋə	h ɐ ŋ ɡ ə -
+1040	Faroese	hunger	h.ʊ.n.k.ə.ɹ	h ʊ n k ə ɹ	90	xunɡruz	xunɡr	hʊŋə	h ʊ n k ə ɹ
+1041	German	hunger	h.ʊ.ŋ.ɐ	h ʊ ŋ ɐ	90	xunɡruz	xunɡr	hʊŋə	h ʊ ŋ - ɐ -
+1042	Icelandic	hunger	h.ʊ.ŋ.k	h ʊ ŋ k	90	xunɡruz	xunɡr	hʊŋə	h ʊ ŋ k - -
+1043	Norwegian_Stavanger	hunger	h.ʊ.ŋ.ɡ.ə.χ	h ʊ ŋ ɡ ə χ	90	xunɡruz	xunɡr	hʊŋə	h ʊ ŋ ɡ ə χ
+1044	Scottish	hunger	h.ʌ.ŋ.ɡ.ə.ɹ	h ʌ ŋ ɡ ə ɹ	90	xunɡruz	xunɡr	hʊŋə	h ʌ ŋ ɡ ə ɹ
+1045	Swedish_Skane	hunger	h.ʏ.ŋ.ɡ.ʁ	h ʏ ŋ ɡ ʁ	90	xunɡruz	xunɡr	hʊŋə	h ʏ ŋ ɡ - ʁ
+1046	Swedish_Stockholm	hunger	h.ʉ.ŋ.ə.ɹ	h ʉ ŋ ə ɹ	90	xunɡruz	xunɡr	hʊŋə	h ʉ ŋ - ə ɹ
+1047	West_Frisian_Grou	hunger	h.ʌ.ŋ.r	h ʌ ŋ r	90	xunɡruz	xunɡr	hʊŋə	h ʌ ŋ - - r
+1048	Yiddish_New_York	hunger	h.u.ŋ.ɡ.ɛ.ɾ	h u ŋ ɡ ɛ ɾ	90	xunɡruz	xunɡr	hʊŋə	h u ŋ ɡ ɛ ɾ
+#
+1073	Danish	ice	ʔ.i.s	ʔ i s	93	iːsaz	iːs	iːs	ʔ i s -
+1074	Dutch	ice	ɛɪ.s	ɛɪ s	93	iːsaz	iːs	iːs	- ɛɪ s -
+1075	English	ice	aɪ.s	aɪ s	93	iːsaz	iːs	iːs	- aɪ s -
+1076	Faroese	ice	ʊi.s	ʊi s	93	iːsaz	iːs	iːs	- ʊi s -
+1077	German	ice	ʔ.aɪ.s	ʔ aɪ s	93	iːsaz	iːs	iːs	ʔ aɪ s -
+1078	Icelandic	ice	iː.s	iː s	93	iːsaz	iːs	iːs	- iː s -
+1079	Norwegian_Stavanger	ice	iː.s	iː s	93	iːsaz	iːs	iːs	- iː s -
+1080	Scottish	ice	ʌi.s	ʌi s	93	iːsaz	iːs	iːs	- ʌi s -
+1081	Swedish_Skane	ice	ɪi.s	ɪi s	93	iːsaz	iːs	iːs	- ɪi s -
+1082	Swedish_Stockholm	ice	iː.s	iː s	93	iːsaz	iːs	iːs	- iː s -
+1083	West_Frisian_Grou	ice	iː.s	iː s	93	iːsaz	iːs	iːs	- iː s -
+1084	Yiddish_New_York	ice	ʔ.aɪ.z	ʔ aɪ z	93	iːsaz	iːs	iːs	ʔ aɪ z -
+#
+428	Danish	in	ʔ.i.ç	ʔ i ç	37	eni	eni	ɪn	ʔ i ç
+429	Dutch	in	ɪ.n	ɪ n	37	eni	eni	ɪn	- ɪ n
+430	English	in	ɪ.n	ɪ n	37	eni	eni	ɪn	- ɪ n
+431	Faroese	in	ʊi	ʊi	37	eni	eni	ɪn	- ʊi -
+432	German	in	ʔ.ɪ.n	ʔ ɪ n	37	eni	eni	ɪn	ʔ ɪ n
+433	Icelandic	in	iː	iː	37	eni	eni	ɪn	- iː -
+434	Norwegian_Stavanger	in	iː	iː	37	eni	eni	ɪn	- iː -
+435	Scottish	in	ɪ.n	ɪ n	37	eni	eni	ɪn	- ɪ n
+436	Swedish_Skane	in	ʔ.ɪi	ʔ ɪi	37	eni	eni	ɪn	ʔ ɪi -
+437	Swedish_Stockholm	in	iː	iː	37	eni	eni	ɪn	- iː -
+438	West_Frisian_Grou	in	i.n	i n	37	eni	eni	ɪn	- i n
+439	Yiddish_New_York	in	ʔ.ɪ.n	ʔ ɪ n	37	eni	eni	ɪn	ʔ ɪ n
+#
+521	Danish	is	ʔ.ɛɐ	ʔ ɛɐ	45	esti	esti	ɪz	ʔ ɛɐ - -
+522	Dutch	is	ɪ.s	ɪ s	45	esti	esti	ɪz	- ɪ s -
+523	English	is	ɪ.z	ɪ z	45	esti	esti	ɪz	- ɪ z -
+524	German	is	ʔ.ɪ.s.t	ʔ ɪ s t	45	esti	esti	ɪz	ʔ ɪ s t
+525	Scottish	is	ɪ.z	ɪ z	45	esti	esti	ɪz	- ɪ z -
+526	Swedish_Skane	is	ɪi	ɪi	45	esti	esti	ɪz	- ɪi - -
+527	West_Frisian_Grou	is	ɪ.s	ɪ s	45	esti	esti	ɪz	- ɪ s -
+528	Yiddish_New_York	is	ʔ.ɪ.z	ʔ ɪ z	45	esti	esti	ɪz	ʔ ɪ z -
+#
+37	Danish	knee	kʰ.n.iˀ	kʰ n iˀ	4	knewan	knew	kʰniː	kʰ - n iˀ - -
+38	Dutch	knee	kʰ.n.i	kʰ n i	4	knewan	knew	kʰniː	kʰ - n i - -
+39	English	knee	n.ɪi	n ɪi	4	knewan	knew	kʰniː	- - n ɪi - -
+40	Faroese	knee	kʰ.n.ɛa	kʰ n ɛa	4	knewan	knew	kʰniː	kʰ - n ɛa - -
+41	German	knee	kʰ.n.iː	kʰ n iː	4	knewan	knew	kʰniː	kʰ - n iː - -
+42	Icelandic	knee	h.n.eə	h n eə	4	knewan	knew	kʰniː	h - n eə - -
+43	Norwegian_Stavanger	knee	kʰ.n.eə	kʰ n eə	4	knewan	knew	kʰniː	kʰ - n eə - -
+44	Scottish	knee	n.iː	n iː	4	knewan	knew	kʰniː	- - n iː - -
+45	Swedish_Skane	knee	k.n.ɛɪ	k n ɛɪ	4	knewan	knew	kʰniː	k - n ɛɪ - -
+46	Swedish_Stockholm	knee	kʰ.ə.n.ɛː	kʰ ə n ɛː	4	knewan	knew	kʰniː	kʰ ə n ɛː - -
+47	West_Frisian_Grou	knee	k.n.ɪ.b.ɫ	k n ɪ b ɫ	4	knewan	knew	kʰniː	k - n ɪ b ɫ
+48	Yiddish_New_York	knee	kʰ.n.iː	kʰ n iː	4	knewan	knew	kʰniː	kʰ - n iː - -
+#
+917	Danish	lamb	l.a.mˀ	l a mˀ	79	lambaz	lamb	lam	l a mˀ - - - -
+918	Dutch	lamb	ɫ.ɑ.m	ɫ ɑ m	79	lambaz	lamb	lam	ɫ ɑ m - - - -
+919	English	lamb	l.æ.m	l æ m	79	lambaz	lamb	lam	l æ m - - - -
+920	Faroese	lamb	l.a.m.p	l a m p	79	lambaz	lamb	lam	l a m p - - -
+921	German	lamb	l.a.m	l a m	79	lambaz	lamb	lam	l a m - - - -
+922	Icelandic	lamb	l.a.m.p	l a m p	79	lambaz	lamb	lam	l a m p - - -
+923	Norwegian_Stavanger	lamb	l.a.m	l a m	79	lambaz	lamb	lam	l a m - - - -
+924	Scottish	lamb	ɫ.aː.m	ɫ aː m	79	lambaz	lamb	lam	ɫ aː m - - - -
+925	Swedish_Skane	lamb	l.a.m	l a m	79	lambaz	lamb	lam	l a m - - - -
+926	Swedish_Stockholm	lamb	l.a.m	l a m	79	lambaz	lamb	lam	l a m - - - -
+927	West_Frisian_Grou	lamb	ɫ.aː.m	ɫ aː m	79	lambaz	lamb	lam	ɫ aː m - - - -
+928	Yiddish_New_York	lamb	l.a.m	l a m	79	lambaz	lamb	lam	l a m - - - -
+#
+250	Danish	leaf	l.ʏo	l ʏo	22	lauban	laub	lœːf	l ʏo -
+251	Dutch	leaf	l.oʊ.f	l oʊ f	22	lauban	laub	lœːf	l oʊ f
+252	English	leaf	l.i.f	l i f	22	lauban	laub	lœːf	l i f
+253	Faroese	leaf	l.ɛi.v	l ɛi v	22	lauban	laub	lœːf	l ɛi v
+254	German	leaf	l.aʊ.p	l aʊ p	22	lauban	laub	lœːf	l aʊ p
+255	Icelandic	leaf	l.œʏ.f	l œʏ f	22	lauban	laub	lœːf	l œʏ f
+256	Norwegian_Stavanger	leaf	l.øː.f	l øː f	22	lauban	laub	lœːf	l øː f
+257	Scottish	leaf	ɫ.i.f	ɫ i f	22	lauban	laub	lœːf	ɫ i f
+258	Swedish_Skane	leaf	l.œː.v	l œː v	22	lauban	laub	lœːf	l œː v
+259	Swedish_Stockholm	leaf	l.œː.v	l œː v	22	lauban	laub	lœːf	l œː v
+260	West_Frisian_Grou	leaf	ɫ.ɪiə.f	ɫ ɪiə f	22	lauban	laub	lœːf	ɫ ɪiə f
+#
+577	Danish	liver	l.ɪ.w.ɔ	l ɪ w ɔ	50	libaroː	libaroː	lɪvə	l ɪ w ɔ - -
+578	Dutch	liver	l.ɛɪ.v.ə.ʁ	l ɛɪ v ə ʁ	50	libaroː	libaroː	lɪvə	l ɛɪ v ə ʁ -
+579	English	liver	l.ɪ.v.ə	l ɪ v ə	50	libaroː	libaroː	lɪvə	l ɪ v ə - -
+580	Faroese	liver	l.iː.v.ʌ.ɹ	l iː v ʌ ɹ	50	libaroː	libaroː	lɪvə	l iː v ʌ ɹ -
+581	German	liver	l.eː.b.ɐ	l eː b ɐ	50	libaroː	libaroː	lɪvə	l eː b ɐ - -
+582	Icelandic	liver	l.eː.v.ʊ.s	l eː v ʊ s	50	libaroː	libaroː	lɪvə	l eː v ʊ s -
+583	Norwegian_Stavanger	liver	l.ɛː.v.ə	l ɛː v ə	50	libaroː	libaroː	lɪvə	l ɛː v ə - -
+584	Scottish	liver	ɫ.ɪ.v.ə.ɹ	ɫ ɪ v ə ɹ	50	libaroː	libaroː	lɪvə	ɫ ɪ v ə ɹ -
+585	Swedish_Skane	liver	l.eə.β.ʁ	l eə β ʁ	50	libaroː	libaroː	lɪvə	l eə β - ʁ -
+586	Swedish_Stockholm	liver	l.eə.v.ə	l eə v ə	50	libaroː	libaroː	lɪvə	l eə v ə - -
+587	West_Frisian_Grou	liver	ɫ.ɛɪ.v.r	ɫ ɛɪ v r	50	libaroː	libaroː	lɪvə	ɫ ɛɪ v - r -
+588	Yiddish_New_York	liver	l.ɛ.b.ɛ.ɾ	l ɛ b ɛ ɾ	50	libaroː	libaroː	lɪvə	l ɛ b ɛ ɾ -
+#
+392	Danish	long	l.a.ŋˀ	l a ŋˀ	34	lanɡaz	lanɡ	laŋ	l a ŋˀ - - -
+393	Dutch	long	ɫ.ɑ.ŋ	ɫ ɑ ŋ	34	lanɡaz	lanɡ	laŋ	ɫ ɑ ŋ - - -
+394	English	long	l.ɔ.ŋ	l ɔ ŋ	34	lanɡaz	lanɡ	laŋ	l ɔ ŋ - - -
+395	Faroese	long	l.ɛ.ŋ.k.ʌ.ɹ	l ɛ ŋ k ʌ ɹ	34	lanɡaz	lanɡ	laŋ	l ɛ ŋ k ʌ ɹ
+396	German	long	l.a.ŋ	l a ŋ	34	lanɡaz	lanɡ	laŋ	l a ŋ - - -
+397	Icelandic	long	l.a.ŋ.k	l a ŋ k	34	lanɡaz	lanɡ	laŋ	l a ŋ k - -
+398	Norwegian_Stavanger	long	l.a.ŋ	l a ŋ	34	lanɡaz	lanɡ	laŋ	l a ŋ - - -
+399	Scottish	long	ɫ.ɔ.ŋ	ɫ ɔ ŋ	34	lanɡaz	lanɡ	laŋ	ɫ ɔ ŋ - - -
+400	Swedish_Skane	long	l.o.ŋ	l o ŋ	34	lanɡaz	lanɡ	laŋ	l o ŋ - - -
+401	Swedish_Stockholm	long	l.ɔ.ŋ	l ɔ ŋ	34	lanɡaz	lanɡ	laŋ	l ɔ ŋ - - -
+402	West_Frisian_Grou	long	ɫ.a.ŋ	ɫ a ŋ	34	lanɡaz	lanɡ	laŋ	ɫ a ŋ - - -
+403	Yiddish_New_York	long	l.a.ŋ.ɡ	l a ŋ ɡ	34	lanɡaz	lanɡ	laŋ	l a ŋ ɡ - -
+#
+284	Danish	mid	m.ɪ.tʰ	m ɪ tʰ	25	medjaz	medj	mɪtʰ	m ɪ tʰ - - -
+285	Dutch	mid	m.ɪ.d.ə	m ɪ d ə	25	medjaz	medj	mɪtʰ	m ɪ d ə - -
+286	English	mid	m.ɪ.d	m ɪ d	25	medjaz	medj	mɪtʰ	m ɪ d - - -
+287	Faroese	mid	m.ɪ.tːʰ	m ɪ tːʰ	25	medjaz	medj	mɪtʰ	m ɪ tːʰ - - -
+288	German	mid	m.ɪ.tʰ.ə	m ɪ tʰ ə	25	medjaz	medj	mɪtʰ	m ɪ tʰ ə - -
+289	Icelandic	mid	m.ɪ.tʰ	m ɪ tʰ	25	medjaz	medj	mɪtʰ	m ɪ tʰ - - -
+290	Norwegian_Stavanger	mid	m.ɪ.tʰ	m ɪ tʰ	25	medjaz	medj	mɪtʰ	m ɪ tʰ - - -
+291	Scottish	mid	m.ɪ.d	m ɪ d	25	medjaz	medj	mɪtʰ	m ɪ d - - -
+292	Swedish_Skane	mid	m.ɪ.tʰ	m ɪ tʰ	25	medjaz	medj	mɪtʰ	m ɪ tʰ - - -
+293	Swedish_Stockholm	mid	m.ɪ.tː	m ɪ tː	25	medjaz	medj	mɪtʰ	m ɪ tː - - -
+294	West_Frisian_Grou	mid	m.ɪ.d.n	m ɪ d n	25	medjaz	medj	mɪtʰ	m ɪ d - n -
+295	Yiddish_New_York	mid	m.ɪ.tʰ.ə.n	m ɪ tʰ ə n	25	medjaz	medj	mɪtʰ	m ɪ tʰ ə n -
+#
+308	Danish	milk	m.ɪ.lˀ.kʰ	m ɪ lˀ kʰ	27	melkaz	melk	mɪɫk	m - ɪ lˀ - kʰ -
+309	Dutch	milk	m.ɛ.ɫ.k	m ɛ ɫ k	27	melkaz	melk	mɪɫk	m - ɛ ɫ - k -
+310	English	milk	m.ɪ.ɫ.k	m ɪ ɫ k	27	melkaz	melk	mɪɫk	m - ɪ ɫ - k -
+311	Faroese	milk	m.iɔ.ɬ.k	m iɔ ɬ k	27	melkaz	melk	mɪɫk	m - iɔ ɬ - k -
+312	German	milk	m.ɪ.l.ç	m ɪ l ç	27	melkaz	melk	mɪɫk	m - ɪ l - ç -
+313	Icelandic	milk	m.j.ɔ.ɬ.k	m j ɔ ɬ k	27	melkaz	melk	mɪɫk	m j ɔ ɬ - k -
+314	Norwegian_Stavanger	milk	m.ɛ.lʰ.k	m ɛ lʰ k	27	melkaz	melk	mɪɫk	m - ɛ lʰ - k -
+315	Scottish	milk	m.ɪ.ɫ.kʰ	m ɪ ɫ kʰ	27	melkaz	melk	mɪɫk	m - ɪ ɫ - kʰ -
+316	Swedish_Skane	milk	m.j.œ.l.kʰ	m j œ l kʰ	27	melkaz	melk	mɪɫk	m j œ l - kʰ -
+317	Swedish_Stockholm	milk	m.j.œ.l.k	m j œ l k	27	melkaz	melk	mɪɫk	m j œ l - k -
+318	West_Frisian_Grou	milk	m.ʌ.ɫ.q.ə	m ʌ ɫ q ə	27	melkaz	melk	mɪɫk	m - ʌ ɫ - q ə
+319	Yiddish_New_York	milk	m.ɪ.ɫ.χ	m ɪ ɫ χ	27	melkaz	melk	mɪɫk	m - ɪ ɫ - χ -
+#
+565	Danish	moon	m.uː.n.ə	m uː n ə	49	meːnon	meːnon	moənə	m uː n ə -
+566	Dutch	moon	m.aː.n	m aː n	49	meːnon	meːnon	moənə	m aː n - -
+567	English	moon	m.ʊu.n	m ʊu n	49	meːnon	meːnon	moənə	m ʊu n - -
+568	Faroese	moon	m.ɑː.n.ə	m ɑː n ə	49	meːnon	meːnon	moənə	m ɑː n ə -
+569	German	moon	m.oː.n.t	m oː n t	49	meːnon	meːnon	moənə	m oː n - t
+570	Icelandic	moon	m.ɑʊ.n.e	m ɑʊ n e	49	meːnon	meːnon	moənə	m ɑʊ n e -
+571	Norwegian_Stavanger	moon	m.oə.n.ə	m oə n ə	49	meːnon	meːnon	moənə	m oə n ə -
+572	Scottish	moon	m.ʉ.n	m ʉ n	49	meːnon	meːnon	moənə	m ʉ n - -
+573	Swedish_Skane	moon	m.aʉ.n.ə	m aʉ n ə	49	meːnon	meːnon	moənə	m aʉ n ə -
+574	Swedish_Stockholm	moon	m.oə.n.ə	m oə n ə	49	meːnon	meːnon	moənə	m oə n ə -
+575	West_Frisian_Grou	moon	m.ua.n.ə	m ua n ə	49	meːnon	meːnon	moənə	m ua n ə -
+576	Yiddish_New_York	moon	m.ɔ.n.d	m ɔ n d	49	meːnon	meːnon	moənə	m ɔ n - d
+#
+705	Danish	mother	m.u.ð.ɔ	m u ð ɔ	61	moːdeːr	moːdeːr	moːð	m u ð ɔ -
+706	Dutch	mother	m.ʊ.d.ə.ʁ	m ʊ d ə ʁ	61	moːdeːr	moːdeːr	moːð	m ʊ d ə ʁ
+707	English	mother	m.ɐ.ð.ə	m ɐ ð ə	61	moːdeːr	moːdeːr	moːð	m ɐ ð ə -
+708	Faroese	mother	m.ɒʊ.wː.ə.ɹ	m ɒʊ wː ə ɹ	61	moːdeːr	moːdeːr	moːð	m ɒʊ wː ə ɹ
+709	German	mother	m.ʊ.tʰ.ɐ	m ʊ tʰ ɐ	61	moːdeːr	moːdeːr	moːð	m ʊ tʰ ɐ -
+710	Icelandic	mother	m.ɔʊ.ð.ɪ.r	m ɔʊ ð ɪ r	61	moːdeːr	moːdeːr	moːð	m ɔʊ ð ɪ r
+711	Norwegian_Stavanger	mother	m.oː.χ	m oː χ	61	moːdeːr	moːdeːr	moːð	m oː - - χ
+712	Scottish	mother	m.ʌ.ð.ə.ɹ	m ʌ ð ə ɹ	61	moːdeːr	moːdeːr	moːð	m ʌ ð ə ɹ
+713	Swedish_Skane	mother	m.øʉ.ʁ	m øʉ ʁ	61	moːdeːr	moːdeːr	moːð	m øʉ - - ʁ
+714	Swedish_Stockholm	mother	m.oː.ɾ	m oː ɾ	61	moːdeːr	moːdeːr	moːð	m oː - - ɾ
+715	West_Frisian_Grou	mother	m.oə.r	m oə r	61	moːdeːr	moːdeːr	moːð	m oə - - r
+716	Yiddish_New_York	mother	m.u.tʰ.ɛ.ʁ	m u tʰ ɛ ʁ	61	moːdeːr	moːdeːr	moːð	m u tʰ ɛ ʁ
+#
+13	Danish	mouse	m.u.sˀ	m u sˀ	2	muːsz	muːsz	maʊs	m u sˀ
+14	Dutch	mouse	m.æø.s	m æø s	2	muːsz	muːsz	maʊs	m æø s
+15	English	mouse	m.aʊ.s	m aʊ s	2	muːsz	muːsz	maʊs	m aʊ s
+16	Faroese	mouse	m.øu.s	m øu s	2	muːsz	muːsz	maʊs	m øu s
+17	German	mouse	m.aʊ.s	m aʊ s	2	muːsz	muːsz	maʊs	m aʊ s
+18	Icelandic	mouse	m.uː.s	m uː s	2	muːsz	muːsz	maʊs	m uː s
+19	Norwegian_Stavanger	mouse	m.ʏy.s	m ʏy s	2	muːsz	muːsz	maʊs	m ʏy s
+20	Scottish	mouse	m.ʌʉ.s	m ʌʉ s	2	muːsz	muːsz	maʊs	m ʌʉ s
+21	Swedish_Skane	mouse	m.ʏ.s	m ʏ s	2	muːsz	muːsz	maʊs	m ʏ s
+22	Swedish_Stockholm	mouse	m.əø.s	m əø s	2	muːsz	muːsz	maʊs	m əø s
+23	West_Frisian_Grou	mouse	m.oː.s	m oː s	2	muːsz	muːsz	maʊs	m oː s
+24	Yiddish_New_York	mouse	m.ɔɪ.z	m ɔɪ z	2	muːsz	muːsz	maʊs	m ɔɪ z
+#
+499	Danish	mouth	m.ʊ.nˀ	m ʊ nˀ	43	munθaz	munθ	mʊn	m ʊ nˀ - -
+500	Dutch	mouth	m.ʌ.n.t	m ʌ n t	43	munθaz	munθ	mʊn	m ʌ n t -
+501	English	mouth	m.aʊ.θ	m aʊ θ	43	munθaz	munθ	mʊn	m aʊ - θ -
+502	Faroese	mouth	m.ʊ.n	m ʊ n	43	munθaz	munθ	mʊn	m ʊ n - -
+503	German	mouth	m.ʊ.n.t	m ʊ n t	43	munθaz	munθ	mʊn	m ʊ n t -
+504	Icelandic	mouth	m.ʏ.n	m ʏ n	43	munθaz	munθ	mʊn	m ʏ n - -
+505	Norwegian_Stavanger	mouth	m.ʊ.n	m ʊ n	43	munθaz	munθ	mʊn	m ʊ n - -
+506	Scottish	mouth	m.ʌʉ.θ	m ʌʉ θ	43	munθaz	munθ	mʊn	m ʌʉ - θ -
+507	Swedish_Skane	mouth	m.øʉ.n	m øʉ n	43	munθaz	munθ	mʊn	m øʉ n - -
+508	Swedish_Stockholm	mouth	m.ɵ.n	m ɵ n	43	munθaz	munθ	mʊn	m ɵ n - -
+509	West_Frisian_Grou	mouth	m.ʊ.ŋ.ə	m ʊ ŋ ə	43	munθaz	munθ	mʊn	m ʊ ŋ - ə
+#
+741	Danish	nail	n.aɪ.lˀ	n aɪ lˀ	64	naɡlaz	naɡl	naɡɫ	n aɪ - - lˀ
+742	Dutch	nail	n.a.χ.ʌ.ɫ	n a χ ʌ ɫ	64	naɡlaz	naɡl	naɡɫ	n a χ ʌ ɫ
+743	English	nail	n.eɪ.ɫ	n eɪ ɫ	64	naɡlaz	naɡl	naɡɫ	n eɪ - - ɫ
+744	Faroese	nail	n.a.ɡ.l	n a ɡ l	64	naɡlaz	naɡl	naɡɫ	n a ɡ - l
+745	German	nail	n.aː.ɡ.ə.l	n aː ɡ ə l	64	naɡlaz	naɡl	naɡɫ	n aː ɡ ə l
+746	Icelandic	nail	n.ɒ.k.ɬ	n ɒ k ɬ	64	naɡlaz	naɡl	naɡɫ	n ɒ k - ɬ
+747	Norwegian_Stavanger	nail	n.ɛ.k.ɪ.l	n ɛ k ɪ l	64	naɡlaz	naɡl	naɡɫ	n ɛ k ɪ l
+748	Scottish	nail	n.eʌ.ɫ	n eʌ ɫ	64	naɡlaz	naɡl	naɡɫ	n eʌ - - ɫ
+749	Swedish_Skane	nail	n.eə.ɡ.ə.n	n eə ɡ ə n	64	naɡlaz	naɡl	naɡɫ	n eə ɡ ə n
+750	Swedish_Stockholm	nail	n.ɔː.ɡ.ə.l	n ɔː ɡ ə l	64	naɡlaz	naɡl	naɡɫ	n ɔː ɡ ə l
+751	West_Frisian_Grou	nail	n.ɒɪ.ɫ	n ɒɪ ɫ	64	naɡlaz	naɡl	naɡɫ	n ɒɪ - - ɫ
+752	Yiddish_New_York	nail	n.ɔ.ɡ.ə.ɫ	n ɔ ɡ ə ɫ	64	naɡlaz	naɡl	naɡɫ	n ɔ ɡ ə ɫ
+#
+977	Dutch	naked	n.aː.k.t	n aː k t	84	nakwadaz	nakwad	naːkɪ	n - aː k - - t
+978	English	naked	n.eɪ.k.ɪ.d	n eɪ k ɪ d	84	nakwadaz	nakwad	naːkɪ	n - eɪ k ɪ - d
+979	Faroese	naked	n.ɛa.ʧ.ɪ.n	n ɛa ʧ ɪ n	84	nakwadaz	nakwad	naːkɪ	n - ɛa ʧ ɪ n -
+980	German	naked	n.a.k.t	n a k t	84	nakwadaz	nakwad	naːkɪ	n - a k - - t
+981	Icelandic	naked	n.aː.c.ɪ.n	n aː c ɪ n	84	nakwadaz	nakwad	naːkɪ	n - aː c ɪ n -
+982	Norwegian_Stavanger	naked	n.ɑː.k.ɪ.n	n ɑː k ɪ n	84	nakwadaz	nakwad	naːkɪ	n - ɑː k ɪ n -
+983	Scottish	naked	n.e.k.ɪ.d	n e k ɪ d	84	nakwadaz	nakwad	naːkɪ	n - e k ɪ - d
+984	Swedish_Stockholm	naked	n.ɒː.k.ɛ.n	n ɒː k ɛ n	84	nakwadaz	nakwad	naːkɪ	n - ɒː k ɛ n -
+985	West_Frisian_Grou	naked	n.iə.k.ŋ	n iə k ŋ	84	nakwadaz	nakwad	naːkɪ	n - iə k - ŋ -
+986	Yiddish_New_York	naked	n.a.kʰ.ɪ.t	n a kʰ ɪ t	84	nakwadaz	nakwad	naːkɪ	n - a kʰ ɪ - t
+#
+320	Danish	name	n.aʊ.nˀ	n aʊ nˀ	28	namoːn	nam	nam	n - aʊ - - nˀ
+321	Dutch	name	n.aː.m	n aː m	28	namoːn	nam	nam	n - aː m - -
+322	English	name	n.eɪ.m	n eɪ m	28	namoːn	nam	nam	n - eɪ m - -
+323	Faroese	name	n.a.w.ə.n	n a w ə n	28	namoːn	nam	nam	n - a w ə n
+324	German	name	n.aː.m.ə	n aː m ə	28	namoːn	nam	nam	n - aː m ə -
+325	Icelandic	name	n.a.m̥	n a m̥	28	namoːn	nam	nam	n - a m̥ - -
+326	Norwegian_Stavanger	name	n.a.v.n	n a v n	28	namoːn	nam	nam	n - a v - n
+327	Scottish	name	n.eː.m	n eː m	28	namoːn	nam	nam	n - eː m - -
+328	Swedish_Skane	name	n.a.m.n	n a m n	28	namoːn	nam	nam	n - a m - n
+329	Swedish_Stockholm	name	n.a.m.n	n a m n	28	namoːn	nam	nam	n - a m - n
+330	West_Frisian_Grou	name	n.a.m.ə	n a m ə	28	namoːn	nam	nam	n - a m ə -
+331	Yiddish_New_York	name	n.ɔ.m.ə.n	n ɔ m ə n	28	namoːn	nam	nam	n - ɔ m ə n
+#
+893	Danish	needle	n.o.lˀ	n o lˀ	77	neːθloː	neːθloː	naːl	n o - - lˀ - - -
+894	Dutch	needle	n.aː.ɫ.t	n aː ɫ t	77	neːθloː	neːθloː	naːl	n aː - - ɫ - t -
+895	English	needle	n.i.d.ɫ	n i d ɫ	77	neːθloː	neːθloː	naːl	n i d - ɫ - - -
+896	Faroese	needle	n.ɔa.l	n ɔa l	77	neːθloː	neːθloː	naːl	n ɔa - - l - - -
+897	German	needle	n.aː.d.ə.l	n aː d ə l	77	neːθloː	neːθloː	naːl	n aː d ə l - - -
+898	Icelandic	needle	n.aʊ.ɬ	n aʊ ɬ	77	neːθloː	neːθloː	naːl	n aʊ - - ɬ - - -
+899	Norwegian_Stavanger	needle	n.ɔː.l	n ɔː l	77	neːθloː	neːθloː	naːl	n ɔː - - l - - -
+900	Scottish	needle	n.i.d.ə.ɫ	n i d ə ɫ	77	neːθloː	neːθloː	naːl	n i d ə ɫ - - -
+901	Swedish_Skane	needle	n.ɐʉ.l	n ɐʉ l	77	neːθloː	neːθloː	naːl	n ɐʉ - - l - - -
+902	Swedish_Stockholm	needle	n.oə.l	n oə l	77	neːθloː	neːθloː	naːl	n oə - - l - - -
+903	West_Frisian_Grou	needle	n.œ.ɫ.ə	n œ ɫ ə	77	neːθloː	neːθloː	naːl	n œ - - ɫ ə - -
+904	Yiddish_New_York	needle	n.ɔ.d.ə.ɫ	n ɔ d ə ɫ	77	neːθloː	neːθloː	naːl	n ɔ d ə ɫ - - -
+#
+227	Danish	new	n.yˀ	n yˀ	20	neujaz	neuj	nyː	n - yˀ - -
+228	Dutch	new	n.iu	n iu	20	neujaz	neuj	nyː	n - iu - -
+229	English	new	n.j.ʊu	n j ʊu	20	neujaz	neuj	nyː	n j ʊu - -
+230	German	new	n.ɔʏ	n ɔʏ	20	neujaz	neuj	nyː	n - ɔʏ - -
+231	Icelandic	new	n.iː	n iː	20	neujaz	neuj	nyː	n - iː - -
+232	Norwegian_Stavanger	new	n.yː	n yː	20	neujaz	neuj	nyː	n - yː - -
+233	Scottish	new	n.j.ʉː	n j ʉː	20	neujaz	neuj	nyː	n j ʉː - -
+234	Swedish_Skane	new	n.øʏ	n øʏ	20	neujaz	neuj	nyː	n - øʏ - -
+235	Swedish_Stockholm	new	n.yː	n yː	20	neujaz	neuj	nyː	n - yː - -
+236	West_Frisian_Grou	new	n.ɛi	n ɛi	20	neujaz	neuj	nyː	n - ɛi - -
+237	Yiddish_New_York	new	n.ai	n ai	20	neujaz	neuj	nyː	n - ai - -
+#
+625	Danish	night	n.ɛ.tʰ	n ɛ tʰ	54	naxtz	naxtz	natʰ	n ɛ - tʰ
+626	Dutch	night	n.ɑ.χ.t	n ɑ χ t	54	naxtz	naxtz	natʰ	n ɑ χ t
+627	English	night	n.aɪ.tʰ	n aɪ tʰ	54	naxtz	naxtz	natʰ	n aɪ - tʰ
+628	Faroese	night	n.ɔ.tʰ	n ɔ tʰ	54	naxtz	naxtz	natʰ	n ɔ - tʰ
+629	German	night	n.a.χ.t	n a χ t	54	naxtz	naxtz	natʰ	n a χ t
+630	Icelandic	night	n.ɔʊ.tʰ	n ɔʊ tʰ	54	naxtz	naxtz	natʰ	n ɔʊ - tʰ
+631	Norwegian_Stavanger	night	n.a.tʰ	n a tʰ	54	naxtz	naxtz	natʰ	n a - tʰ
+632	Scottish	night	n.ʌɪ.tʰ	n ʌɪ tʰ	54	naxtz	naxtz	natʰ	n ʌɪ - tʰ
+633	Swedish_Skane	night	n.a.tʰ	n a tʰ	54	naxtz	naxtz	natʰ	n a - tʰ
+634	Swedish_Stockholm	night	n.a.tː	n a tː	54	naxtz	naxtz	natʰ	n a - tː
+635	West_Frisian_Grou	night	n.a.χ.t	n a χ t	54	naxtz	naxtz	natʰ	n a χ t
+636	Yiddish_New_York	night	n.a.χ.t	n a χ t	54	naxtz	naxtz	natʰ	n a χ t
+#
+694	Danish	nine	n.iˀ	n iˀ	60	newun	newun	niː	n iˀ - - -
+695	Dutch	nine	n.eɪ.χ.ə	n eɪ χ ə	60	newun	newun	niː	n eɪ χ ə -
+696	English	nine	n.aɪ.n	n aɪ n	60	newun	newun	niː	n aɪ - - n
+697	German	nine	n.ɔʏ.n	n ɔʏ n	60	newun	newun	niː	n ɔʏ - - n
+698	Icelandic	nine	n.iː.j.ʏ	n iː j ʏ	60	newun	newun	niː	n iː j ʏ -
+699	Norwegian_Stavanger	nine	n.iː	n iː	60	newun	newun	niː	n iː - - -
+700	Scottish	nine	n.ʌɪ.n	n ʌɪ n	60	newun	newun	niː	n ʌɪ - - n
+701	Swedish_Skane	nine	n.ɛɪə	n ɛɪə	60	newun	newun	niː	n ɛɪə - - -
+702	Swedish_Stockholm	nine	n.iː.j.ə	n iː j ə	60	newun	newun	niː	n iː j ə -
+703	West_Frisian_Grou	nine	n.iʌ.ʁ.ʌ.n	n iʌ ʁ ʌ n	60	newun	newun	niː	n iʌ ʁ ʌ n
+704	Yiddish_New_York	nine	n.ɛɪ.n	n ɛɪ n	60	newun	newun	niː	n ɛɪ - - n
+#
+1097	Danish	north	n.oɔˀ	n oɔˀ	95	nurθaz	nurθ	nɔt	n oɔˀ - - - -
+1098	Dutch	north	n.ɔ.ɹ.t	n ɔ ɹ t	95	nurθaz	nurθ	nɔt	n ɔ ɹ t - -
+1099	English	north	n.ɔː.θ	n ɔː θ	95	nurθaz	nurθ	nɔt	n ɔː - θ - -
+1100	Faroese	north	n.ɔː.ɹ	n ɔː ɹ	95	nurθaz	nurθ	nɔt	n ɔː ɹ - - -
+1101	German	north	n.ɔː.t	n ɔː t	95	nurθaz	nurθ	nɔt	n ɔː - t - -
+1102	Icelandic	north	n.ɔ.r.ð	n ɔ r ð	95	nurθaz	nurθ	nɔt	n ɔ r ð - -
+1103	Norwegian_Stavanger	north	n.oː.χ	n oː χ	95	nurθaz	nurθ	nɔt	n oː - χ - -
+1104	Scottish	north	n.ɔ.ɹ.θ	n ɔ ɹ θ	95	nurθaz	nurθ	nɔt	n ɔ ɹ θ - -
+1105	Swedish_Skane	north	n.øʊ.ʁ	n øʊ ʁ	95	nurθaz	nurθ	nɔt	n øʊ - ʁ - -
+1106	Swedish_Stockholm	north	n.oː.d	n oː d	95	nurθaz	nurθ	nɔt	n oː - d - -
+1107	West_Frisian_Grou	north	n.oə.t	n oə t	95	nurθaz	nurθ	nɔt	n oə - t - -
+1108	Yiddish_New_York	north	n.ɔ.ɾ.d	n ɔ ɾ d	95	nurθaz	nurθ	nɔt	n ɔ ɾ d - -
+#
+1178	Danish	oak	ʔ.iː	ʔ iː	102	aikz	aikz	ɛɪk	ʔ iː - -
+1179	Dutch	oak	ɛɪ.k	ɛɪ k	102	aikz	aikz	ɛɪk	- ɛɪ k -
+1180	English	oak	əʊ.kʰ	əʊ kʰ	102	aikz	aikz	ɛɪk	- əʊ kʰ -
+1181	Faroese	oak	ai.k	ai k	102	aikz	aikz	ɛɪk	- ai k -
+1182	German	oak	ʔ.ai.ç.ə	ʔ ai ç ə	102	aikz	aikz	ɛɪk	ʔ ai ç ə
+1183	Icelandic	oak	ɛɪ.k	ɛɪ k	102	aikz	aikz	ɛɪk	- ɛɪ k -
+1184	Norwegian_Stavanger	oak	ɛi.kʰ	ɛi kʰ	102	aikz	aikz	ɛɪk	- ɛi kʰ -
+1185	Scottish	oak	o.kʰ	o kʰ	102	aikz	aikz	ɛɪk	- o kʰ -
+1186	Swedish_Skane	oak	ɪə.ɡ	ɪə ɡ	102	aikz	aikz	ɛɪk	- ɪə ɡ -
+1187	Swedish_Stockholm	oak	ɪɐ.k	ɪɐ k	102	aikz	aikz	ɛɪk	- ɪɐ k -
+1188	West_Frisian_Grou	oak	iː.k	iː k	102	aikz	aikz	ɛɪk	- iː k -
+1189	Yiddish_New_York	oak	ʔ.æɪ.χ.ə	ʔ æɪ χ ə	102	aikz	aikz	ɛɪk	ʔ æɪ χ ə
+#
+1202	Danish	one	ʔ.i.nˀ	ʔ i nˀ	104	ainaz	ain	ɛn	ʔ i nˀ -
+1203	Dutch	one	eɪ.n	eɪ n	104	ainaz	ain	ɛn	- eɪ n -
+1204	English	one	w.ɐ.n	w ɐ n	104	ainaz	ain	ɛn	w ɐ n -
+1205	Faroese	one	ai.n	ai n	104	ainaz	ain	ɛn	- ai n -
+1206	German	one	ʔ.aɪ.n.ʦ	ʔ aɪ n ʦ	104	ainaz	ain	ɛn	ʔ aɪ n ʦ
+1207	Icelandic	one	ɛ.n̥	ɛ n̥	104	ainaz	ain	ɛn	- ɛ n̥ -
+1208	Norwegian_Stavanger	one	æi.n	æi n	104	ainaz	ain	ɛn	- æi n -
+1209	Scottish	one	w.ʌ.n	w ʌ n	104	ainaz	ain	ɛn	w ʌ n -
+1210	Swedish_Skane	one	æɪ.n	æɪ n	104	ainaz	ain	ɛn	- æɪ n -
+1211	Swedish_Stockholm	one	ɛ.n	ɛ n	104	ainaz	ain	ɛn	- ɛ n -
+1212	West_Frisian_Grou	one	iə.n	iə n	104	ainaz	ain	ɛn	- iə n -
+1213	Yiddish_New_York	one	ʔ.ɛɪ.n	ʔ ɛɪ n	104	ainaz	ain	ɛn	ʔ ɛɪ n -
+#
+1014	Danish	open	ʔ.oː.b.m	ʔ oː b m	88	upanaz	upan	oəpən	ʔ oː b - m
+1015	Dutch	open	oʊ.p.ə	oʊ p ə	88	upanaz	upan	oəpən	- oʊ p ə -
+1016	English	open	əʊ.p.ə.n	əʊ p ə n	88	upanaz	upan	oəpən	- əʊ p ə n
+1017	Faroese	open	oə.p.ɪ.n	oə p ɪ n	88	upanaz	upan	oəpən	- oə p ɪ n
+1018	German	open	ʔ.ɒ.f.n	ʔ ɒ f n	88	upanaz	upan	oəpən	ʔ ɒ f - n
+1019	Icelandic	open	oə.pʰ.ɪ.n	oə pʰ ɪ n	88	upanaz	upan	oəpən	- oə pʰ ɪ n
+1020	Norwegian_Stavanger	open	oə.p.ə.n	oə p ə n	88	upanaz	upan	oəpən	- oə p ə n
+1021	Scottish	open	o.pʰ.ə.n	o pʰ ə n	88	upanaz	upan	oəpən	- o pʰ ə n
+1022	Swedish_Stockholm	open	œ.pː.ɛ.n	œ pː ɛ n	88	upanaz	upan	oəpən	- œ pː ɛ n
+1023	West_Frisian_Grou	open	iə.p.m	iə p m	88	upanaz	upan	oəpən	- iə p - m
+1024	Yiddish_New_York	open	ʔ.ɔ.f.ə.n	ʔ ɔ f ə n	88	upanaz	upan	oəpən	ʔ ɔ f ə n
+#
+1002	Danish	out	ʔ.u.lˀ	ʔ u lˀ	87	uːt	uːt	aʊt	ʔ u lˀ
+1003	Dutch	out	æʏ.t	æʏ t	87	uːt	uːt	aʊt	- æʏ t
+1004	English	out	aʊ.tʰ	aʊ tʰ	87	uːt	uːt	aʊt	- aʊ tʰ
+1005	Faroese	out	ʏu.t	ʏu t	87	uːt	uːt	aʊt	- ʏu t
+1006	German	out	ʔ.aʊ.s	ʔ aʊ s	87	uːt	uːt	aʊt	ʔ aʊ s
+1007	Icelandic	out	uː.t	uː t	87	uːt	uːt	aʊt	- uː t
+1008	Norwegian_Stavanger	out	yː.t	yː t	87	uːt	uːt	aʊt	- yː t
+1009	Scottish	out	ɐʉ.tʰ	ɐʉ tʰ	87	uːt	uːt	aʊt	- ɐʉ tʰ
+1010	Swedish_Skane	out	e.tʰ	e tʰ	87	uːt	uːt	aʊt	- e tʰ
+1011	Swedish_Stockholm	out	ʏ.t	ʏ t	87	uːt	uːt	aʊt	- ʏ t
+1012	West_Frisian_Grou	out	y.t	y t	87	uːt	uːt	aʊt	- y t
+1013	Yiddish_New_York	out	ʔ.ɔɪ.s	ʔ ɔɪ s	87	uːt	uːt	aʊt	ʔ ɔɪ s
+#
+553	Danish	oven	ʔ.ɔ.n	ʔ ɔ n	48	ufnaz	ufn	ɔvn	ʔ ɔ - - n - -
+554	Dutch	oven	oʊ.v.ə	oʊ v ə	48	ufnaz	ufn	ɔvn	- oʊ v ə - - -
+555	English	oven	ɐ.v.ə.n	ɐ v ə n	48	ufnaz	ufn	ɔvn	- ɐ v ə n - -
+556	Faroese	oven	ɔ.w.n.ʌ.ɹ	ɔ w n ʌ ɹ	48	ufnaz	ufn	ɔvn	- ɔ w - n ʌ ɹ
+557	German	oven	ʔ.oː.f.ə.n	ʔ oː f ə n	48	ufnaz	ufn	ɔvn	ʔ oː f ə n - -
+558	Icelandic	oven	ɔ.p.m	ɔ p m	48	ufnaz	ufn	ɔvn	- ɔ p - m - -
+559	Norwegian_Stavanger	oven	ʊ.v.n	ʊ v n	48	ufnaz	ufn	ɔvn	- ʊ v - n - -
+560	Scottish	oven	ʌ.v.ə.n	ʌ v ə n	48	ufnaz	ufn	ɔvn	- ʌ v ə n - -
+561	Swedish_Skane	oven	ø.p.ɛ.n	ø p ɛ n	48	ufnaz	ufn	ɔvn	- ø p ɛ n - -
+562	Swedish_Stockholm	oven	ø.ɡ.ŋ	ø ɡ ŋ	48	ufnaz	ufn	ɔvn	- ø ɡ - ŋ - -
+563	West_Frisian_Grou	oven	ũ.n	ũ n	48	ufnaz	ufn	ɔvn	- ũ - - n - -
+564	Yiddish_New_York	oven	ʔ.ɔɪ.v.ə.n	ʔ ɔɪ v ə n	48	ufnaz	ufn	ɔvn	ʔ ɔɪ v ə n - -
+#
+953	Danish	over	ʔ.ɔ.w.ɔ	ʔ ɔ w ɔ	82	uberi	uberi	œːvə	ʔ ɔ w ɔ -
+954	Dutch	over	oʊ.v.ə.ɹ	oʊ v ə ɹ	82	uberi	uberi	œːvə	- oʊ v ə ɹ
+955	English	over	əʊ.v.ə	əʊ v ə	82	uberi	uberi	œːvə	- əʊ v ə -
+956	Faroese	over	iː.v.ə.ɹ	iː v ə ɹ	82	uberi	uberi	œːvə	- iː v ə ɹ
+957	German	over	ʔ.yː.b.ɐ	ʔ yː b ɐ	82	uberi	uberi	œːvə	ʔ yː b ɐ -
+958	Icelandic	over	eː.v.ɪ.s	eː v ɪ s	82	uberi	uberi	œːvə	- eː v ɪ s
+959	Norwegian_Stavanger	over	øː.v.ə	øː v ə	82	uberi	uberi	œːvə	- øː v ə -
+960	Scottish	over	o.v.ə.ɹ	o v ə ɹ	82	uberi	uberi	œːvə	- o v ə ɹ
+961	Swedish_Skane	over	œː.v.ʁ	œː v ʁ	82	uberi	uberi	œːvə	- œː v - ʁ
+962	Swedish_Stockholm	over	œː.v.ə	œː v ə	82	uberi	uberi	œːvə	- œː v ə -
+963	West_Frisian_Grou	over	o.w.r	o w r	82	uberi	uberi	œːvə	- o w - r
+964	Yiddish_New_York	over	ʔ.i.b.ɛ.ɾ	ʔ i b ɛ ɾ	82	uberi	uberi	œːvə	ʔ i b ɛ ɾ
+#
+510	Danish	quick	kʰ.v.ɪ.kʰ	kʰ v ɪ kʰ	44	kwikwaz	kwikw	kʰvɪk	kʰ v ɪ kʰ
+511	Dutch	quick	k.v.i.k	k v i k	44	kwikwaz	kwikw	kʰvɪk	k v i k
+512	English	quick	kʰ.w.ɪ.kʰ	kʰ w ɪ kʰ	44	kwikwaz	kwikw	kʰvɪk	kʰ w ɪ kʰ
+513	Faroese	quick	kʰ.v.iː.k	kʰ v iː k	44	kwikwaz	kwikw	kʰvɪk	kʰ v iː k
+514	German	quick	kʰ.ɛ.k	kʰ ɛ k	44	kwikwaz	kwikw	kʰvɪk	kʰ - ɛ k
+515	Icelandic	quick	kʰ.v.eː.k	kʰ v eː k	44	kwikwaz	kwikw	kʰvɪk	kʰ v eː k
+516	Norwegian_Stavanger	quick	kʰ.v.ɪʰ.k	kʰ v ɪʰ k	44	kwikwaz	kwikw	kʰvɪk	kʰ v ɪʰ k
+517	Scottish	quick	kʰ.w.ɪ.kʰ	kʰ w ɪ kʰ	44	kwikwaz	kwikw	kʰvɪk	kʰ w ɪ kʰ
+518	Swedish_Skane	quick	k.v.ɪ.kʰ	k v ɪ kʰ	44	kwikwaz	kwikw	kʰvɪk	k v ɪ kʰ
+519	Swedish_Stockholm	quick	kʰ.v.ɪ.k	kʰ v ɪ k	44	kwikwaz	kwikw	kʰvɪk	kʰ v ɪ k
+520	West_Frisian_Grou	quick	k.β.ɪ.k	k β ɪ k	44	kwikwaz	kwikw	kʰvɪk	k β ɪ k
+#
+833	Danish	rain	ʁ.aɪ.nˀ	ʁ aɪ nˀ	72	reɡnan	reɡn	ʁɛn	ʁ aɪ - - nˀ
+834	Dutch	rain	ʁ.eɪ.χ.ə	ʁ eɪ χ ə	72	reɡnan	reɡn	ʁɛn	ʁ eɪ χ ə -
+835	English	rain	ɹ.eɪ.n	ɹ eɪ n	72	reɡnan	reɡn	ʁɛn	ɹ eɪ - - n
+836	Faroese	rain	ɾ.ɛ.k.n	ɾ ɛ k n	72	reɡnan	reɡn	ʁɛn	ɾ ɛ k - n
+837	German	rain	ʁ.eː.ɡ.ŋ	ʁ eː ɡ ŋ	72	reɡnan	reɡn	ʁɛn	ʁ eː ɡ - ŋ
+838	Icelandic	rain	r.ɛ.k.n	r ɛ k n	72	reɡnan	reɡn	ʁɛn	r ɛ k - n
+839	Norwegian_Stavanger	rain	ʁ.ɛ.k.ɪ.n	ʁ ɛ k ɪ n	72	reɡnan	reɡn	ʁɛn	ʁ ɛ k ɪ n
+840	Scottish	rain	ɹ.eː.n	ɹ eː n	72	reɡnan	reɡn	ʁɛn	ɹ eː - - n
+841	Swedish_Skane	rain	ʁ.aɪ.n	ʁ aɪ n	72	reɡnan	reɡn	ʁɛn	ʁ aɪ - - n
+842	Swedish_Stockholm	rain	r.ɛ.ŋ	r ɛ ŋ	72	reɡnan	reɡn	ʁɛn	r ɛ - - ŋ
+843	West_Frisian_Grou	rain	r.ɒɪ.n	r ɒɪ n	72	reɡnan	reɡn	ʁɛn	r ɒɪ - - n
+844	Yiddish_New_York	rain	ʁ.ɛ.ɡ.ə.n	ʁ ɛ ɡ ə n	72	reɡnan	reɡn	ʁɛn	ʁ ɛ ɡ ə n
+#
+1144	Danish	red	ʁ.ə.lˀ	ʁ ə lˀ	99	raudaz	raud	ʁoːt	- ʁ - ə lˀ
+1145	Dutch	red	ʁ.oː.t	ʁ oː t	99	raudaz	raud	ʁoːt	- ʁ - oː t
+1146	English	red	ɹ.ɛ.d	ɹ ɛ d	99	raudaz	raud	ʁoːt	- ɹ - ɛ d
+1147	German	red	ʁ.oː.t	ʁ oː t	99	raudaz	raud	ʁoːt	- ʁ - oː t
+1148	Icelandic	red	r.œʏ.ð	r œʏ ð	99	raudaz	raud	ʁoːt	- r - œʏ ð
+1149	Norwegian_Stavanger	red	ʁ.øː	ʁ øː	99	raudaz	raud	ʁoːt	- ʁ - øː -
+1150	Scottish	red	ɹ.ɛː.d	ɹ ɛː d	99	raudaz	raud	ʁoːt	- ɹ - ɛː d
+1151	Swedish_Skane	red	ʁ.œ.ð	ʁ œ ð	99	raudaz	raud	ʁoːt	- ʁ - œ ð
+1152	Swedish_Stockholm	red	r.œː.d	r œː d	99	raudaz	raud	ʁoːt	- r - œː d
+1153	West_Frisian_Grou	red	r.ɪiə.t	r ɪiə t	99	raudaz	raud	ʁoːt	- r - ɪiə t
+1154	Yiddish_New_York	red	ʁ.ɔɪ.t	ʁ ɔɪ t	99	raudaz	raud	ʁoːt	- ʁ - ɔɪ t
+#
+451	Danish	right	ʁ.a.tʰ	ʁ a tʰ	39	rextaz	rext	ʁɛtʰ	ʁ a - tʰ - -
+452	Dutch	right	ʁ.ɛ.χ.t	ʁ ɛ χ t	39	rextaz	rext	ʁɛtʰ	ʁ ɛ χ t - -
+453	English	right	ɹ.aɪ.tʰ	ɹ aɪ tʰ	39	rextaz	rext	ʁɛtʰ	ɹ aɪ - tʰ - -
+454	Faroese	right	ɹ.a.tːʰ.ʌ.ɹ	ɹ a tːʰ ʌ ɹ	39	rextaz	rext	ʁɛtʰ	ɹ a - tːʰ ʌ ɹ
+455	German	right	ʁ.ɛ.ç.t	ʁ ɛ ç t	39	rextaz	rext	ʁɛtʰ	ʁ ɛ ç t - -
+456	Icelandic	right	r.ɪa.tʰ	r ɪa tʰ	39	rextaz	rext	ʁɛtʰ	r ɪa - tʰ - -
+457	Norwegian_Stavanger	right	ʁ.ɛ.tːʰ	ʁ ɛ tːʰ	39	rextaz	rext	ʁɛtʰ	ʁ ɛ - tːʰ - -
+458	Scottish	right	ɹ.ʌi.tʰ	ɹ ʌi tʰ	39	rextaz	rext	ʁɛtʰ	ɹ ʌi - tʰ - -
+459	Swedish_Skane	right	ʁ.ɛ.tʰ	ʁ ɛ tʰ	39	rextaz	rext	ʁɛtʰ	ʁ ɛ - tʰ - -
+460	Swedish_Stockholm	right	r.ɛ.tː	r ɛ tː	39	rextaz	rext	ʁɛtʰ	r ɛ - tː - -
+461	West_Frisian_Grou	right	r.iœ.χ.t	r iœ χ t	39	rextaz	rext	ʁɛtʰ	r iœ χ t - -
+462	Yiddish_New_York	right	ʁ.ɛ.χ.t	ʁ ɛ χ t	39	rextaz	rext	ʁɛtʰ	ʁ ɛ χ t - -
+#
+990	Danish	ring	ʁ.ɪ.ŋˀ	ʁ ɪ ŋˀ	86	xrenɡaz	xrenɡ	ʁɪŋ	ʁ ɪ ŋˀ -
+991	Dutch	ring	ʁ.ɪ.ŋ	ʁ ɪ ŋ	86	xrenɡaz	xrenɡ	ʁɪŋ	ʁ ɪ ŋ -
+992	English	ring	ɹ.ɪ.ŋ	ɹ ɪ ŋ	86	xrenɡaz	xrenɡ	ʁɪŋ	ɹ ɪ ŋ -
+993	Faroese	ring	ɹ.ɪ.ŋ.k	ɹ ɪ ŋ k	86	xrenɡaz	xrenɡ	ʁɪŋ	ɹ ɪ ŋ k
+994	German	ring	ʁ.ɪ.ŋ	ʁ ɪ ŋ	86	xrenɡaz	xrenɡ	ʁɪŋ	ʁ ɪ ŋ -
+995	Icelandic	ring	r.ɪ.ŋ.k	r ɪ ŋ k	86	xrenɡaz	xrenɡ	ʁɪŋ	r ɪ ŋ k
+996	Norwegian_Stavanger	ring	ʁ.ɪ.ŋ	ʁ ɪ ŋ	86	xrenɡaz	xrenɡ	ʁɪŋ	ʁ ɪ ŋ -
+997	Scottish	ring	ɹ.ɪ.ŋ	ɹ ɪ ŋ	86	xrenɡaz	xrenɡ	ʁɪŋ	ɹ ɪ ŋ -
+998	Swedish_Skane	ring	ʁ.ɪ.ŋ	ʁ ɪ ŋ	86	xrenɡaz	xrenɡ	ʁɪŋ	ʁ ɪ ŋ -
+999	Swedish_Stockholm	ring	r.ɪ.ŋ	r ɪ ŋ	86	xrenɡaz	xrenɡ	ʁɪŋ	r ɪ ŋ -
+1000	West_Frisian_Grou	ring	r.ɪ.ŋ	r ɪ ŋ	86	xrenɡaz	xrenɡ	ʁɪŋ	r ɪ ŋ -
+1001	Yiddish_New_York	ring	ʁ.ɪ.ŋ.ɡ	ʁ ɪ ŋ ɡ	86	xrenɡaz	xrenɡ	ʁɪŋ	ʁ ɪ ŋ ɡ
+#
+487	Danish	salt	s.ɛ.lˀ.tʰ	s ɛ lˀ tʰ	42	saltan	salt	salt	s ɛ lˀ tʰ
+488	Dutch	salt	z.aʊ.t	z aʊ t	42	saltan	salt	salt	z aʊ - t
+489	English	salt	s.ɔ.ɫ.tʰ	s ɔ ɫ tʰ	42	saltan	salt	salt	s ɔ ɫ tʰ
+490	Faroese	salt	s.a.ɬː.t	s a ɬː t	42	saltan	salt	salt	s a ɬː t
+491	German	salt	z.a.l.ʦ	z a l ʦ	42	saltan	salt	salt	z a l ʦ
+492	Icelandic	salt	s.a.ɬ.t	s a ɬ t	42	saltan	salt	salt	s a ɬ t
+493	Norwegian_Stavanger	salt	s.a.ɬː.t	s a ɬː t	42	saltan	salt	salt	s a ɬː t
+494	Scottish	salt	s.ɔː.ɫ.tʰ	s ɔː ɫ tʰ	42	saltan	salt	salt	s ɔː ɫ tʰ
+495	Swedish_Skane	salt	s.ɔ.l.tʰ	s ɔ l tʰ	42	saltan	salt	salt	s ɔ l tʰ
+496	Swedish_Stockholm	salt	s.a.l.t	s a l t	42	saltan	salt	salt	s a l t
+497	West_Frisian_Grou	salt	s.ɔː.t	s ɔː t	42	saltan	salt	salt	s ɔː - t
+498	Yiddish_New_York	salt	z.a.ɫ.ʦ	z a ɫ ʦ	42	saltan	salt	salt	z a ɫ ʦ
+#
+905	Danish	see!	s.yˀ	s yˀ	78	sexw	sexw	sœː	s - yˀ - - -
+906	Dutch	see!	z.i	z i	78	sexw	sexw	sœː	z - i - - -
+907	English	see!	s.ɪi	s ɪi	78	sexw	sexw	sœː	s - ɪi - - -
+908	Faroese	see!	s.ʊ.ʧ	s ʊ ʧ	78	sexw	sexw	sœː	s - ʊ ʧ - -
+909	German	see!	z.eː	z eː	78	sexw	sexw	sœː	z - eː - - -
+910	Icelandic	see!	s.j.aʊ	s j aʊ	78	sexw	sexw	sœː	s j aʊ - - -
+911	Norwegian_Stavanger	see!	s.j.øː	s j øː	78	sexw	sexw	sœː	s j øː - - -
+912	Scottish	see!	s.iː	s iː	78	sexw	sexw	sœː	s - iː - - -
+913	Swedish_Skane	see!	s.eɪ	s eɪ	78	sexw	sexw	sœː	s - eɪ - - -
+914	Swedish_Stockholm	see!	x.œː	x œː	78	sexw	sexw	sœː	x - œː - - -
+915	West_Frisian_Grou	see!	s.j.ʌ.χ	s j ʌ χ	78	sexw	sexw	sœː	s j ʌ χ - -
+916	Yiddish_New_York	see!	s.ɛ	s ɛ	78	sexw	sexw	sœː	s - ɛ - - -
+#
+1272	Danish	seven	sʲ.ʉˀ	sʲ ʉˀ	110	sebun	sebun	sɛ	sʲ ʉˀ - - - -
+1273	Dutch	seven	z.eɪ.v.ə	z eɪ v ə	110	sebun	sebun	sɛ	z eɪ v ə - -
+1274	English	seven	s.ɛ.v.ə.n	s ɛ v ə n	110	sebun	sebun	sɛ	s ɛ v ə n -
+1275	Faroese	seven	sʲ.ɛi	sʲ ɛi	110	sebun	sebun	sɛ	sʲ ɛi - - - -
+1276	German	seven	z.iː.b.m	z iː b m	110	sebun	sebun	sɛ	z iː b - m -
+1277	Icelandic	seven	sʲ.œː	sʲ œː	110	sebun	sebun	sɛ	sʲ œː - - - -
+1278	Norwegian_Stavanger	seven	s.yː.f	s yː f	110	sebun	sebun	sɛ	s yː f - - -
+1279	Scottish	seven	s.ɛ.v.ə.n	s ɛ v ə n	110	sebun	sebun	sɛ	s ɛ v ə n -
+1280	Swedish_Skane	seven	h.ʊə.n	h ʊə n	110	sebun	sebun	sɛ	h ʊə - - n -
+1281	Swedish_Stockholm	seven	x.ʉ	x ʉ	110	sebun	sebun	sɛ	x ʉ - - - -
+1282	West_Frisian_Grou	seven	s.o.w.ə.n	s o w ə n	110	sebun	sebun	sɛ	s o w ə n -
+1283	Yiddish_New_York	seven	z.i.b.ə.n	z i b ə n	110	sebun	sebun	sɛ	z i b ə n -
+#
+215	Danish	sharp	s.k.a.pʰ	s k a pʰ	19	skarpaz	skarp	skap	s k a - - pʰ - -
+216	Dutch	sharp	s.χ.ɛ.ɹ.p	s χ ɛ ɹ p	19	skarpaz	skarp	skap	s χ ɛ ɹ - p - -
+217	English	sharp	ʃ.ɑː.p	ʃ ɑː p	19	skarpaz	skarp	skap	ʃ - ɑː - - p - -
+218	Faroese	sharp	s.k.a.ɹ.p.ʌ.ɹ	s k a ɹ p ʌ ɹ	19	skarpaz	skarp	skap	s k a ɹ - p ʌ ɹ
+219	German	sharp	ʃ.aː.f	ʃ aː f	19	skarpaz	skarp	skap	ʃ - aː - - f - -
+220	Icelandic	sharp	s.k.a.r.p	s k a r p	19	skarpaz	skarp	skap	s k a r - p - -
+221	Norwegian_Stavanger	sharp	s.k.a.χ.p	s k a χ p	19	skarpaz	skarp	skap	s k a χ - p - -
+222	Scottish	sharp	ʃ.ɑː.ɹ.pʰ	ʃ ɑː ɹ pʰ	19	skarpaz	skarp	skap	ʃ - ɑː ɹ - pʰ - -
+223	Swedish_Skane	sharp	s.k.a.χ.pʰ	s k a χ pʰ	19	skarpaz	skarp	skap	s k a χ - pʰ - -
+224	Swedish_Stockholm	sharp	s.k.a.r.p	s k a r p	19	skarpaz	skarp	skap	s k a r - p - -
+225	West_Frisian_Grou	sharp	s.k.ɛ.r.p	s k ɛ r p	19	skarpaz	skarp	skap	s k ɛ r - p - -
+226	Yiddish_New_York	sharp	ʃ.a.ɾ.f	ʃ a ɾ f	19	skarpaz	skarp	skap	ʃ - a ɾ - f - -
+#
+1085	Danish	sit!	s.ɪ.lˀ	s ɪ lˀ	94	seti	seti	sɪt	s ɪ lˀ - -
+1086	Dutch	sit!	z.ɪ.t	z ɪ t	94	seti	seti	sɪt	z ɪ t - -
+1087	English	sit!	s.ɪ.tʰ	s ɪ tʰ	94	seti	seti	sɪt	s ɪ tʰ - -
+1088	Faroese	sit!	s.iː.t	s iː t	94	seti	seti	sɪt	s iː t - -
+1089	German	sit!	z.ɪ.ʦ	z ɪ ʦ	94	seti	seti	sɪt	z ɪ ʦ - -
+1090	Icelandic	sit!	s.eː.t.j.a	s eː t j a	94	seti	seti	sɪt	s eː t j a
+1091	Norwegian_Stavanger	sit!	s.ɪ.tʰ	s ɪ tʰ	94	seti	seti	sɪt	s ɪ tʰ - -
+1092	Scottish	sit!	s.ɪ.tʰ	s ɪ tʰ	94	seti	seti	sɪt	s ɪ tʰ - -
+1093	Swedish_Skane	sit!	s.i.t	s i t	94	seti	seti	sɪt	s i t - -
+1094	Swedish_Stockholm	sit!	s.ɪ.tː	s ɪ tː	94	seti	seti	sɪt	s ɪ tː - -
+1095	West_Frisian_Grou	sit!	s.ɪ.t	s ɪ t	94	seti	seti	sɪt	s ɪ t - -
+1096	Yiddish_New_York	sit!	z.ɪ.ʦ	z ɪ ʦ	94	seti	seti	sɪt	z ɪ ʦ - -
+#
+786	Danish	six	s.ɪ.k.s	s ɪ k s	68	sexs	sexs	sɛks	s ɪ k s -
+787	Dutch	six	z.ɛ.s	z ɛ s	68	sexs	sexs	sɛks	z ɛ - s -
+788	English	six	s.ɪ.k.s	s ɪ k s	68	sexs	sexs	sɛks	s ɪ k s -
+789	Faroese	six	s.ɛ.k.s	s ɛ k s	68	sexs	sexs	sɛks	s ɛ k s -
+790	German	six	z.ɛ.k.s	z ɛ k s	68	sexs	sexs	sɛks	z ɛ k s -
+791	Icelandic	six	s.ɛ.k.s	s ɛ k s	68	sexs	sexs	sɛks	s ɛ k s -
+792	Norwegian_Stavanger	six	s.ɛ.k.s	s ɛ k s	68	sexs	sexs	sɛks	s ɛ k s -
+793	Scottish	six	s.ɪ.k.s	s ɪ k s	68	sexs	sexs	sɛks	s ɪ k s -
+794	Swedish_Skane	six	s.ɛ.k.s	s ɛ k s	68	sexs	sexs	sɛks	s ɛ k s -
+795	Swedish_Stockholm	six	s.ɛ.k.s	s ɛ k s	68	sexs	sexs	sɛks	s ɛ k s -
+796	West_Frisian_Grou	six	s.ɒɪ.s	s ɒɪ s	68	sexs	sexs	sɛks	s ɒɪ - s -
+797	Yiddish_New_York	six	z.ɛ.k.s	z ɛ k s	68	sexs	sexs	sɛks	z ɛ k s -
+#
+729	Danish	snow	s.n.iˀ	s n iˀ	63	snaiɡwaz	snaiɡw	snɔʊ	s n - iˀ - -
+730	Dutch	snow	s.n.eu	s n eu	63	snaiɡwaz	snaiɡw	snɔʊ	s n - eu - -
+731	English	snow	s.n.əʊ	s n əʊ	63	snaiɡwaz	snaiɡw	snɔʊ	s n - əʊ - -
+732	Faroese	snow	s.n.j.ɛ.k.f	s n j ɛ k f	63	snaiɡwaz	snaiɡw	snɔʊ	s n j ɛ k f
+733	German	snow	ʃ.n.eː	ʃ n eː	63	snaiɡwaz	snaiɡw	snɔʊ	ʃ n - eː - -
+734	Icelandic	snow	s.n.j.ɔʊ	s n j ɔʊ	63	snaiɡwaz	snaiɡw	snɔʊ	s n j ɔʊ - -
+735	Norwegian_Stavanger	snow	s.n.øː	s n øː	63	snaiɡwaz	snaiɡw	snɔʊ	s n - øː - -
+736	Scottish	snow	s.n.oː	s n oː	63	snaiɡwaz	snaiɡw	snɔʊ	s n - oː - -
+737	Swedish_Skane	snow	s.n.œ.ð	s n œ ð	63	snaiɡwaz	snaiɡw	snɔʊ	s n - œ ð -
+738	Swedish_Stockholm	snow	s.n.œː	s n œː	63	snaiɡwaz	snaiɡw	snɔʊ	s n - œː - -
+739	West_Frisian_Grou	snow	s.n.iə	s n iə	63	snaiɡwaz	snaiɡw	snɔʊ	s n - iə - -
+740	Yiddish_New_York	snow	ʃ.n.ɛi	ʃ n ɛi	63	snaiɡwaz	snaiɡw	snɔʊ	ʃ n - ɛi - -
+#
+1167	Danish	sore	s.ɔˀ	s ɔˀ	101	sairaz	sair	sɔː	s ɔˀ - - -
+1168	Dutch	sore	z.e.ɹ	z e ɹ	101	sairaz	sair	sɔː	z e ɹ - -
+1169	English	sore	s.ɔː	s ɔː	101	sairaz	sair	sɔː	s ɔː - - -
+1170	Faroese	sore	s.ɑ.ɹ.ʌ.ɹ	s ɑ ɹ ʌ ɹ	101	sairaz	sair	sɔː	s ɑ ɹ ʌ ɹ
+1171	German	sore	z.eɐ	z eɐ	101	sairaz	sair	sɔː	z eɐ - - -
+1172	Icelandic	sore	s.aʊ.r	s aʊ r	101	sairaz	sair	sɔː	s aʊ r - -
+1173	Norwegian_Stavanger	sore	s.ɔː.χ	s ɔː χ	101	sairaz	sair	sɔː	s ɔː χ - -
+1174	Scottish	sore	s.oə.ɹ	s oə ɹ	101	sairaz	sair	sɔː	s oə ɹ - -
+1175	Swedish_Stockholm	sore	s.oː.r	s oː r	101	sairaz	sair	sɔː	s oː r - -
+1176	West_Frisian_Grou	sore	s.iə.r	s iə r	101	sairaz	sair	sɔː	s iə r - -
+1177	Yiddish_New_York	sore	z.ɛiə.ɾ	z ɛiə ɾ	101	sairaz	sair	sɔː	z ɛiə ɾ - -
+#
+541	Danish	stone	s.t.iˀ.n	s t iˀ n	47	stainaz	stain	steən	s t iˀ n
+542	Dutch	stone	s.t.eɪ.n	s t eɪ n	47	stainaz	stain	steən	s t eɪ n
+543	English	stone	s.t.əʊ.n	s t əʊ n	47	stainaz	stain	steən	s t əʊ n
+544	Faroese	stone	s.t.ai.n	s t ai n	47	stainaz	stain	steən	s t ai n
+545	German	stone	ʃ.t.aɪ.n	ʃ t aɪ n	47	stainaz	stain	steən	ʃ t aɪ n
+546	Icelandic	stone	s.t.ɛ.n̥	s t ɛ n̥	47	stainaz	stain	steən	s t ɛ n̥
+547	Norwegian_Stavanger	stone	s.t.æi.n	s t æi n	47	stainaz	stain	steən	s t æi n
+548	Scottish	stone	s.t.oə.n	s t oə n	47	stainaz	stain	steən	s t oə n
+549	Swedish_Skane	stone	s.t.æɪ.n	s t æɪ n	47	stainaz	stain	steən	s t æɪ n
+550	Swedish_Stockholm	stone	s.t.eə.n	s t eə n	47	stainaz	stain	steən	s t eə n
+551	West_Frisian_Grou	stone	s.t.iə.n	s t iə n	47	stainaz	stain	steən	s t iə n
+552	Yiddish_New_York	stone	ʃ.t.ɛi.n	ʃ t ɛi n	47	stainaz	stain	steən	ʃ t ɛi n
+#
+1249	Danish	stool	s.t.u.lˀ	s t u lˀ	108	stoːlaz	stoːl	stuːl	s t u lˀ
+1250	Dutch	stool	s.t.uː.ɫ	s t uː ɫ	108	stoːlaz	stoːl	stuːl	s t uː ɫ
+1251	English	stool	s.t.ʊu.ɫ	s t ʊu ɫ	108	stoːlaz	stoːl	stuːl	s t ʊu ɫ
+1252	Faroese	stool	s.t.ɔu.l	s t ɔu l	108	stoːlaz	stoːl	stuːl	s t ɔu l
+1253	German	stool	ʃ.t.uː.l	ʃ t uː l	108	stoːlaz	stoːl	stuːl	ʃ t uː l
+1254	Icelandic	stool	s.t.ɔ.ɬ̥	s t ɔ ɬ̥	108	stoːlaz	stoːl	stuːl	s t ɔ ɬ̥
+1255	Norwegian_Stavanger	stool	s.t.uː.l	s t uː l	108	stoːlaz	stoːl	stuːl	s t uː l
+1256	Scottish	stool	s.t.ʉə.ɫ	s t ʉə ɫ	108	stoːlaz	stoːl	stuːl	s t ʉə ɫ
+1257	Swedish_Skane	stool	s.t.øʉ.l	s t øʉ l	108	stoːlaz	stoːl	stuːl	s t øʉ l
+1258	Swedish_Stockholm	stool	s.t.u.l	s t u l	108	stoːlaz	stoːl	stuːl	s t u l
+1259	West_Frisian_Grou	stool	s.t.uə.ɫ	s t uə ɫ	108	stoːlaz	stoːl	stuːl	s t uə ɫ
+1260	Yiddish_New_York	stool	ʃ.t.u.ɫ	ʃ t u ɫ	108	stoːlaz	stoːl	stuːl	ʃ t u ɫ
+#
+1214	Danish	storm	s.t.ɔˀ.m	s t ɔˀ m	105	sturmaz	sturm	stɔm	s t ɔˀ - - m
+1215	Dutch	storm	s.t.ɔ.ɹ.m	s t ɔ ɹ m	105	sturmaz	sturm	stɔm	s t ɔ ɹ - m
+1216	English	storm	s.t.ɔː.m	s t ɔː m	105	sturmaz	sturm	stɔm	s t ɔː - - m
+1217	Faroese	storm	s.t.ɔ.ɹ.m	s t ɔ ɹ m	105	sturmaz	sturm	stɔm	s t ɔ ɹ - m
+1218	German	storm	ʃ.t.ʊɐ.m	ʃ t ʊɐ m	105	sturmaz	sturm	stɔm	ʃ t ʊɐ - - m
+1219	Icelandic	storm	s.t.ɔ.r.m	s t ɔ r m	105	sturmaz	sturm	stɔm	s t ɔ r - m
+1220	Norwegian_Stavanger	storm	s.t.ɔː.ʁ.m	s t ɔː ʁ m	105	sturmaz	sturm	stɔm	s t ɔː ʁ - m
+1221	Scottish	storm	s.t.ɔː.ɹ.m	s t ɔː ɹ m	105	sturmaz	sturm	stɔm	s t ɔː ɹ - m
+1222	Swedish_Skane	storm	s.t.ɔ.ʁ.ə.m	s t ɔ ʁ ə m	105	sturmaz	sturm	stɔm	s t ɔ ʁ ə m
+1223	Swedish_Stockholm	storm	s.t.ɔ.r.m	s t ɔ r m	105	sturmaz	sturm	stɔm	s t ɔ r - m
+1224	West_Frisian_Grou	storm	s.t.ua.ɾ.ə.m	s t ua ɾ ə m	105	sturmaz	sturm	stɔm	s t ua ɾ ə m
+1225	Yiddish_New_York	storm	ʃ.t.u.ɾ.ə.m	ʃ t u ɾ ə m	105	sturmaz	sturm	stɔm	ʃ t u ɾ ə m
+#
+96	Danish	swear!	s.v.ɛ.ʔ.o	s v ɛ ʔ o	9	swari	swari	svɛɹ	s v ɛ ʔ - o
+97	Dutch	swear!	z.v.e.ɹ	z v e ɹ	9	swari	swari	svɛɹ	z v e ɹ - -
+98	English	swear!	s.w.ɛə	s w ɛə	9	swari	swari	svɛɹ	s w ɛə - - -
+99	Faroese	swear!	s.v.œ.ɹ.i	s v œ ɹ i	9	swari	swari	svɛɹ	s v œ ɹ - i
+100	German	swear!	ʃ.v.øː.ʁ	ʃ v øː ʁ	9	swari	swari	svɛɹ	ʃ v øː ʁ - -
+101	Icelandic	swear!	s.v.ɛ.r.j.a	s v ɛ r j a	9	swari	swari	svɛɹ	s v ɛ r j a
+102	Norwegian_Stavanger	swear!	s.v.ɛ.ʁ.k	s v ɛ ʁ k	9	swari	swari	svɛɹ	s v ɛ ʁ k -
+103	Scottish	swear!	s.w.eə.ɹ	s w eə ɹ	9	swari	swari	svɛɹ	s w eə ɹ - -
+104	Swedish_Skane	swear!	s.v.ɛː.ʁ	s v ɛː ʁ	9	swari	swari	svɛɹ	s v ɛː ʁ - -
+105	Swedish_Stockholm	swear!	s.v.aː.r	s v aː r	9	swari	swari	svɛɹ	s v aː r - -
+106	West_Frisian_Grou	swear!	s.β.a.r	s β a r	9	swari	swari	svɛɹ	s β a r - -
+107	Yiddish_New_York	swear!	ʃ.v.ɛ.ɾ	ʃ v ɛ ɾ	9	swari	swari	svɛɹ	ʃ v ɛ ɾ - -
+#
+649	Danish	tear	tʰ.ɔː	tʰ ɔː	56	taxru	taxru	tʰɛːʁ	tʰ ɔː - -
+650	English	tear	tʰ.ɪə	tʰ ɪə	56	taxru	taxru	tʰɛːʁ	tʰ ɪə - -
+651	Faroese	tear	tʰ.ɔa.ɹ.a	tʰ ɔa ɹ a	56	taxru	taxru	tʰɛːʁ	tʰ ɔa ɹ a
+652	German	tear	ʦ.ɛː.ʁ.ə	ʦ ɛː ʁ ə	56	taxru	taxru	tʰɛːʁ	ʦ ɛː ʁ ə
+653	Icelandic	tear	tʰ.aʊ.r	tʰ aʊ r	56	taxru	taxru	tʰɛːʁ	tʰ aʊ r -
+654	Norwegian_Stavanger	tear	tʰ.oː.ʁ.ə	tʰ oː ʁ ə	56	taxru	taxru	tʰɛːʁ	tʰ oː ʁ ə
+655	Scottish	tear	tʰ.iə.ɹ	tʰ iə ɹ	56	taxru	taxru	tʰɛːʁ	tʰ iə ɹ -
+656	Swedish_Skane	tear	t.œʊ.ʁ	t œʊ ʁ	56	taxru	taxru	tʰɛːʁ	t œʊ ʁ -
+657	Swedish_Stockholm	tear	tʰ.oə.ɾ	tʰ oə ɾ	56	taxru	taxru	tʰɛːʁ	tʰ oə ɾ -
+987	Dutch	tear	tʰ.ʁ.aː.n	tʰ ʁ aː n	85	taxru	taxru	tʁɛːn	- - tʰ ʁ aː n -
+988	German	tear	t.ʁ.ɛː.n.ə	t ʁ ɛː n ə	85	taxru	taxru	tʁɛːn	- - t ʁ ɛː n ə
+989	West_Frisian_Grou	tear	t.ɾ.iə.n	t ɾ iə n	85	taxru	taxru	tʁɛːn	- - t ɾ iə n -
+#
+798	Danish	ten	ʦ.iˀ	ʦ iˀ	69	texun	texun	tʰiːn	ʦ iˀ - - -
+799	Dutch	ten	tʰ.i.n	tʰ i n	69	texun	texun	tʰiːn	tʰ i n - -
+800	English	ten	tʰ.ɛ.n	tʰ ɛ n	69	texun	texun	tʰiːn	tʰ ɛ n - -
+801	German	ten	ʦ.eː.n	ʦ eː n	69	texun	texun	tʰiːn	ʦ eː n - -
+802	Icelandic	ten	tʰ.iː.j.ʏ	tʰ iː j ʏ	69	texun	texun	tʰiːn	tʰ iː - j ʏ
+803	Norwegian_Stavanger	ten	tʰ.iː	tʰ iː	69	texun	texun	tʰiːn	tʰ iː - - -
+804	Scottish	ten	tʰ.ɛ.n	tʰ ɛ n	69	texun	texun	tʰiːn	tʰ ɛ n - -
+805	Swedish_Skane	ten	tʰ.iɪə	tʰ iɪə	69	texun	texun	tʰiːn	tʰ iɪə - - -
+806	Swedish_Stockholm	ten	tʰ.iː.j.ə	tʰ iː j ə	69	texun	texun	tʰiːn	tʰ iː - j ə
+807	West_Frisian_Grou	ten	ʦ.iə.n	ʦ iə n	69	texun	texun	tʰiːn	ʦ iə n - -
+808	Yiddish_New_York	ten	ʦ.ɪ.n	ʦ ɪ n	69	texun	texun	tʰiːn	ʦ ɪ n - -
+#
+1226	Danish	thing	ʦ.ɪ.ŋˀ	ʦ ɪ ŋˀ	106	θenɡaz	θenɡ	tʰɪŋ	ʦ ɪ ŋˀ -
+1227	Dutch	thing	d.ɪ.ŋ	d ɪ ŋ	106	θenɡaz	θenɡ	tʰɪŋ	d ɪ ŋ -
+1228	English	thing	θ.ɪ.ŋ	θ ɪ ŋ	106	θenɡaz	θenɡ	tʰɪŋ	θ ɪ ŋ -
+1229	Faroese	thing	tʰ.ɪ.ŋ.k	tʰ ɪ ŋ k	106	θenɡaz	θenɡ	tʰɪŋ	tʰ ɪ ŋ k
+1230	German	thing	d.ɪ.ŋ	d ɪ ŋ	106	θenɡaz	θenɡ	tʰɪŋ	d ɪ ŋ -
+1231	Icelandic	thing	θ.ɪ.ŋ.k	θ ɪ ŋ k	106	θenɡaz	θenɡ	tʰɪŋ	θ ɪ ŋ k
+1232	Norwegian_Stavanger	thing	tʰ.ɪ.ŋ	tʰ ɪ ŋ	106	θenɡaz	θenɡ	tʰɪŋ	tʰ ɪ ŋ -
+1233	Scottish	thing	θ.ɪ.ŋ	θ ɪ ŋ	106	θenɡaz	θenɡ	tʰɪŋ	θ ɪ ŋ -
+1234	Swedish_Skane	thing	tʰ.ɪ.ŋ	tʰ ɪ ŋ	106	θenɡaz	θenɡ	tʰɪŋ	tʰ ɪ ŋ -
+1235	Swedish_Stockholm	thing	tʰ.i.ŋ	tʰ i ŋ	106	θenɡaz	θenɡ	tʰɪŋ	tʰ i ŋ -
+1236	West_Frisian_Grou	thing	d.ɪ.ŋ	d ɪ ŋ	106	θenɡaz	θenɡ	tʰɪŋ	d ɪ ŋ -
+#
+440	Danish	thorn	tʰ.oɐ.n	tʰ oɐ n	38	θurnuz	θurn	tʰɔn	tʰ oɐ - - n - -
+441	Dutch	thorn	d.ɔ.ɹ.n	d ɔ ɹ n	38	θurnuz	θurn	tʰɔn	d ɔ ɹ - n - -
+442	English	thorn	θ.ɔː.n	θ ɔː n	38	θurnuz	θurn	tʰɔn	θ ɔː - - n - -
+443	Faroese	thorn	tʰ.ɔ.ɹ.n.ʌ.ɹ	tʰ ɔ ɹ n ʌ ɹ	38	θurnuz	θurn	tʰɔn	tʰ ɔ ɹ - n ʌ ɹ
+444	German	thorn	d.ɔː.n	d ɔː n	38	θurnuz	θurn	tʰɔn	d ɔː - - n - -
+445	Icelandic	thorn	θ.ɔ.r.n̥	θ ɔ r n̥	38	θurnuz	θurn	tʰɔn	θ ɔ r - n̥ - -
+446	Norwegian_Stavanger	thorn	tʰ.o.ʁ.n	tʰ o ʁ n	38	θurnuz	θurn	tʰɔn	tʰ o ʁ - n - -
+447	Scottish	thorn	θ.ɔː.ɹ.n	θ ɔː ɹ n	38	θurnuz	θurn	tʰɔn	θ ɔː ɹ - n - -
+448	Swedish_Skane	thorn	tʰ.ʊ.ʁ.n	tʰ ʊ ʁ n	38	θurnuz	θurn	tʰɔn	tʰ ʊ ʁ - n - -
+449	Swedish_Stockholm	thorn	tʰ.oː.n	tʰ oː n	38	θurnuz	θurn	tʰɔn	tʰ oː - - n - -
+450	Yiddish_New_York	thorn	d.ɔ.ɾ.n	d ɔ ɾ n	38	θurnuz	θurn	tʰɔn	d ɔ ɾ - n - -
+#
+191	Danish	three	t.χ.ɛɪˀ	t χ ɛɪˀ	17	θrejez	θrej	tɾiː	t χ ɛɪˀ - -
+192	Dutch	three	d.ʁ.i	d ʁ i	17	θrejez	θrej	tɾiː	d ʁ i - -
+193	English	three	θ.ɹ.ɪi	θ ɹ ɪi	17	θrejez	θrej	tɾiː	θ ɹ ɪi - -
+194	Faroese	three	tʰ.ɹ.ʊi	tʰ ɹ ʊi	17	θrejez	θrej	tɾiː	tʰ ɹ ʊi - -
+195	German	three	d.ʁ.ae	d ʁ ae	17	θrejez	θrej	tɾiː	d ʁ ae - -
+196	Icelandic	three	θ.ɾ.ɪu	θ ɾ ɪu	17	θrejez	θrej	tɾiː	θ ɾ ɪu - -
+197	Norwegian_Stavanger	three	t.χ.iː	t χ iː	17	θrejez	θrej	tɾiː	t χ iː - -
+198	Scottish	three	θ.ɾ.iː	θ ɾ iː	17	θrejez	θrej	tɾiː	θ ɾ iː - -
+199	Swedish_Skane	three	tʰ.ʁ.ɛɪ	tʰ ʁ ɛɪ	17	θrejez	θrej	tɾiː	tʰ ʁ ɛɪ - -
+200	Swedish_Stockholm	three	t.ɾ.i	t ɾ i	17	θrejez	θrej	tɾiː	t ɾ i - -
+201	West_Frisian_Grou	three	t.ɾ.ɛ.j.ə	t ɾ ɛ j ə	17	θrejez	θrej	tɾiː	t ɾ ɛ j ə
+202	Yiddish_New_York	three	d.ɾ.aɪ	d ɾ aɪ	17	θrejez	θrej	tɾiː	d ɾ aɪ - -
+#
+1025	Danish	thunder	ʧ.oɐ.d.n	ʧ oɐ d n	89	θunraz	θunr	tʰoːd	ʧ oɐ - d - n - -
+1026	Dutch	thunder	d.ʌ.n.d.ə.ʁ	d ʌ n d ə ʁ	89	θunraz	θunr	tʰoːd	d ʌ n d ə - ʁ -
+1027	English	thunder	θ.ɐ.n.d.ə	θ ɐ n d ə	89	θunraz	θunr	tʰoːd	θ ɐ n d ə - - -
+1028	Faroese	thunder	tʰ.oː.ɹ.a	tʰ oː ɹ a	89	θunraz	θunr	tʰoːd	tʰ oː - - - - ɹ a
+1029	German	thunder	d.ɒ.n.ɐ	d ɒ n ɐ	89	θunraz	θunr	tʰoːd	d ɒ n - ɐ - - -
+1030	Icelandic	thunder	θ.ɔː.r.a	θ ɔː r a	89	θunraz	θunr	tʰoːd	θ ɔː - - - - r a
+1031	Norwegian_Stavanger	thunder	tʰ.oː.d.n	tʰ oː d n	89	θunraz	θunr	tʰoːd	tʰ oː - d - n - -
+1032	Scottish	thunder	θ.ʌ.n.d.ə.ɹ	θ ʌ n d ə ɹ	89	θunraz	θunr	tʰoːd	θ ʌ n d ə - ɹ -
+1033	Swedish_Skane	thunder	tʰ.oː.d.ə.n	tʰ oː d ə n	89	θunraz	θunr	tʰoːd	tʰ oː - d ə n - -
+1034	Swedish_Stockholm	thunder	tʰ.oː.d.œ.n	tʰ oː d œ n	89	θunraz	θunr	tʰoːd	tʰ oː - d œ n - -
+1035	West_Frisian_Grou	thunder	t.ʌ.ŋ.r	t ʌ ŋ r	89	θunraz	θunr	tʰoːd	t ʌ ŋ - - - r -
+1036	Yiddish_New_York	thunder	d.u.n.ɛ.ʁ	d u n ɛ ʁ	89	θunraz	θunr	tʰoːd	d u n - ɛ - ʁ -
+#
+261	Danish	toe	ʦ.uˀ	ʦ uˀ	23	taixwoːn	taixw	tʰoː	ʦ uˀ - -
+262	Dutch	toe	tʰ.eɪ.n	tʰ eɪ n	23	taixwoːn	taixw	tʰoː	tʰ eɪ n -
+263	English	toe	tʰ.əʊ	tʰ əʊ	23	taixwoːn	taixw	tʰoː	tʰ əʊ - -
+264	Faroese	toe	tʰ.ɔa	tʰ ɔa	23	taixwoːn	taixw	tʰoː	tʰ ɔa - -
+265	German	toe	ʦ.eː	ʦ eː	23	taixwoːn	taixw	tʰoː	ʦ eː - -
+266	Icelandic	toe	tʰ.aʊ	tʰ aʊ	23	taixwoːn	taixw	tʰoː	tʰ aʊ - -
+267	Norwegian_Stavanger	toe	tʰ.ɔː	tʰ ɔː	23	taixwoːn	taixw	tʰoː	tʰ ɔː - -
+268	Scottish	toe	tʰ.oː	tʰ oː	23	taixwoːn	taixw	tʰoː	tʰ oː - -
+269	Swedish_Skane	toe	tʰ.ɛʊ	tʰ ɛʊ	23	taixwoːn	taixw	tʰoː	tʰ ɛʊ - -
+270	Swedish_Stockholm	toe	tʰ.oː	tʰ oː	23	taixwoːn	taixw	tʰoː	tʰ oː - -
+271	West_Frisian_Grou	toe	t.iə.n	t iə n	23	taixwoːn	taixw	tʰoː	t iə n -
+#
+84	Danish	tongue	tʰ.ʊ.ŋ.ə	tʰ ʊ ŋ ə	8	tunɡoːn	tunɡ	tʰʊŋə	tʰ ʊ ŋ - ə
+85	Dutch	tongue	tʰ.ʌ.ŋ	tʰ ʌ ŋ	8	tunɡoːn	tunɡ	tʰʊŋə	tʰ ʌ ŋ - -
+86	English	tongue	tʰ.ɐ.ŋ	tʰ ɐ ŋ	8	tunɡoːn	tunɡ	tʰʊŋə	tʰ ɐ ŋ - -
+87	Faroese	tongue	tʰ.ʊ.ŋ.k.a	tʰ ʊ ŋ k a	8	tunɡoːn	tunɡ	tʰʊŋə	tʰ ʊ ŋ k a
+88	German	tongue	ʦ.ʊ.ŋ.ə	ʦ ʊ ŋ ə	8	tunɡoːn	tunɡ	tʰʊŋə	ʦ ʊ ŋ - ə
+89	Icelandic	tongue	tʰ.ʊ.ŋ.k.a	tʰ ʊ ŋ k a	8	tunɡoːn	tunɡ	tʰʊŋə	tʰ ʊ ŋ k a
+90	Norwegian_Stavanger	tongue	tʰ.ʊ.ŋ.ə	tʰ ʊ ŋ ə	8	tunɡoːn	tunɡ	tʰʊŋə	tʰ ʊ ŋ - ə
+91	Scottish	tongue	tʰ.ʌ.ŋ	tʰ ʌ ŋ	8	tunɡoːn	tunɡ	tʰʊŋə	tʰ ʌ ŋ - -
+92	Swedish_Skane	tongue	tʰ.øʏ.ŋ.j.ɐ	tʰ øʏ ŋ j ɐ	8	tunɡoːn	tunɡ	tʰʊŋə	tʰ øʏ ŋ j ɐ
+93	Swedish_Stockholm	tongue	tʰ.ʊ.ŋ.ə	tʰ ʊ ŋ ə	8	tunɡoːn	tunɡ	tʰʊŋə	tʰ ʊ ŋ - ə
+94	West_Frisian_Grou	tongue	t.ɔ.ŋ.ə	t ɔ ŋ ə	8	tunɡoːn	tunɡ	tʰʊŋə	t ɔ ŋ - ə
+95	Yiddish_New_York	tongue	ʦ.u.ŋ.ɡ	ʦ u ŋ ɡ	8	tunɡoːn	tunɡ	tʰʊŋə	ʦ u ŋ ɡ -
+#
+168	Danish	tooth	tʰ.ɛ.nˀ	tʰ ɛ nˀ	15	tanθz	tanθz	tʰɔn	tʰ ɛ nˀ -
+169	Dutch	tooth	tʰ.ɑ.n.t	tʰ ɑ n t	15	tanθz	tanθz	tʰɔn	tʰ ɑ n t
+170	English	tooth	tʰ.u.θ	tʰ u θ	15	tanθz	tanθz	tʰɔn	tʰ u - θ
+171	Faroese	tooth	tʰ.ɔ.n	tʰ ɔ n	15	tanθz	tanθz	tʰɔn	tʰ ɔ n -
+172	German	tooth	ʦ.aː.n	ʦ aː n	15	tanθz	tanθz	tʰɔn	ʦ aː n -
+173	Icelandic	tooth	tʰ.œ.n	tʰ œ n	15	tanθz	tanθz	tʰɔn	tʰ œ n -
+174	Norwegian_Stavanger	tooth	tʰ.a.n	tʰ a n	15	tanθz	tanθz	tʰɔn	tʰ a n -
+175	Scottish	tooth	tʰ.ʉ.θ	tʰ ʉ θ	15	tanθz	tanθz	tʰɔn	tʰ ʉ - θ
+176	Swedish_Skane	tooth	tʰ.a.n	tʰ a n	15	tanθz	tanθz	tʰɔn	tʰ a n -
+177	Swedish_Stockholm	tooth	tʰ.ɑ.n.d	tʰ ɑ n d	15	tanθz	tanθz	tʰɔn	tʰ ɑ n d
+178	West_Frisian_Grou	tooth	t.i.n.ə	t i n ə	15	tanθz	tanθz	tʰɔn	t i n ə
+179	Yiddish_New_York	tooth	ʦ.ɔ.n	ʦ ɔ n	15	tanθz	tanθz	tʰɔn	ʦ ɔ n -
+#
+941	Danish	top	tʰ.ɔ.pʰ	tʰ ɔ pʰ	81	tuppaz	tupp	tʰɔpʰ	tʰ ɔ pʰ - -
+942	Dutch	top	tʰ.ɔ.p	tʰ ɔ p	81	tuppaz	tupp	tʰɔpʰ	tʰ ɔ p - -
+943	English	top	tʰ.ɔ.p	tʰ ɔ p	81	tuppaz	tupp	tʰɔpʰ	tʰ ɔ p - -
+944	Faroese	top	tʰ.ɔ.pʰ	tʰ ɔ pʰ	81	tuppaz	tupp	tʰɔpʰ	tʰ ɔ pʰ - -
+945	German	top	ʦ.ɒ.p͡f	ʦ ɒ p͡f	81	tuppaz	tupp	tʰɔpʰ	ʦ ɒ p͡f - -
+946	Icelandic	top	tʰ.ɔ.pʰ	tʰ ɔ pʰ	81	tuppaz	tupp	tʰɔpʰ	tʰ ɔ pʰ - -
+947	Norwegian_Stavanger	top	tʰ.ɒ.pːʰ	tʰ ɒ pːʰ	81	tuppaz	tupp	tʰɔpʰ	tʰ ɒ pːʰ - -
+948	Scottish	top	tʰ.ɔ.pʰ	tʰ ɔ pʰ	81	tuppaz	tupp	tʰɔpʰ	tʰ ɔ pʰ - -
+949	Swedish_Skane	top	tʰ.øʉ.pʰ	tʰ øʉ pʰ	81	tuppaz	tupp	tʰɔpʰ	tʰ øʉ pʰ - -
+950	Swedish_Stockholm	top	t.ɔ.pː	t ɔ pː	81	tuppaz	tupp	tʰɔpʰ	t ɔ pː - -
+951	West_Frisian_Grou	top	t.ɔ.p	t ɔ p	81	tuppaz	tupp	tʰɔpʰ	t ɔ p - -
+952	Yiddish_New_York	top	ʧ.u.p	ʧ u p	81	tuppaz	tupp	tʰɔpʰ	ʧ u p - -
+#
+589	Danish	two	ʦ.ʊˀ	ʦ ʊˀ	51	twoːu	twoːu	tʰvɛi	ʦ - ʊˀ - -
+590	Dutch	two	tʰ.v.eɪ	tʰ v eɪ	51	twoːu	twoːu	tʰvɛi	tʰ v eɪ - -
+591	English	two	tʰ.ʊu	tʰ ʊu	51	twoːu	twoːu	tʰvɛi	tʰ - ʊu - -
+592	Faroese	two	tʰ.v.ɛi	tʰ v ɛi	51	twoːu	twoːu	tʰvɛi	tʰ v ɛi - -
+593	German	two	ʦ.v.ae	ʦ v ae	51	twoːu	twoːu	tʰvɛi	ʦ v ae - -
+594	Icelandic	two	tʰ.v.œː	tʰ v œː	51	twoːu	twoːu	tʰvɛi	tʰ v œː - -
+595	Norwegian_Stavanger	two	tʰ.uː	tʰ uː	51	twoːu	twoːu	tʰvɛi	tʰ - uː - -
+596	Scottish	two	tʰ.ʉː	tʰ ʉː	51	twoːu	twoːu	tʰvɛi	tʰ - ʉː - -
+597	Swedish_Skane	two	tʰ.v.ɛʊ	tʰ v ɛʊ	51	twoːu	twoːu	tʰvɛi	tʰ v ɛʊ - -
+598	Swedish_Stockholm	two	tʰ.v.oː	tʰ v oː	51	twoːu	twoːu	tʰvɛi	tʰ v oː - -
+599	West_Frisian_Grou	two	t.β.aː	t β aː	51	twoːu	twoːu	tʰvɛi	t β aː - -
+600	Yiddish_New_York	two	ʦ.v.ɛi	ʦ v ɛi	51	twoːu	twoːu	tʰvɛi	ʦ v ɛi - -
+#
+25	Danish	warm	v.aˀ.m	v aˀ m	3	warmaz	warm	vam	v aˀ - - m - -
+26	Dutch	warm	v.a.ɹ.m	v a ɹ m	3	warmaz	warm	vam	v a ɹ - m - -
+27	English	warm	w.ɔː.m	w ɔː m	3	warmaz	warm	vam	w ɔː - - m - -
+28	Faroese	warm	v.a.ɹ.m.ʌ.ɹ	v a ɹ m ʌ ɹ	3	warmaz	warm	vam	v a ɹ - m ʌ ɹ
+29	German	warm	v.aː.m	v aː m	3	warmaz	warm	vam	v aː - - m - -
+30	Icelandic	warm	v.a.r.m	v a r m	3	warmaz	warm	vam	v a r - m - -
+31	Norwegian_Stavanger	warm	v.a.ʁ.m	v a ʁ m	3	warmaz	warm	vam	v a ʁ - m - -
+32	Scottish	warm	w.ɔː.ɹ.m	w ɔː ɹ m	3	warmaz	warm	vam	w ɔː ɹ - m - -
+33	Swedish_Skane	warm	v.a.ʁ.m	v a ʁ m	3	warmaz	warm	vam	v a ʁ - m - -
+34	Swedish_Stockholm	warm	v.a.r.m	v a r m	3	warmaz	warm	vam	v a r - m - -
+35	West_Frisian_Grou	warm	β.aː.ɾ.ə.m	β aː ɾ ə m	3	warmaz	warm	vam	β aː ɾ ə m - -
+36	Yiddish_New_York	warm	v.a.ɾ.ə.m	v a ɾ ə m	3	warmaz	warm	vam	v a ɾ ə m - -
+#
+1120	Danish	wash!	v.ɛ.s.kʰ	v ɛ s kʰ	97	wask	wask	vask	v ɛ s kʰ -
+1121	Dutch	wash!	v.ɑ.s	v ɑ s	97	wask	wask	vask	v ɑ s - -
+1122	English	wash!	w.ɔ.ʃ	w ɔ ʃ	97	wask	wask	vask	w ɔ ʃ - -
+1123	Faroese	wash!	v.a.s.k.a	v a s k a	97	wask	wask	vask	v a s k a
+1124	German	wash!	v.a.ʃ	v a ʃ	97	wask	wask	vask	v a ʃ - -
+1125	Icelandic	wash!	v.a.s.k.a	v a s k a	97	wask	wask	vask	v a s k a
+1126	Norwegian_Stavanger	wash!	v.a.sː.k	v a sː k	97	wask	wask	vask	v a sː k -
+1127	Scottish	wash!	w.ɔ.ʃ	w ɔ ʃ	97	wask	wask	vask	w ɔ ʃ - -
+1128	Swedish_Skane	wash!	v.a.s.k.a	v a s k a	97	wask	wask	vask	v a s k a
+1129	Swedish_Stockholm	wash!	v.a.sː.k.ə	v a sː k ə	97	wask	wask	vask	v a sː k ə
+1130	West_Frisian_Grou	wash!	β.ɒ.s.k.iə	β ɒ s k iə	97	wask	wask	vask	β ɒ s k iə
+1131	Yiddish_New_York	wash!	v.a.ʃ	v a ʃ	97	wask	wask	vask	v a ʃ - -
+#
+296	Danish	what	v.ɛ.l	v ɛ l	26	xwat	xwat	vɔt	- v ɛ l - -
+297	Dutch	what	v.ɑ.t	v ɑ t	26	xwat	xwat	vɔt	- v ɑ t - -
+298	English	what	w.ɔ.tʰ	w ɔ tʰ	26	xwat	xwat	vɔt	- w ɔ tʰ - -
+299	Faroese	what	kʰ.v.ɛa.t	kʰ v ɛa t	26	xwat	xwat	vɔt	kʰ v ɛa t - -
+300	German	what	v.a.s	v a s	26	xwat	xwat	vɔt	- v a s - -
+301	Icelandic	what	kʰ.v.aː.θ	kʰ v aː θ	26	xwat	xwat	vɔt	kʰ v aː θ - -
+302	Norwegian_Stavanger	what	kʰ.ɑː	kʰ ɑː	26	xwat	xwat	vɔt	kʰ - ɑː - - -
+303	Scottish	what	ʍ.ɔ.tʰ	ʍ ɔ tʰ	26	xwat	xwat	vɔt	- ʍ ɔ tʰ - -
+304	Swedish_Skane	what	v.a	v a	26	xwat	xwat	vɔt	- v a - - -
+305	Swedish_Stockholm	what	v.ɔː.d	v ɔː d	26	xwat	xwat	vɔt	- v ɔː d - -
+306	West_Frisian_Grou	what	β.ɔ.t	β ɔ t	26	xwat	xwat	vɔt	- β ɔ t - -
+307	Yiddish_New_York	what	v.ɔ.s	v ɔ s	26	xwat	xwat	vɔt	- v ɔ s - -
+#
+475	Danish	white	v.ɪ.lˀ	v ɪ lˀ	41	xwiːtaz	xwiːt	vaɪt	- v ɪ lˀ - -
+476	Dutch	white	v.ɪ.t	v ɪ t	41	xwiːtaz	xwiːt	vaɪt	- v ɪ t - -
+477	English	white	w.aɪ.tʰ	w aɪ tʰ	41	xwiːtaz	xwiːt	vaɪt	- w aɪ tʰ - -
+478	Faroese	white	kʰ.v.ʊi.t.ʌ.ɹ	kʰ v ʊi t ʌ ɹ	41	xwiːtaz	xwiːt	vaɪt	kʰ v ʊi t ʌ ɹ
+479	German	white	v.aɪ.s	v aɪ s	41	xwiːtaz	xwiːt	vaɪt	- v aɪ s - -
+480	Icelandic	white	kʰ.v.iː.t	kʰ v iː t	41	xwiːtaz	xwiːt	vaɪt	kʰ v iː t - -
+481	Norwegian_Stavanger	white	kʰ.v.iː.t	kʰ v iː t	41	xwiːtaz	xwiːt	vaɪt	kʰ v iː t - -
+482	Scottish	white	ʍ.ɐi.tʰ	ʍ ɐi tʰ	41	xwiːtaz	xwiːt	vaɪt	- ʍ ɐi tʰ - -
+483	Swedish_Skane	white	v.ɪi.tʰ	v ɪi tʰ	41	xwiːtaz	xwiːt	vaɪt	- v ɪi tʰ - -
+484	Swedish_Stockholm	white	v.i.tː	v i tː	41	xwiːtaz	xwiːt	vaɪt	- v i tː - -
+485	West_Frisian_Grou	white	β.i.t	β i t	41	xwiːtaz	xwiːt	vaɪt	- β i t - -
+486	Yiddish_New_York	white	v.aɪ.s	v aɪ s	41	xwiːtaz	xwiːt	vaɪt	- v aɪ s - -
+#
+1049	Danish	wind	v.ɪ.nˀ	v ɪ nˀ	91	wendaz	wend	vɪnt	v ɪ nˀ -
+1050	Dutch	wind	v.ɪ.n.t	v ɪ n t	91	wendaz	wend	vɪnt	v ɪ n t
+1051	English	wind	w.ɪ.n.d	w ɪ n d	91	wendaz	wend	vɪnt	w ɪ n d
+1052	Faroese	wind	v.ɪ.n.t	v ɪ n t	91	wendaz	wend	vɪnt	v ɪ n t
+1053	German	wind	v.ɪ.n.t	v ɪ n t	91	wendaz	wend	vɪnt	v ɪ n t
+1054	Icelandic	wind	v.ɪ.n.t	v ɪ n t	91	wendaz	wend	vɪnt	v ɪ n t
+1055	Norwegian_Stavanger	wind	v.ɪ.nː	v ɪ nː	91	wendaz	wend	vɪnt	v ɪ nː -
+1056	Scottish	wind	w.ɪ.n.d	w ɪ n d	91	wendaz	wend	vɪnt	w ɪ n d
+1057	Swedish_Skane	wind	v.ɪ.ŋ	v ɪ ŋ	91	wendaz	wend	vɪnt	v ɪ ŋ -
+1058	Swedish_Stockholm	wind	v.ɪ.n.d	v ɪ n d	91	wendaz	wend	vɪnt	v ɪ n d
+1059	West_Frisian_Grou	wind	β.i.n	β i n	91	wendaz	wend	vɪnt	β i n -
+1060	Yiddish_New_York	wind	v.ɪ.n.t	v ɪ n t	91	wendaz	wend	vɪnt	v ɪ n t
+#
+613	Danish	wool	ʔ.u.lˀ	ʔ u lˀ	53	wulloː	wulloː	ʊɫ	ʔ u lˀ -
+614	Dutch	wool	v.ʌ.ɫ	v ʌ ɫ	53	wulloː	wulloː	ʊɫ	v ʌ ɫ -
+615	English	wool	w.ʊ.ɫ	w ʊ ɫ	53	wulloː	wulloː	ʊɫ	w ʊ ɫ -
+616	Faroese	wool	ʊ.l̥	ʊ l̥	53	wulloː	wulloː	ʊɫ	- ʊ l̥ -
+617	German	wool	v.ɒ.l.ə	v ɒ l ə	53	wulloː	wulloː	ʊɫ	v ɒ l ə
+618	Icelandic	wool	ʏ.ɬ̥	ʏ ɬ̥	53	wulloː	wulloː	ʊɫ	- ʏ ɬ̥ -
+619	Norwegian_Stavanger	wool	ʊ.l	ʊ l	53	wulloː	wulloː	ʊɫ	- ʊ l -
+620	Scottish	wool	w.uː.ɫ	w uː ɫ	53	wulloː	wulloː	ʊɫ	w uː ɫ -
+621	Swedish_Skane	wool	ø.l	ø l	53	wulloː	wulloː	ʊɫ	- ø l -
+622	Swedish_Stockholm	wool	ø.l	ø l	53	wulloː	wulloː	ʊɫ	- ø l -
+623	West_Frisian_Grou	wool	β.ʌ.ɫ.ə	β ʌ ɫ ə	53	wulloː	wulloː	ʊɫ	β ʌ ɫ ə
+624	Yiddish_New_York	wool	v.ɔ.ɫ	v ɔ ɫ	53	wulloː	wulloː	ʊɫ	v ɔ ɫ -
+#
+1237	Danish	word	ʔ.oɔˀ	ʔ oɔˀ	107	wurdan	wurd	oːt	ʔ oɔˀ - - -
+1238	Dutch	word	v.ɔ.ɹ.t	v ɔ ɹ t	107	wurdan	wurd	oːt	v ɔ ɹ - t
+1239	English	word	w.ɜː.d	w ɜː d	107	wurdan	wurd	oːt	w ɜː - - d
+1240	Faroese	word	oː.ɹ	oː ɹ	107	wurdan	wurd	oːt	- oː - - ɹ
+1241	German	word	v.ɔː.t	v ɔː t	107	wurdan	wurd	oːt	v ɔː - - t
+1242	Icelandic	word	ɔ.r.θ	ɔ r θ	107	wurdan	wurd	oːt	ɔ r - - θ
+1243	Norwegian_Stavanger	word	oː.χ	oː χ	107	wurdan	wurd	oːt	- oː χ - -
+1244	Scottish	word	w.əː.ɹ.d	w əː ɹ d	107	wurdan	wurd	oːt	w əː ɹ - d
+1245	Swedish_Skane	word	øʉ.ʁ	øʉ ʁ	107	wurdan	wurd	oːt	- øʉ ʁ - -
+1246	Swedish_Stockholm	word	oː.d	oː d	107	wurdan	wurd	oːt	- oː - - d
+1247	West_Frisian_Grou	word	β.œ.t	β œ t	107	wurdan	wurd	oːt	β œ - - t
+1248	Yiddish_New_York	word	v.ɔ.ɾ.t	v ɔ ɾ t	107	wurdan	wurd	oːt	v ɔ ɾ - t
+#
+775	Danish	yard	ɡ.ɔ.lˀ	ɡ ɔ lˀ	67	ɡardaz	ɡard	ɡad	ɡ ɔ - lˀ - -
+776	Dutch	yard	χ.a.ɹ.t	χ a ɹ t	67	ɡardaz	ɡard	ɡad	χ a ɹ t - -
+777	English	yard	j.ɑː.d	j ɑː d	67	ɡardaz	ɡard	ɡad	j ɑː - d - -
+778	Faroese	yard	ɡ.ɛa.ɹ	ɡ ɛa ɹ	67	ɡardaz	ɡard	ɡad	ɡ ɛa ɹ - - -
+779	German	yard	ɡ.a.ʁ.t.n	ɡ a ʁ t n	67	ɡardaz	ɡard	ɡad	ɡ a ʁ t - n
+780	Icelandic	yard	ɡ.a.r.θ	ɡ a r θ	67	ɡardaz	ɡard	ɡad	ɡ a r θ - -
+781	Norwegian_Stavanger	yard	ɡ.ɔː.χ	ɡ ɔː χ	67	ɡardaz	ɡard	ɡad	ɡ ɔː χ - - -
+782	Scottish	yard	j.ɑː.ɹ.d	j ɑː ɹ d	67	ɡardaz	ɡard	ɡad	j ɑː ɹ d - -
+783	Swedish_Skane	yard	ɡ.ɛʊ.ʁ	ɡ ɛʊ ʁ	67	ɡardaz	ɡard	ɡad	ɡ ɛʊ ʁ - - -
+784	Swedish_Stockholm	yard	ɡ.oə.d	ɡ oə d	67	ɡardaz	ɡard	ɡad	ɡ oə - d - -
+785	Yiddish_New_York	yard	ɡ.ɔ.ɾ.tʰ.ɪ.n	ɡ ɔ ɾ tʰ ɪ n	67	ɡardaz	ɡard	ɡad	ɡ ɔ ɾ tʰ ɪ n
+#
+529	Danish	year	ʔ.ɔˀ	ʔ ɔˀ	46	jeːran	jeːr	iər	ʔ ɔˀ -
+530	Dutch	year	j.a.ɹ	j a ɹ	46	jeːran	jeːr	iər	j a ɹ
+531	English	year	j.ɪə	j ɪə	46	jeːran	jeːr	iər	j ɪə -
+532	Faroese	year	ɔa.ɹ	ɔa ɹ	46	jeːran	jeːr	iər	- ɔa ɹ
+533	German	year	j.aː	j aː	46	jeːran	jeːr	iər	j aː -
+534	Icelandic	year	aʊ.r	aʊ r	46	jeːran	jeːr	iər	- aʊ r
+535	Norwegian_Stavanger	year	ɔː.χ	ɔː χ	46	jeːran	jeːr	iər	- ɔː χ
+536	Scottish	year	j.iə.ɹ	j iə ɹ	46	jeːran	jeːr	iər	j iə ɹ
+537	Swedish_Skane	year	ʔ.æʊ.ʁ	ʔ æʊ ʁ	46	jeːran	jeːr	iər	ʔ æʊ ʁ
+538	Swedish_Stockholm	year	oə.r	oə r	46	jeːran	jeːr	iər	- oə r
+539	West_Frisian_Grou	year	iə.r	iə r	46	jeːran	jeːr	iər	- iə r
+540	Yiddish_New_York	year	j.ɔ.r	j ɔ r	46	jeːran	jeːr	iər	j ɔ r
+#
+670	Danish	young	ʔ.ʊ.ŋˀ	ʔ ʊ ŋˀ	58	junɡaz	junɡ	jʊŋ	ʔ ʊ ŋˀ - - -
+671	Dutch	young	j.ʌ.ŋ	j ʌ ŋ	58	junɡaz	junɡ	jʊŋ	j ʌ ŋ - - -
+672	English	young	j.ɐ.ŋ	j ɐ ŋ	58	junɡaz	junɡ	jʊŋ	j ɐ ŋ - - -
+673	Faroese	young	ʊ.ŋ.k.ʌ.ɹ	ʊ ŋ k ʌ ɹ	58	junɡaz	junɡ	jʊŋ	- ʊ ŋ k ʌ ɹ
+674	German	young	j.ʊ.ŋ	j ʊ ŋ	58	junɡaz	junɡ	jʊŋ	j ʊ ŋ - - -
+675	Icelandic	young	ʊ.ŋ.k	ʊ ŋ k	58	junɡaz	junɡ	jʊŋ	- ʊ ŋ k - -
+676	Norwegian_Stavanger	young	ʊ.ŋ	ʊ ŋ	58	junɡaz	junɡ	jʊŋ	- ʊ ŋ - - -
+677	Scottish	young	j.ʌ.ŋ	j ʌ ŋ	58	junɡaz	junɡ	jʊŋ	j ʌ ŋ - - -
+678	Swedish_Skane	young	ʉ.ŋ	ʉ ŋ	58	junɡaz	junɡ	jʊŋ	- ʉ ŋ - - -
+679	Swedish_Stockholm	young	ɵ.ŋ	ɵ ŋ	58	junɡaz	junɡ	jʊŋ	- ɵ ŋ - - -
+680	West_Frisian_Grou	young	j.ʌ.ŋ	j ʌ ŋ	58	junɡaz	junɡ	jʊŋ	j ʌ ŋ - - -
+681	Yiddish_New_York	young	j.u.ŋ.ɡ	j u ŋ ɡ	58	junɡaz	junɡ	jʊŋ	j u ŋ ɡ - -
