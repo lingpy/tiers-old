@@ -341,19 +341,19 @@ class Tiers(Alignments):
             self.tier_system = OrderedDict(enumerate([
                     ('cv',1), 
                     ('cv',2),
-                    #('dolgo',1),
-                    #('dolgo',2),
-                    #('sca',1),
-                    #('sca',2),
-                    #('art',1),
-                    #('art',2),
-                    #('asjp',1),
-                    #('asjp',2),
-                    #('trigram',0),
-                    ('sequence', 1),
-                    ('sequence', 2),
+                    ('dolgo',1),
+                    ('dolgo',2),
+                    ('sca',1),
+                    ('sca',2),
+                    ('art',1),
+                    ('art',2),
+                    ('asjp',1),
+                    ('asjp',2),
+                    ##('trigram',0),
+                    #('sequence', 1),
+                    #('sequence', 2),
                     #('word_nasality', 0),
-                    #('syllable_nasality', 0),
+                    ('syllable_nasality', 0),
                     #('tone', 0),
                     ('position', 0),
                     ('prostring', 0),
@@ -989,11 +989,15 @@ def check_partition(value_matrix, verbose=False):
     hamming = lambda x,y: 0 if x == y else 1
     
     # handle the exceptions
+    # list exceptions not only as types, but especially also as tokens, this
+    # may help to get closer to a distinction of the good and the bad ones (?)
     for sound,vals in E.items():
         
         # get the normal exception values
         exinrest = vals['exceptions_indices']
         exinuniq = vals['bad_indices']
+
+
 
         # now print out the cases
         out1 = []
@@ -1051,12 +1055,143 @@ def check_partition(value_matrix, verbose=False):
         #if E[sound]['exceptions']:
         #    print(sound, E[sound]['exceptions'])
 
+    return E
+
+
+def rcheck_partition(value_matrix, verbose=False):
+    """
+    Test No 100 on how to analyze a matrix...
+    """
+
+    numatrix = value_matrix
+    rematrix = misc.transpose(numatrix)
+
+    E = {} # dictionary stores evaluations
+    # we now check on a context-by context basis, a good context is defined as
+    # a context which covers many lines (len(tmp[line][char])), and has few
+    # exceptions
+    D = nx.Graph()
+
+    for num in range(1,len(rematrix)-1):
+        for indices in itertools.combinations(range(len(rematrix)-1), num):
+            
+            # make the new matrix
+            _new_matrix = [rematrix[i] for i in indices]
+            new_matrix = [tuple(t) for t in misc.transpose(_new_matrix)]
+
+            # check how many uniform matches we get with this matrix
+            tmp = {}
+            for i,line in enumerate(new_matrix):
+                char = value_matrix[i][-1]
+                try:
+                    tmp[line][char] += [i]
+                except KeyError:
+                    try:
+                        tmp[line][char] = [i]
+                    except KeyError:
+                        tmp[line] = { char : [i] }
+
+            # now let's check how good this solution is
+            visited = []
+
+            for i,line in enumerate(new_matrix):
+                if line not in visited:
+                    visited += [line]
+                    # get the max value 
+                    skeys = sorted(tmp[line].items(), key=lambda x:
+                            len(x[1]), reverse=True)
+                    best_key = skeys[0]
+                    exceptions = sum([len(x[1]) for x in skeys[1:]])
+                    char = value_matrix[i][-1]
+                    try:
+                        E[char][line] = (len(tmp[line][char]),
+                                tmp[line][char], exceptions)
+                    except KeyError:
+                        E[char] = { line : (len(tmp[line][char]),
+                            tmp[line][char], exceptions) }
+                    if True:
+                        charA = best_key[0]
+                        for ia,ka in enumerate(tmp[line][charA]):
+                            for ib,kb in enumerate(tmp[line][charA]):
+                                if ia < ib:
+                                    try:
+                                        D.edge[ka][kb]['weight'] += 1
+                                        D.edge[ka][kb]['indices'] += indices
+                                    except KeyError:
+                                        D.add_edge(ka, kb, weight=1,
+                                                indices=indices)
+    
+
+            #input()
+    return E, D
+
+def ccheck_partition(value_matrix, verbose=False):
+
+    # cluster contexts 
+    matrix = []
+    D = {}
+    for i,lineA in enumerate(value_matrix):
+        try:
+            D[tuple(lineA[:-1])][lineA[-1]] += [i]
+        except KeyError:
+            try:
+                D[tuple(lineA[:-1])][lineA[-1]] = [i]
+            except KeyError:
+                D[tuple(lineA[:-1])] = {lineA[-1] : [i]}
+        for j,lineB in enumerate(value_matrix):
+            if i < j:
+                d = []
+                visited = []
+                for a,b in zip(lineA,lineB):
+                    if (a,b) not in visited:
+                        if a == b:
+                            d += [0]
+                        else:
+                            d += [1]
+                    visited += [(a,b)]
+                matrix += [sum(d)/len(d)]
+    
+    matrix = misc.squareform(matrix)
+    clrs = lp.flat_cluster('upgma', 0.5, matrix, list(range(len(value_matrix))))
+
+    # identify exceptions in the data 
+    exceptions = {}
+    for clr in sorted(clrs, key=lambda x: len(clrs[x])):
+
+        # get basic chars
+        _chars = [value_matrix[i][-1] for i in clrs[clr]]
+        chars = sorted(_chars, key=lambda x: _chars.count(x), reverse=True)
+        bchar = chars[0]
+
+        # search for exceptions in the matrix
+        for i in clrs[clr]:
+            line = value_matrix[i]
+            key, char = tuple(line[:-1]), line[-1]
+            if len(D[key]) > 1:
+                keys = sorted(D[key], key=lambda x: len(D[key][x]), reverse=True)
+                tkey = keys[0]
+                if char != tkey:
+                    exceptions[tuple(line)] = sorted(D[key].keys())
+            
+            if line[-1] != bchar:
+                if tuple(line) not in exceptions:
+                    exceptions[tuple(line)] = ['*'+c for c in
+                            sorted(set(chars))]
+                else:
+                    exceptions[tuple(line)] += ['*'+c for c in
+                            sorted(set(chars))]
+
+
+        # search also for exceptions by taking exceptional chars
+
+    return clrs, exceptions
+
 if __name__ == '__main__':
     
     from sys import argv
 
     if len(argv) > 1 and argv[1] == 'tukano':
-        infile = 'tukano'
+        infile = 'tukano.tsv'
         proto = '*PT'
     else:
         infile = 'pgm.aligned.tsv'
@@ -1071,15 +1206,87 @@ if __name__ == '__main__':
 
 
     if proto == 'Proto-Germanic':
+        words = []
+        pwords = []
+        sound = 'd'
+        lang = 'English'
         for tier,instance in zip(
-                tiers.value_matrices['German']['d'],
-                tiers.instances['German']['d']
+                tiers.value_matrices[lang][sound],
+                tiers.instances[lang][sound]
                 ):
             print(' '.join(['{0:3}'.format(t) for t in tier]) + ' --->  ' + \
                     ' '.join(['{0:3}'.format(t) for t in
-                        tiers.words['German'][instance[0]][3][1]])
+                        tiers.words[lang][instance[0]][3][1]])
                         )
+            words += [tiers.words[lang][instance[0]][3][1]]
+            pwords += [tiers.words[lang][instance[0]][3][0]]
 
-        tier = tiers.value_matrices['German']['d']
-        check_partition(tier, verbose=True)
+        tier = tiers.value_matrices[lang][sound]
+        d,E = ccheck_partition(tier, verbose=True)
+        count = 0
+        for clr,char in enumerate(d):
+            print('cluster {0}'.format(clr+1))
+            for i in d[char]:
+                count += 1
+                if tuple(tier[i]) in E:
+                    exc = '[!]:'+', '.join(E[tuple(tier[i])])
+                else:
+                    exc = ''
+                print(' '.join(['{0:3}'.format(t) for t in tier[i]]),
+                        ''.join(words[i]), ''.join(pwords[i]), exc)
+        print(len(E),count)
 
+
+        input()
+    
+    errors, total = 0, 0
+    for lang in tiers.descendants:
+        for sound in tiers.sounds:
+
+            if lp.tokens2class([sound], 'dolgo')[0] != 'V':
+            
+                if sound in tiers.value_matrices[lang]:
+                    print("[i] Analyzing sound {0}...".format(sound))
+                    tier = tiers.value_matrices[lang][sound]
+                    D,E = ccheck_partition(tier)
+                    total_now  = sum([len(D[x]) for x in D])
+                    errors_now = len(E)
+                    total += total_now
+                    errors += errors_now
+                    print('... {0} / {1} / {2:.2f}'.format(total_now, errors_now,
+                        errors_now / total_now))
+            
+    print(errors, total, '{0:.2f}'.format(errors / total)) 
+        #a,D = rcheck_partition(tier, verbose=True)
+
+        ##E = check_partition(tier, verbose=True)
+        #idx = 1
+        #visited = []
+
+        #for k in nx.connected_components(D): #, 2):
+        #    
+        #    idxs = tuple()
+        #    points = sorted(k)
+        #    visited += points
+        #    sounds = [tier[x][-1] for x in points]
+        #    wrds = [''.join(words[x]) for x in points]
+        #    pwrds = [''.join(pwords[x]) for x in points]
+        #    print(idx,', '.join(sounds),', '.join(wrds), ', '.join(pwrds))
+        #    idx += 1
+
+        #    for i,x in enumerate(k):
+        #        for j,y in enumerate(k):
+        #            if i < j:
+        #                try:
+        #                    idxs += D.edge[x][y]['indices']
+        #                except KeyError:
+        #                    pass
+        #    idxset = sorted(set(idxs))
+        #    for idx in idxset:
+        #        print(idx, idxs.count(idx))
+
+        #
+        #print('exceptions')
+        #for i,line in enumerate(tier):
+        #    if i not in visited:
+        #        print(tier[i][-1], ''.join(words[i]), ''.join(pwords[i]))
