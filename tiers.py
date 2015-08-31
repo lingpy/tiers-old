@@ -341,8 +341,8 @@ class Tiers(Alignments):
             self.tier_system = OrderedDict(enumerate([
                     ('cv',1), 
                     ('cv',2),
-                    ('dolgo',1),
-                    ('dolgo',2),
+                    #('dolgo',1),
+                    #('dolgo',2),
                     #('sca',1),
                     #('sca',2),
                     #('art',1),
@@ -929,6 +929,10 @@ def check_partition(value_matrix, verbose=False):
                 uvals = [x for x in subset if x not in rest]
                 uidxs = [y for x,y in zip(subset, srange) if x not in rest]
 
+                # get the bad values which are exceptions
+                bvals = [x for x in subset if x in rest]
+                bidxs = [y for x,y in zip(subset, srange) if x in rest]
+
                 # get those values which are exceptions
                 evals = [x for x in rest if x in subset]
                 eidxs = [y for x,y in zip(rest, rrange) if x in subset]
@@ -940,17 +944,22 @@ def check_partition(value_matrix, verbose=False):
                 etyp = len(set(evals))
                 ilen = len(indices)
 
-                # check whether score is better
+                # check whether score is better, decisions on order are more or
+                # less arbitrary, apart from the decision to increase the
+                # completeness or to lower the number of exceptions
                 better = False
-                if best_scores[0] > ulen:
+                if best_scores[0] < ulen:
                     better = True
                 elif best_scores[0] == ulen:
                     if best_scores[1] > utyp > 0:
                         better = True
                     elif best_scores[1] == utyp:
-                        if best_scores[4] > ilen:
+                        if best_scores[2] > elen:
                             better = True
-                        elif best_scores[4] == ilen:
+                        elif best_scores[2] == elen:
+                            #if best_scores[4] > ilen:
+                            #    better = True
+                            #elif best_scores[4] == ilen:
                             if best_scores[3] > etyp:
                                 better = True
                             else:
@@ -972,10 +981,36 @@ def check_partition(value_matrix, verbose=False):
                     unique_indices = uidxs,
                     exceptions = evals,
                     exceptions_indices = eidxs,
+                    bad_values = bvals,
+                    bad_indices = bidxs
                     )
 
     # define hamming distance shortcut for convenience
     hamming = lambda x,y: 0 if x == y else 1
+    
+    # handle the exceptions
+    for sound,vals in E.items():
+        
+        # get the normal exception values
+        exinrest = vals['exceptions_indices']
+        exinuniq = vals['bad_indices']
+
+        # now print out the cases
+        out1 = []
+        for i in exinuniq:
+            tmp = [value_matrix[i][x] for x in vals['tiers']]
+            tmp += [value_matrix[i][-1]]
+            out1 += [tuple(tmp)]
+
+        out2 = []
+        for i in exinrest:
+            tmp = [value_matrix[i][x] for x in vals['tiers']]
+            tmp += [value_matrix[i][-1]]
+            out2 += [tuple(tmp)]
+        
+        print('Expected:',sorted(set(out1)), len(exinuniq))
+        print('Attested:',sorted(set(out2)), len(exinrest))
+        input()
 
     # assemble exceptions and the like
     for sound in E:
@@ -986,9 +1021,11 @@ def check_partition(value_matrix, verbose=False):
         for uidxA,uidxB in itertools.combinations(uidxs,2):
             
             d = sum([hamming(x,y) for x,y in zip(
-                [value_matrix[uidxA][i] for i in E[sound]['tiers']] , 
-                [value_matrix[uidxB][i] for i in E[sound]['tiers']] 
-                )]) / len(E[sound]['tiers']) 
+                #[value_matrix[uidxA][i] for i in E[sound]['tiers']] , 
+                #[value_matrix[uidxB][i] for i in E[sound]['tiers']] 
+                value_matrix[uidxA][:-1],
+                value_matrix[uidxB][:-1],
+                )]) / len(value_matrix[uidxA][:-1]) #len(E[sound]['tiers']) 
             matrix += [d]
         flats = lp.flat_cluster('upgma', 0.5, misc.squareform(matrix), 
                 taxa=uidxs)
@@ -1003,7 +1040,7 @@ def check_partition(value_matrix, verbose=False):
             for v in vals:
                 ctxt = tuple([value_matrix[v][x] for x in E[sound]['tiers']])
                 indices += [ctxt]
-            print(sorted(set(indices)))
+            print(sorted(set(indices)),len(vals))
             
         print(sound, len(E[sound]['exceptions']))
         print(E[sound]['scores'])
@@ -1035,14 +1072,14 @@ if __name__ == '__main__':
 
     if proto == 'Proto-Germanic':
         for tier,instance in zip(
-                tiers.value_matrices['German']['s'],
-                tiers.instances['German']['s']
+                tiers.value_matrices['German']['d'],
+                tiers.instances['German']['d']
                 ):
             print(' '.join(['{0:3}'.format(t) for t in tier]) + ' --->  ' + \
                     ' '.join(['{0:3}'.format(t) for t in
                         tiers.words['German'][instance[0]][3][1]])
                         )
 
-        tier = tiers.value_matrices['German']['s']
+        tier = tiers.value_matrices['German']['d']
         check_partition(tier, verbose=True)
 
