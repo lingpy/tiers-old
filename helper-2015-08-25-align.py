@@ -10,6 +10,18 @@ for k in wl:
             wl[k][wl.header['tokens']] = wl[k,'tokens'][:-2]
         elif ipa.endswith('janan'):
             wl[k][wl.header['tokens']] = wl[k,'tokens'][:-5]
+        elif ipa.endswith('oːn'):
+            wl[k][wl.header['tokens']] = wl[k,'tokens'][:-2]
+    if 
+    if wl[k,'taxon'] == 'English':
+        tokens=wl[k,'tokens']
+        tokens = ' '.join(tokens)
+        tokens = tokens.replace('ḷ', 'ə l')
+        tokens = tokens.replace('ṇ', 'ə n')
+        wl[k][wl.header['tokens']] = tokens.split(' ')
+
+    if k in [1125, 1199]:
+        wl[k][wl.header['tokens']] = ' '.join(wl[k,'tokens']).split('/')[0][:-1].split(' ')
 
         
         if '+' in wl[k,'ipa'] or '/' in wl[k,'ipa'] or '_' in wl[k,'ipa']:

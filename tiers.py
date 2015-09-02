@@ -16,6 +16,7 @@ import lingpyd.sequence.sound_classes as lsc
 from collections import OrderedDict
 import itertools
 import networkx as nx
+import json
 
 def tonal_tiers(tokens):
     """
@@ -51,13 +52,6 @@ def nasality_of_word(tokens):
         return ['1' for m in tokens]
 
     return ['0' for m in tokens]
-
-    #tmp = lp.tokens2class(lp.ipa2tokens(tokens, expand_nasals=True,
-    #    merge_geminates=False), lp.rc('dolgo'))
-    #if 'N' in tmp or 'M' in tmp:
-    #    return ['1' for m in tokens]
-    #else:
-    #    return ['0' for m in tokens]
 
 def get_syllables(tokens):
     """
@@ -364,8 +358,8 @@ class Tiers(Alignments):
                     ('dolgo',2),
                     ('sca',1),
                     ('sca',2),
-                    ('art',1),
-                    ('art',2),
+                    #('art',1),
+                    #('art',2),
                     ('asjp',1),
                     ('asjp',2),
                     ##('trigram',0),
@@ -395,7 +389,12 @@ class Tiers(Alignments):
                 if k in self.words[taxon]:
                     almB = self.words[taxon][k][2]
                     # reduce alignment automatically
-                    alm = lp.read.qlc.reduce_alignment([almA,almB])
+                    try:
+                        alm = lp.read.qlc.reduce_alignment([almA,almB])
+                    except IndexError:
+                        raise ValueError("Miscoded alignments {0} and {1}".format(
+                            ' '.join(almA), ' '.join(almB)))
+
                     alm = [s for s in zip(alm[0], alm[1])]
                     if alm:
                         #alm = lp.read.qlc.reduce_alignment(alm)
@@ -1122,6 +1121,148 @@ class Tiers(Alignments):
                 len(out),
                 len(out) / len(self.words[self.proto])))
 
+    def get_patterns(self, language, sounds = False, ignore_vowels=True,
+            max_exceptions=1, verbose=True):
+
+        # get the sounds for the language first
+        if not sounds:
+            sounds = sorted([s for s in self.instances[language]])
+            if ignore_vowels:
+                sounds = [s for s in sounds if s[0] not in lp.rc('vowels')+'-']
+
+        patterns = []
+
+        # now get the tiers
+        for sound in sounds:
+            tier = self.value_matrices[language][sound]
+            instances = self.instances[language][sound]
+            
+            # bring order in the stuff according to the reflexes
+            reflexes = {}
+            for i,line in enumerate(tier):
+                try:
+                    reflexes[line[-1]] += [i]
+                except KeyError:
+                    reflexes[line[-1]] = [i]
+
+            for reflex in reflexes:
+                
+                if verbose: print('---')
+                
+                # find optimal solution by using combinations
+                all_indices = list(range(len(self.tier_system)))
+                wrong = True
+                best_index_set = []
+                best_reflex_tiers = []
+                for idx in range(1, len(all_indices)+1):
+                    if not wrong:
+                        break
+                    for index_set in itertools.combinations(all_indices, idx):
+                        if not wrong:
+                            break
+                        # get the reflex tiers
+                        reflex_tiers = [tuple(
+                                        [tier[i][j] for j in index_set]
+                                        ) for i in reflexes[reflex]]
+
+
+                        # get the rest of the other tiers
+                        other_tiers = []
+                        for k in [x for x in reflexes if x != reflex]:
+                            other_tiers += [tuple(
+                                [tier[i][j] for j in index_set]
+                                ) for i in reflexes[k]]
+                        other_tiers = sorted(set(other_tiers))
+                        
+                        # check for exceptions
+                        exceptions = 0
+                        for s in reflex_tiers:
+                            if s in other_tiers:
+                                exceptions += 1
+
+                        if not exceptions or exceptions <= max_exceptions:
+                            wrong = False
+                            best_index_set = index_set
+                            best_reflex_tiers = reflex_tiers
+                        
+                for i,s in zip(reflexes[reflex], reflex_tiers):
+                    exp = '! ' if s in other_tiers else '  '
+                    if exp.strip(): 
+                        if verbose: print(i, exp+'  '.join(['{0:3}'.format(t) for t in s]),
+                                exceptions, len(reflex_tiers),  
+                                instances[i][0], self.words[language][instances[i][0]][1], ' '.join(self.words[language][instances[i][0]][2]))
+
+                if exceptions:
+                    if verbose: input('---pause---')
+
+                visited = []
+                for i,line in enumerate(best_reflex_tiers):
+                    
+                    #if line not in visited:
+                    conditions = sorted(zip(['.'.join([str(y) for y in a]) for a in [self.tier_system[x] for x in
+                        best_index_set]], line), 
+                        key=lambda x: tuple(x[0].split('.')[::-1]))
+                    if line not in visited:
+                        if verbose: print(sound, '->', reflex, '/', '; '.join(['{0} : {1:3}'.format(
+                            x,y) for x,y in conditions]),
+                                )
+                    visited += [line]
+                    
+                    cidx,widx = instances[reflexes[reflex][i]]
+                        
+                    patterns += [
+                            [language, sound, reflex, dict(conditions),
+                                self.tiers[language][cidx][0], 
+                                self.tiers[language][cidx][-1], 
+                                widx,
+                                cidx
+                                ]]
+
+
+                if exp.strip(): 
+                    if verbose: 
+                        input('there were exceptions')
+        return patterns
+
+    def get_all_patterns(self, ignore_vowels=True, max_exceptions=0, output=True,
+            filename=None):
+
+        filename = filename or self.filename.replace('.tsv', '.html')
+
+        P = []
+        tiers = []
+        sounds = []
+        for taxon in self.descendants:
+            print("Analyzing patterns for taxon {0}.".format(taxon))
+            patterns = self.get_patterns(taxon, ignore_vowels=ignore_vowels,
+                    max_exceptions=max_exceptions, verbose=False)  
+            for pattern in patterns:
+                tiers += list(pattern[3].keys())
+                sounds += [pattern[1]]
+            P += [p for p in patterns]
+        
+        template = open('tiers.html').read()
+        js = open('tiers.js').read()
+
+        with open(filename, 'w') as f:
+            patterns = 'var PATTERNS = '+json.dumps(P, indent=2) + ';\n'
+            
+            f.write(template.format(
+                DATASET=self.filename.replace('.tsv','').upper(),
+                PATTERNS = patterns,
+                TIERS = 'var TIERS = '+json.dumps(
+                        sorted(set(tiers), key=lambda x:
+                            tuple(x.split('.')[::-1])),
+                            indent=2)+';\n',
+                JS = js,
+                SOUNDS = 'var SOUNDS = '+json.dumps(
+                    sorted(set(sounds), key=lambda x:
+                        (lp.tokens2class([x], 'dolgo'), x)), indent=2) +';\n'
+                ))
+
+            
+
+
 def cluster_tier(value_matrix, threshold=0.5, cluster_method='upgma',
         verbose=False, mark_singletons=True):
     
@@ -1281,7 +1422,7 @@ if __name__ == '__main__':
         lang = 'KAR'
         thr = 0.4
     else:
-        infile = 'proto-germanic-excerpts.tsv'
+        infile = 'germanic.goodies.goodies.tsv'
         proto = 'Proto-Germanic'
 
     tiers = Tiers(infile, proto=proto)
@@ -1322,284 +1463,52 @@ if __name__ == '__main__':
         pwords = []
         sound = 's'
         lang = 'German'
-        thr = 0.5
-        for tier,instance in zip(
-                tiers.value_matrices[lang][sound],
-                tiers.instances[lang][sound]
-                ):
+        thr = 0.3
+        #for tier,instance in zip(
+        #        tiers.value_matrices[lang][sound],
+        #        tiers.instances[lang][sound]
+        #        ):
 
-            words += [tiers.words[lang][instance[0]][3][1]]
-            pwords += [tiers.words[lang][instance[0]][3][0]]
+        #    words += [tiers.words[lang][instance[0]][3][1]]
+        #    pwords += [tiers.words[lang][instance[0]][3][0]]
 
-        tier = tiers.value_matrices[lang][sound]
-        d,E = cluster_tier(tier, verbose=True, threshold=thr, 
-                cluster_method='complete')
-        count = 0
-        for clr,char in enumerate(d):
-            print('cluster {0}'.format(clr+1))
-            for i in d[char]:
-                count += 1
-                if tuple(tier[i]) in E:
-                    exc = '[!]:'+', '.join(E[tuple(tier[i])])
-                else:
-                    exc = ''
-                print(' '.join(['{0:3}'.format(t) for t in tier[i]]),
-                        ''.join(words[i]), ''.join(pwords[i]), exc)
-        print(len(E),count)
-        input()
+        #tier = tiers.value_matrices[lang][sound]
+        #d,E = cluster_tier(tier, verbose=True, threshold=thr, 
+        #        cluster_method='complete')
+        #count = 0
+        #for clr,char in enumerate(d):
+        #    print('cluster {0}'.format(clr+1))
+        #    for i in d[char]:
+        #        count += 1
+        #        if tuple(tier[i]) in E:
+        #            exc = '[!]:'+', '.join(E[tuple(tier[i])])
+        #        else:
+        #            exc = ''
+        #        print(' '.join(['{0:3}'.format(t) for t in tier[i]]),
+        #                ''.join(words[i]), ''.join(pwords[i]), exc)
+        #print(len(E),count)
+        #input()
 
 
         #input()
 
     #rt = tiers.cluster_tiers('German',verbose=True)
     #tiers.check_words(lang, verbose=True, threshold=thr)
-    tiers.check_all_words(threshold=thr, output=True, verbose=True,
-            cluster_method='complete')
+    if 'clean' in argv:
+        tiers.check_all_words(threshold=thr, output=True, verbose=True,
+                cluster_method='complete')
+    elif 'check' in argv:
+        if 'sound' in argv:
+            sound = argv[argv.index('sound')+1]
+        else:
+            sound = 't'
+        print("German")
+        a = tiers.get_patterns('German', sounds=[sound], max_exceptions=0)
+        print("\nEnglish")
+        tiers.get_patterns('English', sounds=[sound], max_exceptions=0)
+        print("\nDutch")
+        tiers.get_patterns('Dutch', sounds=[sound], max_exceptions=0)
 
-# old stuff, ignore
-def check_partition(value_matrix, verbose=True):
-    """
-    Test No 100 on how to analyze a matrix...
-    """
-
-    numatrix = get_numeric_matrix(value_matrix)
-    rematrix = misc.transpose(numatrix)
-
-    # get the partitions
-    partitions = []
-    current = ''
-    for i,n in enumerate(rematrix[-1]):
-        if n != current:
-            partitions += [i]
-            current = n
-    partitions += [len(rematrix[0])]
-    partitions = list(zip(partitions[:-1], partitions[1:]))
-
-    E = {} # dictionary stores evaluations
-
-    for idxA,idxB in sorted(partitions, key=lambda x: x[1]-x[0], reverse=True):
-        
-        # get the partitioned matrix
-        pmatrix = [line[idxA:idxB] for line in rematrix]
-        rmatrix = [line[:idxA]+line[idxB:] for line in rematrix]
-
-        # iterate over the tiers
-        best_scores = [
-                0, # number of utokens 
-                len(pmatrix[0]), # number of utypes
-                len(rmatrix[0]), # number of etokens
-                len(rmatrix[0]), # number of etypes
-                len(value_matrix[0])-1, # number of indices
-                ]
-        best_subset = []
-        for num in range(1,len(pmatrix)-1):
-            for indices in itertools.combinations(range(len(pmatrix)-1), num):
-
-                # retrieve subsets
-                subset = list(zip(*[pmatrix[i] for i in indices]))
-                rest = list(zip(*[rmatrix[i] for i in indices]))
-
-                # retrieve ranges
-                srange = list(range(idxA,idxB))
-                rrange = list(range(0,idxA))+list(range(idxB,len(rematrix[0])))
-
-                # get those values which are exceptionless
-                uvals = [x for x in subset if x not in rest]
-                uidxs = [y for x,y in zip(subset, srange) if x not in rest]
-
-                # get the bad values which are exceptions
-                bvals = [x for x in subset if x in rest]
-                bidxs = [y for x,y in zip(subset, srange) if x in rest]
-
-                # get those values which are exceptions
-                evals = [x for x in rest if x in subset]
-                eidxs = [y for x,y in zip(rest, rrange) if x in subset]
-
-                # get the number of types
-                ulen = len(uvals)
-                utyp = len(set(uvals))
-                elen = len(evals)
-                etyp = len(set(evals))
-                ilen = len(indices)
-
-                # check whether score is better, decisions on order are more or
-                # less arbitrary, apart from the decision to increase the
-                # completeness or to lower the number of exceptions
-                better = False
-                if best_scores[0] < ulen:
-                    better = True
-                elif best_scores[0] == ulen:
-                    if best_scores[1] > utyp > 0:
-                        better = True
-                    elif best_scores[1] == utyp:
-                        if best_scores[2] > elen:
-                            better = True
-                        elif best_scores[2] == elen:
-                            #if best_scores[4] > ilen:
-                            #    better = True
-                            #elif best_scores[4] == ilen:
-                            if best_scores[3] > etyp:
-                                better = True
-                            else:
-                                better = False
-                if better:
-                    best_scores = [ulen, utyp, elen, etyp, ilen]
-                    best_subset = indices, subset, rest, srange, rrange
-                
-        if best_subset:
-            
-            E[value_matrix[idxA][-1]] = dict(
-                    scores = best_scores,
-                    tiers = best_subset[0],
-                    subset = subset,
-                    subset_range = srange,
-                    rest = rest,
-                    rest_range=rrange,
-                    unique_values = uvals,
-                    unique_indices = uidxs,
-                    exceptions = evals,
-                    exceptions_indices = eidxs,
-                    bad_values = bvals,
-                    bad_indices = bidxs
-                    )
-
-    # define hamming distance shortcut for convenience
-    hamming = lambda x,y: 0 if x == y else 1
-    
-    # handle the exceptions
-    # list exceptions not only as types, but especially also as tokens, this
-    # may help to get closer to a distinction of the good and the bad ones (?)
-    for sound,vals in E.items():
-        
-        # get the normal exception values
-        exinrest = vals['exceptions_indices']
-        exinuniq = vals['bad_indices']
-
-
-
-        # now print out the cases
-        out1 = []
-        for i in exinuniq:
-            tmp = [value_matrix[i][x] for x in vals['tiers']]
-            tmp += [value_matrix[i][-1]]
-            out1 += [tuple(tmp)]
-
-        out2 = []
-        for i in exinrest:
-            tmp = [value_matrix[i][x] for x in vals['tiers']]
-            tmp += [value_matrix[i][-1]]
-            out2 += [tuple(tmp)]
-        
-        print('Expected:',sorted(set(out1)), len(exinuniq))
-        print('Attested:',sorted(set(out2)), len(exinrest))
-        input()
-
-    # assemble exceptions and the like
-    for sound in E:
-        
-        # cluster sounds according to similarity
-        uidxs = E[sound]['unique_indices']
-        matrix = []
-        for uidxA,uidxB in itertools.combinations(uidxs,2):
-            
-            d = sum([hamming(x,y) for x,y in zip(
-                #[value_matrix[uidxA][i] for i in E[sound]['tiers']] , 
-                #[value_matrix[uidxB][i] for i in E[sound]['tiers']] 
-                value_matrix[uidxA][:-1],
-                value_matrix[uidxB][:-1],
-                )]) / len(value_matrix[uidxA][:-1]) #len(E[sound]['tiers']) 
-            matrix += [d]
-        flats = lp.flat_cluster('upgma', 0.5, misc.squareform(matrix), 
-                taxa=uidxs)
-        
-        # now sort the clustered sound change patterns accordingly and display
-        # those which are similar
-        E[sound]['clusters'] = flats
-        
-        for flat,vals in flats.items():
-
-            indices = []
-            for v in vals:
-                ctxt = tuple([value_matrix[v][x] for x in E[sound]['tiers']])
-                indices += [ctxt]
-            print(sorted(set(indices)),len(vals))
-            
-        print(sound, len(E[sound]['exceptions']))
-        print(E[sound]['scores'])
-        input()
-
-
-
-        #if E[sound]['exceptions']:
-        #    print(sound, E[sound]['exceptions'])
-
-    return E
-
-
-def rcheck_partition(value_matrix, verbose=False):
-    """
-    Test No 100 on how to analyze a matrix...
-    """
-
-    numatrix = value_matrix
-    rematrix = misc.transpose(numatrix)
-
-    E = {} # dictionary stores evaluations
-    # we now check on a context-by context basis, a good context is defined as
-    # a context which covers many lines (len(tmp[line][char])), and has few
-    # exceptions
-    D = nx.Graph()
-
-    for num in range(1,len(rematrix)-1):
-        for indices in itertools.combinations(range(len(rematrix)-1), num):
-            
-            # make the new matrix
-            _new_matrix = [rematrix[i] for i in indices]
-            new_matrix = [tuple(t) for t in misc.transpose(_new_matrix)]
-
-            # check how many uniform matches we get with this matrix
-            tmp = {}
-            for i,line in enumerate(new_matrix):
-                char = value_matrix[i][-1]
-                try:
-                    tmp[line][char] += [i]
-                except KeyError:
-                    try:
-                        tmp[line][char] = [i]
-                    except KeyError:
-                        tmp[line] = { char : [i] }
-
-            # now let's check how good this solution is
-            visited = []
-
-            for i,line in enumerate(new_matrix):
-                if line not in visited:
-                    visited += [line]
-                    # get the max value 
-                    skeys = sorted(tmp[line].items(), key=lambda x:
-                            len(x[1]), reverse=True)
-                    best_key = skeys[0]
-                    exceptions = sum([len(x[1]) for x in skeys[1:]])
-                    char = value_matrix[i][-1]
-                    try:
-                        E[char][line] = (len(tmp[line][char]),
-                                tmp[line][char], exceptions)
-                    except KeyError:
-                        E[char] = { line : (len(tmp[line][char]),
-                            tmp[line][char], exceptions) }
-                    if True:
-                        charA = best_key[0]
-                        for ia,ka in enumerate(tmp[line][charA]):
-                            for ib,kb in enumerate(tmp[line][charA]):
-                                if ia < ib:
-                                    try:
-                                        D.edge[ka][kb]['weight'] += 1
-                                        D.edge[ka][kb]['indices'] += indices
-                                    except KeyError:
-                                        D.add_edge(ka, kb, weight=1,
-                                                indices=indices)
-    
-
-            #input()
-    return E, D
+    elif 'print' in argv:
+        tiers.get_all_patterns()
 
